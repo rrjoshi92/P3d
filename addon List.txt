@@ -1,0 +1,18 @@
+0 - 131 Sim default
+132 - Orbx Libraries\Scenery\Global
+133 - Orbx Libraries\ORBX\Scripts\custom.gb_base\Landclass
+134 - Orbx Libraries\ORBX\FTX_AU\FTXAA_ORBXLIBS
+135 - OLC_AA
+136 - OLC_NA1
+137 - OLC_NA2
+138 - OLC_EU1
+139 - 142 - SCA
+143 - 146 - NCA
+147 - 150 - PNW
+151 -154 - CRM
+155 - 158 - NRM
+159 - 162 - SAK
+163 - 166 - PFJ
+167 - KSEA - TERRAIN
+168 - T2G KSEA
+169 - Flightbeam - KSFO

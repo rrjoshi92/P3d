@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0" id="SimIG">
+    <Filename>Multichannel.xml</Filename>
+	<Multichannel.ConfigurationSet>
+    <Multichannel.Configuration>
+        <ConfigurationName>2 Channel Cfg</ConfigurationName>
+		<Machine>
+			<MachineName>Host</MachineName>
+			<MachineID>1</MachineID>
+		</Machine>
+		<Machine>
+			<MachineName>Client1</MachineName>
+			<MachineID>2</MachineID>
+		</Machine>
+		<Machine>
+			<MachineName>Client2</MachineName>
+			<MachineID>3</MachineID>
+		</Machine>
+    </Multichannel.Configuration>
+	</Multichannel.ConfigurationSet>
+</SimBase.Document>

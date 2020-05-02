@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="CIGI Articulated Parts" version="3,1" id="CigiArticulatedParts">
+    <Descr>CIGI Articulated Parts File</Descr>
+    <Filename>CigiArticulatedParts.xml</Filename>
+    <ArticulatedPartDefinition Name="Native Airplane" DefinitionGuid="{3389C282-752D-49C8-B6C1-B60D357B8DC7}">
+        <ArticulatedPart ID="1">
+            <ValueDefinition PropertyGet="RUDDER DEFLECTION" ValueType="Heading" Units="Degrees" Scale="-1.0" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="2">
+            <ValueDefinition PropertyGet="AILERON LEFT DEFLECTION" ValueType="Pitch" Units="Degrees" Scale="-1.0" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="3">
+            <ValueDefinition PropertyGet="AILERON RIGHT DEFLECTION" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="4">
+            <ValueDefinition PropertyGet="ELEVATOR DEFLECTION" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="5">
+            <ValueDefinition PropertyGet="TRAILING EDGE FLAPS LEFT ANGLE" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="6">
+            <ValueDefinition PropertyGet="TRAILING EDGE FLAPS RIGHT ANGLE" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="7">
+            <ValueDefinition PropertyGet="LEADING EDGE FLAPS LEFT ANGLE" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="8">
+            <ValueDefinition PropertyGet="LEADING EDGE FLAPS RIGHT ANGLE" ValueType="Pitch" Units="Degrees" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="9">
+            <ValueDefinition PropertyGet="SPOILERS HANDLE POSITION" ValueType="Pitch" Units="Degrees" Scale="60.0" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="10">
+            <ValueDefinition PropertyGet="TAILHOOK POSITION" ValueType="Pitch" Units="Degrees" Scale="45.0" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="11">
+            <ValueDefinition PropertyGet="GEAR CENTER POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="12">
+            <ValueDefinition PropertyGet="GEAR LEFT POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="13">
+            <ValueDefinition PropertyGet="GEAR RIGHT POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="14">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:1" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="15">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:2" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="16">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:3" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="17">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:4" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+    </ArticulatedPartDefinition>
+    <ArticulatedPartDefinition Name="Native Helicopter" DefinitionGuid="{1E240000-C104-4934-923E-49800AC1870B}">
+        <ArticulatedPart ID="1">
+            <ValueDefinition PropertyGet="GEAR CENTER POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="2">
+            <ValueDefinition PropertyGet="GEAR LEFT POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="3">
+            <ValueDefinition PropertyGet="GEAR RIGHT POSITION" ValueType="ZOffset" Units="Percent over 100" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="4">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:1" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+        <ArticulatedPart ID="5">
+            <ValueDefinition PropertyGet="GENERAL ENG COMBUSTION:2" ValueType="XOffset" Units="Bool" />
+        </ArticulatedPart>
+    </ArticulatedPartDefinition>
+    <ArticulatedPartDefinition Name="Native GroundVehicle" DefinitionGuid="{CE790078-14D3-4CD9-BEBD-6D2E4D6A4229}">
+        <ArticulatedPart ID="1">
+            <ValueDefinition PropertyGet="RUDDER DEFLECTION" ValueType="Heading" Units="Degrees" />
+        </ArticulatedPart>
+    </ArticulatedPartDefinition>
+</SimBase.Document>

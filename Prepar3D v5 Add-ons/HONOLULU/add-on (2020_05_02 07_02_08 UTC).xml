@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+  <AddOn.Name>ORBX HONOLULU</AddOn.Name>
+  <AddOn.Description>ORBX HONOLULU</AddOn.Description>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_AA_HONOLULU\Scenery</Path>
+    <Name>ORBX HONOLULU</Name>
+    <Layer>186</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Texture</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_AA_HONOLULU\Texture</Path>
+  </AddOn.Component>
+</SimBase.Document>

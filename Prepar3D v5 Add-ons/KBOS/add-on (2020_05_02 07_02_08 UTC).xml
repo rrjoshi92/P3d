@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+  <AddOn.Name>FlyTampa-Libraries</AddOn.Name>
+  <AddOn.Description>FlyTampa Libraries Shared Content</AddOn.Description>
+  <AddOn.Component>
+    <Category>Effects</Category>
+    <Path>C:\Airports\FlyTampa\Boston\Effects</Path>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\Airports\FlyTampa\Boston\Scenery</Path>
+    <Name>FlyTampa-Libraries</Name>
+    <Layer>175</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Texture</Category>
+    <Path>C:\Airports\FlyTampa\Boston\texture</Path>
+    <Type>WORLD</Type>
+  </AddOn.Component>
+</SimBase.Document>

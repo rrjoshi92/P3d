@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+
+  <AddOn.Name>ORBx Region NRM</AddOn.Name>
+  <AddOn.Description>ORBX Region NRM</AddOn.Description>
+
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_NA_NRM05_SCENERY</Path>
+    <Name>NRM_5</Name>
+    <Layer>142</Layer>
+  </AddOn.Component>
+
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_NA_NRM06_CVX</Path></Path>
+    <Name>NRM_6</Name>
+    <Layer>141</Layer>
+  </AddOn.Component>
+
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_NA_NRM07_MESH</Path>
+    <Name>NRM_7</Name>
+    <Layer>140</Layer>
+  </AddOn.Component>
+
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_NA_NRM08_CUSTOM</Path>
+    <Name>NRM_8</Name>
+    <Layer>139</Layer>
+  </AddOn.Component>
+
+</SimBase.Document>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+  <AddOn.Name>ORBX KSAN</AddOn.Name>
+  <AddOn.Description>ORBX KSAN</AddOn.Description>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_AA_KSAN\Scenery</Path>
+    <Name>ORBX KSAN</Name>
+    <Layer>178</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Texture</Category>
+    <Path>C:\ORBX2\FTX_NA\FTX_AA_KSAN\Texture</Path>
+  </AddOn.Component>
+</SimBase.Document>

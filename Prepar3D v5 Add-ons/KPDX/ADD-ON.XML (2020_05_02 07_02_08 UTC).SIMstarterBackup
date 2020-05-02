@@ -1,0 +1,19 @@
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+
+<AddOn.Name>Flightbeam - KPDX</AddOn.Name>
+<AddOn.Description>Flightbeam - KPDX</AddOn.Description>
+<AddOn.Component>
+  <Category>Scenery</Category>
+  <Path>C:\Airports\Flightbeam - KPDX</Path>
+  <Name>Flightbeam - KPDX</Name>
+  <Layer>170</Layer>
+</AddOn.Component>
+<AddOn.Component>
+  <Category>Effects</Category>
+  <Path>C:\Airports\Flightbeam - KPDX\effects</Path>
+</AddOn.Component>
+<AddOn.Component>
+  <Category>Scripts</Category>
+  <Path>C:\Airports\Flightbeam - KPDX\scripts</Path>
+</AddOn.Component>
+</SimBase.Document>

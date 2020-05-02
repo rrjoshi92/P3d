@@ -1,0 +1,9 @@
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+  <AddOn.Name>FsDreamTeam Exclude</AddOn.Name>
+  <AddOn.Description>FsDreamTeam Exclude files, required to remove default jetways from 3rd party sceneries. Excludes files are created with the GSX Control Panel utility.</AddOn.Description>
+  <AddOn.Component>
+    <Name>FsDreamTeam Exclude</Name>
+    <Category>Scenery</Category>
+    <Path>C:\Program Files (x86)\Addon Manager\FsDreamTeam\Exclude</Path>
+  </AddOn.Component>
+</SimBase.Document>

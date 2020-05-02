@@ -1,0 +1,15 @@
+﻿<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+
+<AddOn.Name>Flightbeam - KSFO</AddOn.Name>
+<AddOn.Description>Flightbeam - KSFO</AddOn.Description>
+<AddOn.Component>
+  <Category>Scenery</Category>
+  <Path>C:\Airports\KSFO</Path>
+  <Name>Flightbeam - KSFO</Name>
+  <Layer>169</Layer>
+</AddOn.Component>
+<AddOn.Component>
+  <Category>Effects</Category>
+  <Path>C:\Airports\KSFO\Effects</Path>
+</AddOn.Component>
+</SimBase.Document>

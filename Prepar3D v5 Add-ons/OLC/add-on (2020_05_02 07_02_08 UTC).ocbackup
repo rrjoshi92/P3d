@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="AddOnXml" version="4,0" id="add-on">
+  <AddOn.Name>ORBX OLC</AddOn.Name>
+  <AddOn.Description>ORBX OLC AA, NA1, NA2, EU1</AddOn.Description>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_OLC\OLC_AA</Path>
+    <Name>OLC_AA</Name>
+    <Layer>135</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_OLC\OLC_NA1</Path>
+    <Name>OLC_NA1</Name>
+    <Layer>136</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_OLC\OLC_NA2</Path>
+    <Name>OLC_NA2</Name>
+    <Layer>137</Layer>
+  </AddOn.Component>
+  <AddOn.Component>
+    <Category>Scenery</Category>
+    <Path>C:\ORBX2\FTX_OLC\OLC_EU1</Path>
+    <Name>OLC_EU2</Name>
+    <Layer>138</Layer>
+  </AddOn.Component>
+</SimBase.Document>

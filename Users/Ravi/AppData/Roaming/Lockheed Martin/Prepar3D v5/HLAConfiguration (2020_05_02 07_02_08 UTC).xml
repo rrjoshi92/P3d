@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="ConfigurationFile" version="3,4">
+    <Descr>AceXML Document</Descr>
+    <HLA.Configuration>
+        <Entity>
+            <ApplicationId>0</ApplicationId>
+            <SiteId>0</SiteId>
+            <EntityId>0</EntityId>
+        </Entity>
+        <Connection>
+            <LocalParameters>rti://127.0.0.1:14321</LocalParameters>
+            <FederationExecutionName>ExampleFederationExecutionName</FederationExecutionName>
+        </Connection>
+        <Federate>
+            <FederateName>Example Federate Name</FederateName>
+            <FederateType>Example Federate Type</FederateType>
+        </Federate>
+        <Options>
+            <AttributeUpdateRate>1.000000</AttributeUpdateRate>
+            <Endianness>Big-Endian</Endianness>
+        </Options>
+    </HLA.Configuration>
+</SimBase.Document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="Launch" version="1,0">
+  <Descr>Launch</Descr>
+  <Filename>exe.xml</Filename>
+  <Disabled>False</Disabled>
+  <Launch.ManualLoad>False</Launch.ManualLoad>
+  <Launch.Addon>
+    <Name>ChasePlane</Name>
+    <Disabled>False</Disabled>
+    <Path>C:\Program Files\Parallel 42\ChasePlane\ChasePlane.exe</Path>
+    <CommandLine>P3Dv4</CommandLine>
+  </Launch.Addon>
+  <Launch.Addon>
+    <Name>as_btstrp_config_manager</Name>
+    <Disabled>False</Disabled>
+    <Path>as_srv\as_btstrp_config_manager.exe</Path>
+  </Launch.Addon>
+</SimBase.Document>

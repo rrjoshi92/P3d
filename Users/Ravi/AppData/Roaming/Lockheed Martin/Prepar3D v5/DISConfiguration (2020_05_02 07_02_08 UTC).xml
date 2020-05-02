@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="ConfigurationFile" version="5,0">
+    <Descr>AceXML Document</Descr>
+    <DIS.Configuration>
+        <Entity>
+            <ExerciseId>0</ExerciseId>
+            <ApplicationId>0</ApplicationId>
+            <SiteId>0</SiteId>
+            <EntityId>0</EntityId>
+            <ForceId>0</ForceId>
+        </Entity>
+        <Connection>
+            <Port>3000</Port>
+            <ConnectionType>Multicast</ConnectionType>
+            <TimeToLive>64</TimeToLive>
+            <IpAddress>192.168.0.21</IpAddress>
+            <SubnetMask>255.255.255.0</SubnetMask>
+            <MulticastAddress>224.0.0.1</MulticastAddress>
+        </Connection>
+        <Timing>
+            <Heartbeat>1.000000</Heartbeat>
+            <Timeout>10.000000</Timeout>
+            <RelativeTimestamp>True</RelativeTimestamp>
+        </Timing>
+        <Options>
+            <BroadcastAITraffic>False</BroadcastAITraffic>
+        </Options>
+        <Radios>
+            <IntercomChannel>1</IntercomChannel>
+            <IntercomPriority>64</IntercomPriority>
+        </Radios>
+        <Emissions>
+            <ElectromagneticEmission>
+                <EmissionName>F-22 Raptor</EmissionName>
+                <EntityTypeString>1.2.225.1.6.1</EntityTypeString>
+                <ElectromagneticEmissionSystem>
+                    <EmitterFunction>1</EmitterFunction>
+                    <EmitterNumber>1</EmitterNumber>
+                    <EmissionSystemName>Radar</EmissionSystemName>
+                    <EmitterName>1945</EmitterName>
+                    <EmitterBeam>
+                        <BeamNumber>1</BeamNumber>
+                        <BeamParameter>1</BeamParameter>
+                        <Frequency>50000000.000000</Frequency>
+                        <FrequencyRange>1000000.000000</FrequencyRange>
+                        <EffectiveRadiatedPower>1000.000000</EffectiveRadiatedPower>
+                        <PulseRepetitionFrequency>60.000000</PulseRepetitionFrequency>
+                        <PulseWidth>500.000000</PulseWidth>
+                        <AzimuthCenter>0.000000</AzimuthCenter>
+                        <AzimuthSweep>30.000000</AzimuthSweep>
+                        <ElevationCenter>0.000000</ElevationCenter>
+                        <ElevationSweep>30.000000</ElevationSweep>
+                        <SweepSync>0.000000</SweepSync>
+                        <BeamFunction>5</BeamFunction>
+                        <IsHighDensityTrack>False</IsHighDensityTrack>
+                        <JammingMode>3.25.10.5</JammingMode>
+                        <EmitterBeamName>Main Beam</EmitterBeamName>
+                    </EmitterBeam>
+                </ElectromagneticEmissionSystem>
+            </ElectromagneticEmission>
+        </Emissions>
+        <Munitions>
+            <MunitionEffectTimeOut>300</MunitionEffectTimeOut>
+            <MunitionDefinition>
+                <MunitionName>AIM-9</MunitionName>
+                <EntityTypeString>2.1.225.1.1</EntityTypeString>
+                <DetonationEffects>
+                    <DefaultDetonationEffectList>
+                        <EffectName>fx_explosionDestroyLandMedium</EffectName>
+                    </DefaultDetonationEffectList>
+                    <DetonationDefinition>
+                        <DetonationName>Building Hit</DetonationName>
+                        <DetonationResults>
+                            <DetonationResult>Building Hit Small</DetonationResult>
+                            <DetonationResult>Building Hit Medium</DetonationResult>
+                            <DetonationResult>Building Hit Large</DetonationResult>
+                        </DetonationResults>
+                        <DetonationEffectList>
+                            <EffectName>fx_explosionDestroyBuildingMedium</EffectName>
+                        </DetonationEffectList>
+                    </DetonationDefinition>
+                    <DetonationDefinition>
+                        <DetonationName>Dirt Spray Medium</DetonationName>
+                        <DetonationEffectList>
+                            <EffectName>fx_dirtspray_m</EffectName>
+                        </DetonationEffectList>
+                        <DetonationResults>
+                            <DetonationResult>Dirt Blast Medium</DetonationResult>
+                            <DetonationResult>Ground Impact</DetonationResult>
+                            <DetonationResult>Air Burst</DetonationResult>
+                            <DetonationResult>Air Hit</DetonationResult>
+                            <DetonationResult>Armor Piercing Hit</DetonationResult>
+                        </DetonationResults>
+                    </DetonationDefinition>
+                    <DetonationDefinition>
+                        <DetonationName>Dirt Spray Large</DetonationName>
+                        <DetonationEffectList>
+                            <EffectName>fx_dirtspray_l</EffectName>
+                        </DetonationEffectList>
+                        <DetonationResults>
+                            <DetonationResult>Dirt Blast Large</DetonationResult>
+                        </DetonationResults>
+                    </DetonationDefinition>
+                    <DetonationDefinition>
+                        <DetonationName>Entity</DetonationName>
+                        <DetonationEffectList>
+                            <EffectName>fx_explosionDestroyVehicleMedium</EffectName>
+                        </DetonationEffectList>
+                        <DetonationResults>
+                            <DetonationResult>Entity Impact</DetonationResult>
+                            <DetonationResult>Entity Proximate Detonation</DetonationResult>
+                        </DetonationResults>
+                    </DetonationDefinition>
+                    <DetonationDefinition>
+                        <DetonationName>Water Impact</DetonationName>
+                        <DetonationEffectList>
+                            <EffectName>fx_wtrspray_l</EffectName>
+                        </DetonationEffectList>
+                        <DetonationResults>
+                            <DetonationResult>Water Impact</DetonationResult>
+                        </DetonationResults>
+                    </DetonationDefinition>
+                    <DetonationDefinition>
+                        <DetonationName>Water Blast</DetonationName>
+                        <DetonationEffectList>
+                            <EffectName>fx_explosionDestroyWaterMedium</EffectName>
+                        </DetonationEffectList>
+                        <DetonationResults>
+                            <DetonationResult>Water Blast Small</DetonationResult>
+                            <DetonationResult>Water Blast Medium</DetonationResult>
+                            <DetonationResult>Water Blast Large</DetonationResult>
+                        </DetonationResults>
+                    </DetonationDefinition>
+                </DetonationEffects>
+            </MunitionDefinition>
+            <MunitionDefinition>
+                <MunitionName>81 mm phosphorus smoke</MunitionName>
+                <EntityTypeString>2.9.225.2.8.4</EntityTypeString>
+                <DetonationEffects>
+                    <DefaultDetonationEffectList>
+                        <EffectName>fx_Smoke_Sml</EffectName>
+                    </DefaultDetonationEffectList>
+                </DetonationEffects>
+            </MunitionDefinition>
+            <MunitionDefinition>
+                <MunitionName>105 mm phosphorus smoke</MunitionName>
+                <EntityTypeString>2.9.225.2.10.11</EntityTypeString>
+                <DetonationEffects>
+                    <DefaultDetonationEffectList>
+                        <EffectName>fx_smoke_w</EffectName>
+                    </DefaultDetonationEffectList>
+                </DetonationEffects>
+            </MunitionDefinition>
+            <MunitionDefinition>
+                <MunitionName>120 mm phosphorus smoke</MunitionName>
+                <EntityTypeString>2.9.224.2.7</EntityTypeString>
+                <DetonationEffects>
+                    <DefaultDetonationEffectList>
+                        <EffectName>fx_smoke_marker_w</EffectName>
+                    </DefaultDetonationEffectList>
+                </DetonationEffects>
+            </MunitionDefinition>
+        </Munitions>
+    </DIS.Configuration>
+</SimBase.Document>

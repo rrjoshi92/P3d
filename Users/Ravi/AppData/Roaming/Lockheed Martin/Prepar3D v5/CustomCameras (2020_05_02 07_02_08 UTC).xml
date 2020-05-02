@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0" id="CustomCameras">
+<Filename>CustomCameras.xml</Filename>
+	<CustomCameras.CustomCameraConfiguration>
+	</CustomCameras.CustomCameraConfiguration>
+</SimBase.Document>

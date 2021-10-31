@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP{MODE} = {
+["ENABLED"] 	= {ENABLED}  ,
+["IDENT"]   	= "{IDENT}"  ,
+["MACH."]   	= {MACH.}  ,
+["LOC ."]   	= {LOC .}  ,
+["TRK ."]   	= {TRK .}  ,
+["AP1 ."]   	= {AP1 .}  ,
+["AP2 ."]   	= {AP2 .}  ,
+["ATHR."]   	= {ATHR.}  ,
+["EXPD."]   	= {EXPD.}  ,
+["MTR ."]   	= {MTR .}  ,
+["APPR."]   	= {APPR.}  ,
+}
+
+-- AFCU SPD knob
+SPD{MODE} = {
+["A SHOW"]  	= {SPD A SHOW}  ,
+["A  +"]    	= {SPD A +}  ,
+["A ++"]    	= {SPD A ++}  ,
+["A  -"]    	= {SPD A -}  ,
+["A --"]    	= {SPD A --}  ,
+["PRESS"]   	= {SPD PRESS}  ,
+["PULL"]    	= {SPD PULL}  ,
+}
+
+-- AFCU HDG knob
+HDG{MODE} = {
+["A SHOW"]  	= {HDG A SHOW}  ,
+["A  +"]    	= {HDG A +}  ,
+["A ++"]    	= {HDG A ++}  ,
+["A  -"]    	= {HDG A -}  ,
+["A --"]    	= {HDG A --}  ,
+["PRESS"]   	= {HDG PRESS}  ,
+["PULL"]    	= {HDG PULL}  ,
+}
+
+-- AFCU ALT knob
+ALT{MODE} = {
+["A SHOW"]  	= {ALT A SHOW}  ,
+["A  +"]    	= {ALT A +}  ,
+["A ++"]    	= {ALT A ++}  ,
+["A  -"]    	= {ALT A -}  ,
+["A --"]    	= {ALT A --}  ,
+["PRESS"]   	= {ALT PRESS}  ,
+["PULL"]    	= {ALT PULL}  ,
+}
+
+-- AFCU VVS knob
+VVS{MODE} = {
+["A SHOW"]  	= {VVS A SHOW}  ,
+["A  +"]    	= {VVS A +}  ,
+["A ++"]    	= {VVS A ++}  ,
+["A  -"]    	= {VVS A -}  ,
+["A --"]    	= {VVS A --}  ,
+["PRESS"]   	= {VVS PRESS}  ,
+["PULL"]    	= {VVS PULL}  ,
+}
+
+

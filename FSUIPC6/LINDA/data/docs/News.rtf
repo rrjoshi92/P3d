@@ -1,0 +1,670 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Tahoma-Bold;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fswiss\fcharset0 Helvetica;}{\f3\fswiss\fcharset0 Helvetica-Oblique;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\b\f0\fs20\lang9 Version 3.2.6 \b0 // 4 Aug 2020\par
+\par
+Added compatibility for Provisionell F-35A USB Cards\par
+Improved logging and error trapping\par
+\b\par
+Version 3.2.5 \b0 // 2 Jun 2020\par
+\par
+Added clean up for Configuration Backup files (max 12 backups for HID and MCP)\par
+Added warning when unknown joystick devices found in aircraft's config-hid.lua\par
+Fixes mismatching of multiple USB cards/devices\par
+Added Build LINDA core software export (developer use only)\par
+Fixes edit News opening (developer use only)\par
+\par
+\b Version 3.2.4 \b0 // 15 May 2020\par
+\par
+Fixes Import LINDA Core installation version numbers\par
+Added additional developer Maintenance page options\par
+\par
+\b Version 3.2.3 \b0 // 11 May 2020\par
+\par
+Fixes new LINDA Core installation version in Maintenance page\par
+Fixes New/Edit Aircraft Module listing\par
+Added checks for correct LINDA installation\par
+Improvements to logging\par
+\par
+\b Version 3.2.2 \b0\f1 // 6 May 2020\par
+\par
+Fixes missing SimObject aircraft types in New/Edit Aircraft Module form\par
+Fixes problem with overwriting of user configuration files\par
+ \b\f0\par
+Version 3.2.1 \b0\f1 // 2 May 2020\par
+\b\f0\par
+\b0\f1 Improved compatibility with P3Dv5 and FSUIPC6\par
+Correct operation of available aircraft types in New/Edit Aircraft Module\par
+Additional error trapping \par
+Fixes Saitek Multi Panel Altitude (m <> ft)\par
+Message Line changed\b\f0\par
+\par
+Version 3.2.0 \b0\f1 // 16 Apr 2020\par
+\b\f0\par
+\b0\f1 Initial compatibility with P3Dv5 and FSUIPC6 (see release notes)\par
+\b\f0\par
+Version 3.1.2 \b0\f1 // 26 Feb 2020\par
+\b\f0\par
+\b0\f1 Fixes issue with User Library LIB-User.lua being overwritten\par
+Improvements to install Module operation\par
+\b\f0\par
+Version 3.1.1 \b0\f1 // 15 Feb 2020\b\f0\par
+\par
+\b0\f1 Fixes to Fault Diagnosis Mode (on Maintenance page)\par
+Fixes Splash Screen closure error\par
+Fixes to Edit Aircraft Module\par
+\b\f0\par
+Version 3.1.0 \b0\f1 // 30 Jan 2020\par
+\par
+Internal GUI changes\par
+Added Fault Diagnosis Mode\par
+Improved module selection \b\f0\par
+\par
+Version 3.0.12c // \b0\f1 16 Sep 2019\par
+\par
+Change link for PayPal donations\par
+Fixed issue with Rotorcraft not appearing in New Aircraft Module list\par
+\b\f0\par
+Version 3.0.11 // \b0\f1 2 Feb 2019\par
+\par
+Added Default Baro Reference setting (inHg/hPa)\par
+\b\f0\par
+Version 3.0.9 v2 // \b0\f1 23 Sep 2018\par
+\par
+Added New GSX Library (GSX-lib.lua) v1.2\par
+Fixed LUA version number to 3.0.9\b\f0\par
+\par
+Version 3.0.8 // \b0\f1  14 Aug 2018\par
+\par
+Fixed issue with sounds function.\par
+\par
+Fixed issue with hotkeys.\par
+\par
+Fixed new Aircraft Module available aircraft searching.\par
+\par
+Fixed issue with identifying aircraft add-ons.\par
+\par
+Added extra device logging.\par
+\b\f0\par
+Version 3.0.7 // \b0\f1 11 Jul 2018\par
+\par
+Fix to Sync To Sim outlining of aircraft selector.\par
+\par
+\b\f0 Version 3.0.6 // \b0\f1 2 Jul 2018\par
+\par
+Added Sounds function with ability to locate .wav files.\par
+\b\f0\par
+Version 3.0.5 //\b0\f1  15 Dec 2017\par
+\par
+\ul Updated oldest FSUIPC version required (ensure 4.972 or 5.122 installed).\par
+\ulnone\par
+Added prompt for Sync To Sim in LINDA Summary.\par
+\par
+Changes to Edit/New Aircraft Module to engage Sync to Sim on exit.\par
+\par
+Change to un-pause Console of LINDA Restart.\par
+\par
+Fix to Default Fuel Pump Switch operation (lib-fallback.lua).\par
+\par
+Added aircraft name and LINDA version to config-xxx.lua files.\par
+\par
+Fix to ensure only valid MCP knob fast functions automatically assigned.\par
+\par
+\b\f0 Version 3.0.4 \b0\f1 // 25 Oct 2017\par
+
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\par
+Fix to error initialising new P3D4.1 add-on location aircraft like FSLabs A320X and A2A.\par
+\par
+Changed handling of Saitek Panels between GUI and LUA to remove possible duplication. \b\f0\par
+\par
+Version 3.0.3 \b0\f1 // 23 Sep 2017\par
+\par
+Fix to correctly handle Joystick HAT changes.\par
+\par
+Changed FSXSync to Sync to Sim to reflect common use of P3D.\par
+\par
+Fixed issue with Install LINDA Core software not displaying the new version number.\b\f0\par
+\par
+Version 3.0.2 \b0\f1 // 19 Aug 2017\par
+\par
+Fix to prevent 'not enough timers' on exit error.\b\f0\par
+\par
+Version 3.0.1 (711) \b0\f1 //\b\f0  \b0\f1 2 Jul 2017\par
+\par
+\b\f0 Added compatibility for operation with P3Dv4 (64-bit) and FSUIPC5 (64-bit). \par
+\b0\f1 Requires latest beta version of FSUIPC5 5.101j or later.\par
+  \par
+Added Full Saitek Panel support and handling within LINDA GUI.\par
+\par
+Added AircraftTimer10Hz() function (if present in aircraft user.lua) for synchronizing Saitek panels with non-standard aircraft.\par
+\par
+Added visible prompts to Saitek Panels to remind user to active panel on start up.\par
+\par
+Fix to Import LINDA aircraft module to correctly handle regional settings using comma decimal points.\par
+\par
+Fix to stop module instances of LINDA running.\par
+\par
+Fix to Tracer Add Watch and Delete Offset favourites.\par
+\par
+Added dividers to Library pop up menus.\par
+\par
+Changes to internal timers to improve overall performance.\par
+\par
+Added hot key to Restart Lua Engine from the keyboard (uses Ctrl+Alt+R).\par
+\par
+Fixed issue with Hot Key for bringing LINDA to front not saving.\par
+\par
+Fixed problem with Console opening on start up.\par
+\par
+Fixed issue with not locating correct FSUIPC files.\par
+\par
+Fixed search issue with Editor.\par
+\par
+Fixed issue with AP data synchronisation with MCP2a panels.\par
+\par
+Fixed error with Saitek Multi Panel Elevator Trim down.\par
+\par
+Fixed issue with pausing Console.\par
+\par
+Fixed issue with Editor.\par
+\par
+Fixes to Tracer mode - LVar/Offset watches restart when in Verbose or Debug mode.\par
+\par
+Fixed Invalid Argument error stopping LUA restart.\par
+\par
+Added P3Dv4 Addon search for aircraft to New Module listing.\par
+\par
+Fixed failure to go to sub-block title in Editor.\par
+\par
+\b\f0 Version 2.9.6 (547) \b0\f1 //\b\f0  \b0\f1 10 May 2017\par
+\par
+Fix to Install LINDA Software when selected directory can not be accessed.\par
+\par
+Fix to Create LINDA Aircraft Module code (developer).\par
+\par
+Added Hotkey (CTRL+ALT+R) to Restart Lua Engine.\par
+\b\f0\par
+Version 2.9.5 (543) \b0\f1 //\b\f0  \b0\f1 8 May 2017\par
+\par
+Fix to Import LINDA aircraft module when reading multiple point version numbers (ie. 1.0.3).\par
+\par
+Updated LUA file version numbers and MCP version number display.\par
+\par
+Fix to missing application icon.\par
+\b\f0\par
+Version 2.9.4 (541) \b0\f1 //\b\f0  \b0\f1 4 May 2017\par
+\par
+Added option to create VRInsight MCP Combo configurations for Airbus from Boeing variant.\par
+\par
+Rework of internal VRInsight MCP Combo configurations management.\par
+\par
+Fix to creation of VRInsight MCP Combo configuration creation from .default and templates.\par
+\par
+Fix to resizing of GUI form when used on screens less than 840 pixels height.\par
+\par
+Fix to hide commented out functions from various menus and Editor\par
+\par
+Added reload of LUA engine when starting LINDA GUI.\par
+\par
+Added test display and blanking of Saitek Radio and Multi Panels on closing LINDA GUI.\par
+\par
+Fix to error when joystick HID device plugged in (Dynamic HID).\par
+\par
+Added functionality to install new LINDA software updates.\par
+\par
+Added functionality to import and create aircraft modules.\par
+\par
+Added functionality to backup and restore /modules directory and LINDA.\par
+\par
+Fixed opening of current aircraft README.TXT file on CTRL+Click on Edit button.\par
+\par
+Added extra dividers in pop-up menus for better grouping when \emdash  $$ label used.\par
+\b\f0\par
+Version 2.9.3 (496) \b0\f1 //\b\f0  \b0\f1 5 Mar 2017\par
+\par
+Added option to edit aircraft user written functions (user.lua) from Edit Aircraft Module dialog.\par
+\par
+Fix to correct error creating user.lua for selected aircraft from template.\par
+\par
+Fix to ensure Settings page correctly displayed on start up and when no aircraft selected.\par
+\par
+Fix to ensure FSXSync state correctly remembered.\par
+\par
+Fix to errors and LINDA closure when FSX Default aircraft config-hid.lua file was missing.\par
+\par
+Added separate configuration file backup folder and functionality to reduce clutter and numbers of backup files created.\par
+\par
+Added a new page holder for maintenance operations (for future development).\par
+ \b\f0\par
+Version 2.9.2 (487) \b0\f1 //\b\f0  \b0\f1 18 Feb 2017\par
+\par
+Fix to setting Apply Shift Globally to all devices on restarting LINDA.\par
+\par
+Fix to correct display of Combo DME/CRS assignments after saving and remove assignment corruption.  \par
+\par
+\b\f0 Version 2.9.1 (484) \b0\f1 //\b\f0  \b0\f1 17 Feb 2017\par
+\par
+Added Frame Rate and Available Virtual Address Space (VAS) display on VRI Combo MCP Boeing and Airbus panels (radio display top right). Set in SetupLINDA.\par
+\par
+New functions to switch Flt Sim Available VAS display in MCP2/MCP2a in LIB:SPECIAL FUNCTIONS (FSVAS_on, FSVAS_off, FSVAS_toggle).\par
+\par
+Updated LIB:Aiviasoft and EFIS presets for DOORS and EFB.\par
+\par
+Fix to occasional display of fsuipc4.ini file not found message during start up.\par
+\par
+Fix to reinstate MCP default configuration (config-mcpX.lua) files in aircraft folders.\par
+\par
+Fix to MCP2 and MCP2a Radio Panel configuration functionality and presets. LAMP assignment moved from RADIOS to USER blocks and may need to be re-assigned.\par
+\par
+Added facilty to generate MCP1 and MCP2 configuration files from the loaded panel type (ie. MCP1 to MCP2 or MCP2 to MCP1). Use <CTRL>+Click on Save button.\par
+\par
+Added user accessible Timer function (LibUserTimer1Hz()) in LIB:User allowing user to add timed functions called at 1Hz.\par
+\par
+Fix to VRi Combo MCP Boeing and Airbus DME CRS assignments saving and execution. Required for advanced aircraft like PDMG 737NGX and Aerosoft Airbus.\par
+\b\f0\par
+Version 2.8.9 (446) \b0\f1 //\b\f0  \b0\f1 3 Feb 2017\par
+\par
+Fix to improve Saitek Multi Panel display update frequency including updates to VRi Combo MCP Panels (except MCP Radio display).\par
+\par
+Fix to ensure saved Joystick assignment configuration is correctly on restarting Flt Sim. \par
+\par
+Changed and simplified Saitek Panel function names and ordering (copy from config-hid-saitek.lua required).\par
+\par
+Fix to configuration file template operation (removes need for .default files).\par
+\par
+Fix to clear red highlighting when changes to MCP Combo saved.\par
+\par
+Fix to ensure New Module creates user.lua file and prevents fatal termination.\par
+\par
+Fix for Saitek Panel checkbox not saving after restarting LINDA.\par
+\b\f0\par
+Version 2.8.8 \b0\f1 // 7 Jan 2017\par
+\par
+Fix to aircraft module Timer() calling when VRI Combo not used.\par
+\par
+Fix to FSX Sync and Joystick OnRelease on start up. FSX Sync defaults to ON if aircraft loaded. FSX Sync can be deselected but this also inhibit all HID (joystick) input.\par
+\b\f0\par
+Version 2.8.7 \b0\f1 // 24 Dec 2016\par
+\par
+Fix to Edit Aircraft Module form to allow selected aircraft actions.lua to be opened in Editor.\par
+ \par
+Fix to various debug reporting errors.\par
+\b\f0\par
+Version 2.8.6 \b0\f1 // 5 Dec 2016\par
+\par
+Fix to OnRelease functions not loading correctly.\par
+\par
+Reinstated LUE.EXE code.\par
+\b\f0\par
+Version 2.8.5 \b0\f1 // 30 Oct 2016\par
+\par
+Fix to ensure first button/switch operation correctly actioned.\par
+\par
+Fixes to VRInsight MCP Lamps not displaying correctly.\par
+\par
+Changes to Prefix Save logic.\par
+\b\f0\par
+Version 2.8.4 \b0\f1 // 20 Oct 2016\par
+\par
+Fixes accuracy of Saitek Multi Panel ALT display (removes rounding error).\par
+\par
+Fixes crash when executing functions in Editor with Right Click.\par
+\par
+Fixes a configuration error with MCP2 panel LAMP values.\par
+\b\f0\par
+Version 2.8.3\b0\f1  // 4 Jul 2016\par
+\par
+Fixes crash when Joystick device unplugged and plugged in during operation.\b\f0\par
+\par
+Version 2.8.2 \b0\f1 // 3 Jul 2016\par
+\par
+Fixes problem with FSX Sync when changing aircraft type.\par
+\par
+Fixes error on shutdown caused by System Tray Icon.\par
+\par
+Added option to select FSUIPC4.ini Program entries (CLOSE, KILL or no action) in LINDA setup.\par
+\par
+Added confirmation beeps when using the UNSHIFTED, SHIFTED1 and SHIFTED2 functions.\par
+\par
+Added additional error checking for file access.\par
+\b\f0\par
+Version 2.8.1 \b0\f1 // 27 Jun 2016\par
+\par
+Added user module functions to MCP and Joystick popup menus options.\par
+\par
+Added Saitek Rudder Pedals to the excluded device list.\par
+\par
+Changed logic of Saitek Panels checkbox in LINDA Setup to support future development. When ticked, Saitek display output is handled by LINDA GUI. When unticked, control is passed to the LINDA LUA code.\par
+\par
+Fixes switching between HID devices when unsaved changes present.\par
+\par
+Fixes long standing fault where VRInsight MCP1 CRS knob assignments were not displayed after change. \par
+\par
+Fixes issue causing corruption of known Joystick/HID device configuration file and erroneous warning dialog.\par
+\par
+Fixes issue loading and saving configurations for VRInsight MCP1 (orginal) panels.\par
+\par
+Fixes issue synchronising to the current aircraft on starting LINDA.\par
+\par
+Fixes unnecessary and repetitive HID configuration loading from disk.\par
+\par
+Fixes unnecessary Joystick 'Requires Setup' indication on start up.\par
+\par
+Improved operating speed and start up time.\par
+\par
+\b\f0 Version 2.8.0 (376) \b0\f1 // 24 Jun 2016\par
+\par
+Major internal GUI housekeeping exercise to improve reliability and supportability.\par
+\par
+Added ability to set Global Shifted option to operate without need to restart LINDA.\par
+\f2\par
+Added extra standard alternative functions to buttons (eg. _inc to _incfast & _dec to _decfast).\par
+\par
+Added ability to define Debug Level and scope from Setup LINDA page (Default Standard).\par
+\par
+Added F3 and F4 key shortcuts to open Console lower and righthand panels.\par
+\par
+Added ability to assign function to Lamp button on VRInsight Combo 2 (Boeing and Airbus panels).\par
+\par
+Added check and warning for unrecognised Joystick/HID devices in the selected aircraft configuration file.\par
+\par
+Fixes issue with runaway inputs, especially trim functions assigned to OnRepeat, when using Shifted functions.\par
+\par
+Fixes issue with spurious (yen) characters on VRInsight MCP Combo 2 (Boeing) panel on initialisation.\par
+\par
+Fixes issue with displaying DME/ADF Course (CRS) label on VRInsight MCP Combo 2 (Airbus) panel.\par
+\par
+Fixes issue with GO Flight devices with identical serial numbers (0008 7).\par
+\par
+Fixes error message in cases where duplicate device serial numbers are present.\par
+\par
+Fixes issue with Tracer not selecting first item in selected LVars to watch.\par
+\par
+Fixes issue when assigning standard alternative functions to buttons (_dn to _dnfast).\par
+\par
+Fixes error opening FSUIPC Macro assignment form when no .MCRO files present.\par
+\par
+Fixes to Console LVars and Offset tracking display and operation.\par
+\par
+Fixes error when passing mouse over MCP graphic selector.\par
+\par
+Fixes problem of the Console autoscrolling when user inspecting earlier logs. \par
+\par
+Changes to Console to improve operation and flexibility.\par
+\par
+Changes to FSX Sync indicator and button to show correct Sync status.\par
+\par
+Changes to Setup LINDA page to improve user interaction.\par
+\b\f0\par
+Version 2.7.0 \b0\f1 // 15 Apr 2016\par
+\par
+
+\pard\sa180\tx200\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\f2 Fixes issue with HID Device scrolling on Joystick page when more than 10 devices connected.\par
+Fixes issue of multiple LINDA icons in System Tray with application restarted.\par
+\b\f0 Version 2.6.9 \b0\f1 // 12 Apr 2016\par
+\f2 Fixes the identification and operation of HID devices with long serial numbers like the Saitek Flight Instrument Panel (FIP) dials.\par
+Adds ability to define Saitek Panel types in Joystick Setup.\par
+Adds more representative HID icons displays on the Joystick page.\par
+Adds ability to assign standard alternative functions to buttons (eg. _on to _off, _up to _upfast, etc).\par
+Fixes to cancel runaway OnRepeat calls.\par
+Fixes missing HID icons for some new device types.\par
+Adds Flaps lever functions to Saitek Multi Panel default configuration (config-hid-saitek.lua).\b\f0\par
+
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803 Version 2.6.8 \b0\f1 // 9 Apr 2016\par
+\par
+\f2 Added functionality to uniquely identify multiple HIDs of same type with Serial Numbers (for Leo Bodnar USB cards).\par
+\par
+Added ability to Enable/Disable HID (Joystick) device button presses. Does not affect Axis.\par
+\par
+Added ability to disable LINDA control of Saitek ProFlight Panels (beta).\par
+\par
+Fix for Manual.pdf opening.\par
+\par
+Fix for range check errors.\par
+\par
+Fix for Flightdeck Solutions CDU (may affect Leo Bodnar USB cards) and HP Wireless Keyboard/Mouse.\par
+\par
+Fix for Aerosoft Airbus TRK/FPA display on VRInsight Combo Airbus FCU panel.\par
+\par
+Fix for FSUIPC4 version number display (build 189).\par
+\par
+\i\f3 Fix for Saiek Multi Panel Altitude and Vertical Speed for A2A aircraft and FSX (build 216).s\par
+\i0\f2\par
+\b\f0 Version 2.6.7 \b0\f1 // 16 Dec 2015\par
+\par
+
+\pard\sa180\sl360\slmult1\tx200\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\f2 Fixes to Saitek Multi, Radio and Switch Panels to improve operation with Default FSX compatible aircraft (requires cut and paste to config-hid.lua).\par
+Fix to ensure display output on original VRI Combo MCP1 panels.\par
+Fix to HID (joystick) handling to allow Joystick HATs to work correctly with OnRepeat conditions.\par
+Fix to prevent OnRepeat runways with Trim Wheels (Saitek Multi-Panel & CH Yokes).\par
+Fix to activate Joystick assignments on start up without need to select Joystick page.\f1\par
+
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\b\f0 Version 2.6.6 \b0\f1 // 25 Nov 2015\par
+\par
+
+\pard\sa180\sl360\slmult1\tx200\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\f2 Fix to system timing for Majestic DH8 Q400 aircraft and FS2Crew Voice not working correctly when used with the VRI Combo panels. Problem still remains with \lquote 1000ft to go. Alt Sel\rquote  call repeating.\i\f3  \i0\f1\par
+
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803 Changes for future Saitek Panel Development\par
+\par
+Change to PayPal Donate link.\par
+\par
+\b\f0 Version 2.6.5 \b0\f1 // not issued\par
+\par
+Fix to Editor allowing right click on execute functions.\par
+ \b\f0\par
+Version 2.6.4 \b0\f1 // 16 Sep 2015\par
+\par
+Fixed issue with display of odd characters on VRI Combo Boeing and Original MCP panels.\par
+\par
+Possible fixes to Range Check errors.\par
+\b\f0\par
+Version 2.6.3 \b0\f1 // 16 Mar 2015\par
+\par
+Fixed issue where FSX/P3D crashed on start up when VRI Combo panel not used.\par
+\par
+Fixed issue that caused Range Error when double clicking FSUIPC offset of type STR.\par
+\par
+\b\f0 Version 2.6.2 \b0\f1 // 13 Mar 2015\par
+\par
+Fixed delay in opening LINDA with multiple non-standard HID devices.\par
+\par
+Fixed issue which prevented the Summary page Joysticks/HID devices box scrolling.\par
+\par
+Improved format of MCP Assignments report.\par
+\b\f0\par
+Version 2.6.1 \b0\f1 // 9 Mar 2015\par
+\par
+Fixed range check error when selecting Joystick page.\par
+\par
+\b\f0 Version 2.6.0 \b0\f1 // 1 Mar 2015\par
+\par
+Added full dynamic connection and disconnection of devices/joysticks (switchable).\par
+\par
+Added Saitek Multi and Radio Panels as joysticks with display output.\par
+\par
+Added Multiple Shift across single or globally across all devices.\par
+\par
+Fixed issues with Global and Local Shift (modified operation).\par
+\par
+Reintroduced Hot Keys to save 2D panel positions and hide window titles.\par
+\par
+Added new ATC Library to interface with FSX ATC functions.\par
+\par
+Fixed issue with saving and reloading of amended Joystick/Device names.\par
+\par
+Fixed issues with Light functions to remove unwanted interaction.\par
+\b\f0\par
+\b0\f1 Added option to generate list of current aircraft module functions as a text file.\par
+\par
+Added option to generate list of assignments made to selected aircraft HID devices as text file.\par
+\par
+Added option to generate list of assignments made to selected aircraft and VRInsight MCP panel as text file.\par
+\par
+Added robust error handling for HID Devices that fail to open.\par
+\par
+Improved error reporting when VRInsight MCP panels are not used.\par
+\par
+Fixed issue where changing MCP type was not correctly updating assignments.\par
+\par
+Fixed issue with MCP2 GUI where knobs were not highlighting in Modes 2 and 3.\par
+\par
+Fixed scroll bar on News panel. \par
+\par
+\b\f0 Version 2.5.7 \b0\f1 // 31 Dec 2014\par
+\par
+Fixed issue connecting to certain devices with multiple HATs.\par
+\par
+\b\f0 Version 2.5.6 \b0\f1 // 28 Dec 2014\par
+\par
+Fixed Range Error Check with certain devices.\par
+\b\f0\par
+Version 2.5.5 \b0\f1 // 14 Dec 2014\par
+\par
+Added feature to provide an additional shift mode for use with CH Eclipse and Saitek yokes mode switches (UNSHIFTED, SHIFT ONE and SHIFT TWO).\par
+\par
+Possible fix for Device not found errors.\par
+ \b\f0\par
+Version 2.5.4 \b0\f1 // 8 Dec 2014\par
+\par
+Fixes to load and DME-CRS knob operation.\par
+\par
+\b\f0 Version 2.5.3 \b0\f1 // 7 Dec 2014\par
+\par
+Further fixes to DME-CRS knob operation.\par
+\par
+Fixed issue with managing Presets.\par
+\par
+\b\f0 Version 2.5.2 \b0\f1 //\b\f0  \b0\f1 4 Dec 2014\par
+\par
+Fixed issue with DME-CRS knob operation.\par
+\par
+Added FS2Crew Library.\par
+\f2\par
+
+\pard\sa200\sl276\slmult1\b\f0 Version 2.5.1\b0\f1  // 1 Dec 2014\par
+Added feature to use Default aircraft Combo panel configuration (config-mcp*.default) when user configuration (config-mcp*.lua) does not exist. If neither exists a new configuration is created from templates.\par
+Added feature to set up user functions file (user.lua) in aircraft folder from templates.\par
+Fixed OnRelease and OnRepeat HID button functions.\par
+Fixed GLOBAL SHIFT latching problem.\par
+Fixed HID out of range errors.\par
+Updated LINDA version number displayed during MCP panel initialisation. \b\f0\par
+Version 2.5 \b0\f1 // Nov 2014\par
+Improved compatibility with MCP1 (original) and MCP2 (Combo II (Boeing)) panels.\par
+Changes to MCP2a (FCU Airbus) display design for non-Airbus aircraft.\par
+Updated LINDA Graphical User Interface (GUI)\par
+Added SaveFlight, SaveDefaultFlight, OpenDoorWhenOnground and CloseDoor funcion to FSX Default library.\par
+Added Saitek Pro Flight Instrument Panels to Joystick options (12 buttons only) \par
+Fix for HID On Repeat and On Release functions which required the LINDA Joystick page to be open.\par
+Added Flight Autosave functionality to save flights on user defined conditions.\par
+Added User function module to permit easy and safer modification of defined functionality.\b\f0\par
+\b0\f1 LAMP button on Combo II (Boeing) can now be programmed to work with panel lights.\par
+Added longer timeout for sub-panel MODE changes (now 40 secs).\par
+Added beep for sub-panel MODE changes and double beep on auto/manual return to MODE 1.\par
+Added facility to programmed time out simulator keyboard input.\par
+Improvements to reduce LCD display flickering.\par
+Added USER.LUA module to allow user personal updates to aircraft functions. \b\f0\par
+Version 2.0.8 \b0\f1 // Oct 2014\par
+Reinstates missing lua file\b\f0\par
+Version 2.0.7 \b0\f1 // 16 Jun 2014\par
+Formal release of LINDA 2.0\par
+Fixes minor issues when recording Numeric Keypad key presses.\b\f0\par
+Version 2.0.6 RC1 \b0\f1 // 15 Jun 2014\par
+Release Candidate 1 - fixes issues when creating new aircraft configuations from stratch.\b\f0\par
+Version 2.0.5 RC0 \b0\f1 // 13 Jun 2014\par
+Release Candidate 0\b\f0\par
+Version 2.0.4 Beta 9 \b0\f1 // 11 Jun 2014\par
+Issue with Radio FREQ knob fixed.\par
+Delay timer for Mode selection reversion back to Mode 1 changed from 20 secs to 40 secs (Airbus FCU only).\b\f0\par
+Version 2.0.3 Beta 8 \b0\f1 // 11 Jun 2014\par
+Corrections to Presets for Airbus MCP2a/FCU operations\par
+Minor corrections to Mode selector lock function\b\f0\par
+Version 2.0.2 Beta 7 \b0\f1 // 9 Jun 2014\par
+Minor corrections to ensure MCP2 compatibility (fixes save error reports and radio configuration) \b\f0\par
+Version 2.0.1 Beta 6 \b0\f1 // 6 Jun 2014\par
+
+\pard\sa200 Provides full compatibility with VRi Combo Airbus FCU (MCP2a)\par
+
+\pard\sa200\sl276\slmult1 Credits to Andrew Gransden\b\f0\par
+Version 1.13 \b0\f1 // 5 Oct 2013\par
+Saitek Pro Flight Switch panel support\par
+\b\f0 Version 1.12 \b0\f1 // 15 Sep 2013\par
+More than 10 joysticks now supported\par
+Credits to Sebastian M\'f6bius\b\f0\par
+Version 1.11 \b0\f1 // 10 Jan 2012\par
+Up to 10 joysticks are now supported\par
+\b\f0 Version 1.1 \b0\f1 // 15 Nov 2011\par
+VRi MCP Combo II support (with graphics updated for MCP2)\par
+NGX module v2.0 included (with full display sync finally!)\b\f0\par
+\b0\f1 Numerous fixes and optimizations\par
+\b\f0 Version 1.1b \b0\f1 // 30 Aug 2011\par
+VRi MCP Combo II support\par
+2D panels positions save/restore. Ctrl+Alt+Shift+F1 to save positions. Positions restore is automatic.\par
+FSX title hide in windowed mode. Ctrl+Alt+Shift+F2 to toggle title.\par
+2D panels titles hide. Ctrl+Alt+Shift+F3 to toggle titles.\par
+Auto revert back to the MODE 1 for all blocks.\par
+Indication of alternative MODEs.\par
+HID devices compatibility fixes, some of the Gamepads should work.\par
+Dedicated offset range 7320-735F.\par
+Updated Manual\par
+PMDG 737NGX module included\par
+Project Magenta module included\par
+Minor bug fixes\par
+\b\f0 Version 1.0.3 \b0\f1 // 17 Jul 2011\par
+iFly 737 module updated\par
+Huey X module added\par
+Several bug fixes with LINDA startup problems\par
+Preset delete confirmation dialog box fix\par
+Other minor bugs fixed\par
+\b\f0 Version 1.0.2 \b0\f1 // 30 Jun 2011\par
+iFly 737 module by Helge Rasmussen\par
+VRS F/A-18 updated\par
+Duke B60T updated\par
+Lua editor: text search&replace\par
+Lua editor: instant execute feature\par
+Console error monitoring and alert\par
+Some fixes and optimizations\par
+\b\f0 Version 1.0.1 \b0\f1 // 28 Jun 2011\par
+FSUIPC Macros assignment didn't work on MCP buttons and knobs\par
+Error message on start, when both Minimize to tray and Start minimized options are checked\par
+"Add watch" button in tracer fixed\par
+Compatibility fix for some joysticks like MS Sidewinder and others\par
+Donation button is fixed (accepting payments now)\par
+\b\f0 Version 1.0 RELEASE\b0\f1  // 25 Jun 2011\par
+Updated user manual\par
+Level-D 767 module added\par
+Some small bugfixes and optimizations\par
+\b\f0 Version 1.0RC4 \b0\f1  // 22 Jun 2011\par
+Integrated Lua editor implemented. First iteration, quite simple, but LINDA setup page with some useful options added\par
+\b\f0 Version 1.0RC3 \b0\f1  // 20 Jun 2011\par
+Reverted back to configuring COM port in \b\f0 fsuipc4.ini\b0\f1  as this way things working more stable. Need to switch MCP Combo on before running the FSX again\par
+Instead of that LINDA now can make changes inside fsuipc4.ini for you automatically\par
+FSUIPC Macros assigning interface added\par
+New module creation interface added\par
+CaptainSim 757 module added (by Kosta Prokopiu)\par
+\b\f0 Version 1.0RC2 \b0\f1  // 17 Jun 2011\par
+Modified VRI MCP Combo Lua driver \par
+No more need to start MCP Combo \ul before\ulnone  running the FSX \par
+No more need to edit fsuipc4.log\par
+LINDA console implemented (F1 to activate)\par
+LINDA tracer  implemented (Ctrl+F1 to activate)\par
+Some small bugfixes\b\f0\par
+Version 1.0RC1 \b0\f1  // 16 Jun 2011\par
+Public testing release\par
+\b\f0 Version 1.0b3 \b0\f1  // 12 Jun 2011\par
+All configuration files now moved to the dedicated folder to simplify the update process\par
+LINDA now correctly initialize folders and config files on a clean install\par
+Lua scripts updated to be more protected of configuration errors\par
+Lua scripts are now more informative on what is wrong, if it is wrong\par
+Secret feature for future module developers implemented\par
+Reworked FSX controls selector\par
+Minor bugfixes\par
+\b\f0 Version 1.0b2 \b0\f1  // 10 Jun 2011\par
+Switched to the GUI HID driver (GUI needs to be running)\par
+Joystick devices switching on button press in GUI\par
+Support for Vrinsight MS/TT panels\par
+Libraries folder moved to modules/linda/libs\par
+Default FSX library updated with new actions\par
+Many small bugfixes\par
+\b\f0 Version 1.0b \b0\f1  // 1 Jun 2011\par
+Initial Beta release\par
+}
+ 

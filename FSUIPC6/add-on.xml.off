@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SimBase.Document Type="AddOnXml" version="4.0" id="add-on">
+    <AddOn.Name>FSUIPC6</AddOn.Name>
+    <AddOn.Description>Flight Simulator Universal Inter-Process Communication version 6</AddOn.Description>
+    <AddOn.Component>
+        <Category>DLL</Category>
+        <Path>C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\FSUIPC6.dll</Path>
+    </AddOn.Component>
+</SimBase.Document>

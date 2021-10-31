@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## Airbus Display Control
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "Disp"  ,
+["MACH."]   	= empty  ,
+["LOC ."]   	= DspMode_Toggle  ,
+["TRK ."]   	= empty  ,
+["AP1 ."]   	= empty  ,
+["AP2 ."]   	= empty  ,
+["ATHR."]   	= empty  ,
+["EXPD."]   	= empty  ,
+["MTR ."]   	= empty  ,
+["APPR."]   	= VATSIM_SetStandard  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]  	= PFD_Power_show  ,
+["A  +"]    	= PFD_Power_inc  ,
+["A ++"]    	= PFD_Power_inc  ,
+["A  -"]    	= PFD_Power_dec  ,
+["A --"]    	= PFD_Power_dec  ,
+["PRESS"]   	= PFD_Power_on  ,
+["PULL"]    	= PFD_Power_off  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]  	= ND_Power_show  ,
+["A  +"]    	= ND_Power_inc  ,
+["A ++"]    	= ND_Power_inc  ,
+["A  -"]    	= ND_Power_dec  ,
+["A --"]    	= ND_Power_dec  ,
+["PRESS"]   	= ND_Power_on  ,
+["PULL"]    	= ND_Power_off  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]  	= ECAMU_Power_show  ,
+["A  +"]    	= ECAMU_Power_inc  ,
+["A ++"]    	= ECAMU_Power_inc  ,
+["A  -"]    	= ECAMU_Power_dec  ,
+["A --"]    	= ECAMU_Power_dec  ,
+["PRESS"]   	= ECAMU_Power_on  ,
+["PULL"]    	= ECAMU_Power_off  ,
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]  	= ECAML_Power_show  ,
+["A  +"]    	= ECAML_Power_inc  ,
+["A ++"]    	= ECAML_Power_inc  ,
+["A  -"]    	= ECAML_Power_dec  ,
+["A --"]    	= ECAML_Power_dec  ,
+["PRESS"]   	= ECAML_Power_on  ,
+["PULL"]    	= ECAML_Power_off  ,
+}
+
+

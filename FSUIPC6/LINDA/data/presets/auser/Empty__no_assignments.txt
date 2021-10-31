@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Empty No Assignments
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Empt"  ,
+["BTN1."]   = empty  ,
+["BTN2."]   = empty  ,
+["BTN3."]   = empty  ,
+["BTN4."]   = empty  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = empty  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = empty  ,
+["USR2."]   = empty  ,
+["USR3."]   = empty  ,
+["USR4."]   = empty  ,
+["USR5."]   = empty  ,
+["USR6."]   = empty  ,
+["USR7."]   = empty  ,
+["USR8."]   = empty  ,
+["LAMP."]   = empty  ,
+}
+

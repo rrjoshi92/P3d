@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2 Lights
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "Lght"  ,
+["BTN1."] 	= AB_Lights_STROBE_toggle  ,
+["BTN2."] 	= AB_Lights_BEACON_toggle  ,
+["BTN3."] 	= AB_Lights_NAV_LOGO_toggle  ,
+["BTN4."] 	= AB_Lights_LANDING_toggle  ,
+["BTN5."] 	= AB_Lights_RUNWAY_toggle  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+}
+

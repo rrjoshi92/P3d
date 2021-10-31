@@ -1,0 +1,19 @@
+-- ############################################### --
+-- ## Default Empty
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "Empt"  ,
+["BTN1."] 	= empty  ,
+["BTN2."] 	= empty  ,
+["BTN3."] 	= empty  ,
+["BTN4."] 	= empty  ,
+["BTN5."] 	= empty  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+["LAMP."]   	= empty  ,
+}
+

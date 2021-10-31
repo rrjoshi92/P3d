@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## A172
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "SYS"  ,
+["FPV ."] 		= A172_Alternator_toggle  ,
+["MTR ."] 		= A172_AnnLightsTest_toggle  ,
+["WX  ."] 		= A172_FuelPump_toggle  ,
+["STA ."] 		= A172_BeaconLight_toggle  ,
+["WPT ."] 		= A172_LandingLight_toggle  ,
+["ARPT."] 		= A172_TaxiLight_toggle  ,
+["DATA."] 		= A172_NavLight_toggle  ,
+["POS ."] 		= A172_StrobeLight_toggle  ,
+["TERR."] 		= A172_PitotHeat_toggle  ,
+["VORL:"] 		= A172_Battery_off  ,
+["VORR:"] 		= A172_Avionics_off  ,
+["VORL."] 		= A172_Battery_on  ,
+["VORR."] 		= A172_Avionics_on  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= A172_MagnetoKnob_inc  ,
+["A ++"]		= empty  ,
+["A  -"]		= A172_MagnetoKnob_dec  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= A172_InstrumentsLight_plus  ,
+["A ++"]		= A172_InstrumentsLight_plusfast  ,
+["A  -"]		= A172_InstrumentsLight_minus  ,
+["A --"]		= A172_InstrumentsLight_minusfast  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A  +"]		= A172_PanelsLight_plus  ,
+["A ++"]		= A172_PanelsLight_plusfast  ,
+["A  -"]		= A172_PanelsLight_minus  ,
+["A --"]		= A172_PanelsLight_minusfast  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+

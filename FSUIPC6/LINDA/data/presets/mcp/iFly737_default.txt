@@ -1,0 +1,79 @@
+-- ############################################### --
+-- ## iFly737 default
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP = {
+["ENABLED"]		= true  ,
+["IDENT"] 		= "MCP"  ,
+["TO  ."] 		= iFly737_AP_TOGA  ,
+["GA  ."] 		= iFly737_AP_TOGA  ,
+["N1  ."] 		= iFly737_AP_N1  ,
+["SPD ."] 		= iFly737_AP_Speed  ,
+["FLCH."] 		= iFly737_AP_LvlChg  ,
+["SEL ."] 		= iFly737_AP_HdgSel  ,
+["HHLD."] 		= Do_nothing  ,
+["AHLD."] 		= iFly737_AP_AltHld  ,
+["VHLD."] 		= iFly737_AP_VS  ,
+["APP ."] 		= iFly737_AP_App  ,
+["VNAV."] 		= iFly737_AP_VNav  ,
+["LNAV."] 		= iFly737_AP_LNav  ,
+["CMDA."] 		= iFly737_AP_CmdA  ,
+["CMDB."] 		= iFly737_AP_CmdB  ,
+["CMDC."] 		= Do_nothing  ,
+["LOC ."] 		= iFly737_AP_VorLoc  ,
+["CWSA."] 		= iFly737_AP_CwsA  ,
+["CWSB."] 		= iFly737_AP_CwsB  ,
+["AT  ."] 		= iFly737_AP_AT_On  ,
+["AT  :"] 		= iFly737_AP_AT_Off  ,
+["FD  ."] 		= iFly737_AP_FD_Off  ,
+["FD  :"] 		= iFly737_AP_FD_On  ,
+["AP  ."]	 	= iFly737_AP_APMaster_On  ,
+["AP  :"] 		= iFly737_AP_APMaster_Off  ,
+}
+
+
+-- MCP SPD knob
+SPD = {
+["A SHOW"]		= SPD_show  ,
+["A  +"]		= SPD_plus  ,
+["A ++"]		= SPD_plusfast  ,
+["A  -"]		= SPD_minus  ,
+["A --"]		= SPD_minusfast  ,
+["PRESS"] 		= iFly737_AP_SpdIntv  ,
+}
+
+
+-- MCP HDG knob
+HDG = {
+["A SHOW"]		= HDG_show  ,
+["A  +"]		= HDG_plus  ,
+["A ++"]		= HDG_plusfast  ,
+["A  -"]		= HDG_minus  ,
+["A --"]		= HDG_minusfast  ,
+["PRESS"] 		= Do_nothing  ,
+}
+
+
+-- MCP ALT knob
+ALT = {
+["A SHOW"]		= ALT_show  ,
+["A  +"]		= ALT_plus  ,
+["A ++"]		= ALT_plusfast  ,
+["A  -"]		= ALT_minus  ,
+["A --"]		= ALT_minusfast  ,
+["PRESS"] 		= iFly737_AP_AltIntv  ,
+}
+
+
+-- MCP VVS knob
+VVS = {
+["A SHOW"]		= VVS_show  ,
+["A  +"]		= VVS_plus  ,
+["A ++"]		= VVS_plusfast  ,
+["A  -"]		= VVS_minus  ,
+["A --"]		= VVS_minusfast  ,
+["PRESS"] 		= Do_nothing  ,
+}
+
+

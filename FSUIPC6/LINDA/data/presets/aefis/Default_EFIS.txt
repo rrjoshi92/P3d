@@ -1,0 +1,72 @@
+-- ############################################### --
+-- ## Default EFIS
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Std"  ,
+["InHg."]   = Efis_INHG  ,
+["hPa ."]   = Efis_HPA  ,
+["FD  ."]   = Efis_FD_button  ,
+["ILS ."]   = Efis_ILS_button  ,
+["CSTR."]   = Efis_CSTR_button  ,
+["WPT ."]   = Efis_WPT_button  ,
+["VORD."]   = Efis_VORD_button  ,
+["NDB ."]   = Efis_NDB_button  ,
+["ARPT."]   = Efis_ARPT_button  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = empty  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = empty  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = Altimeter_BARO_show  ,
+["A  +"]    = Altimeter_BARO_plus  ,
+["A ++"]    = Altimeter_BARO_plusfast  ,
+["A  -"]    = Altimeter_BARO_minus  ,
+["A --"]    = Altimeter_BARO_minusfast  ,
+["PRESS"]   = Altimeter_BARO_MODE_toggle  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = empty  ,
+["A  +"]    = B58_DME_inc  ,
+["A ++"]    = B58_DME_inc  ,
+["A  -"]    = B58_DME_dec  ,
+["A --"]    = B58_DME_dec  ,
+["PRESS"]   = KNOB_MODE_toggle  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = empty  ,
+["A  +"]    = B58_HDG_plus  ,
+["A ++"]    = B58_HDG_plusfast  ,
+["A  -"]    = B58_HDG_minus  ,
+["A --"]    = B58_HDG_minusfast  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+

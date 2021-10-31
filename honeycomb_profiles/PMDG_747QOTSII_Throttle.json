@@ -1,0 +1,3130 @@
+{
+  "Version": 1,
+  "SaveName": "PMDG_747QOTSII_Throttle",
+  "Data": [
+    {
+      "ButtonNumber": 0,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_HEADING_PUSH_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_HDG_SEL",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 1,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 2,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_APP_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_APP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 3,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_LNAV_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_LNAV",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 4,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_VNAV_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_VNAV",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 5,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_LVL_CHG_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_FLCH",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 6,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_SPD_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_SPD",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 7,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_AP_L_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_CMD_L",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 8,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:1",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:1",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE1_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 9,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:2",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE2_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 10,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:3",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER3_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:3",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE3_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 11,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:4",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER4_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:IDLE_REV:4",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE4_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 12,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_ALT_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_VS_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_MINIMUMS",
+              "Value": "0x00800000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "MINIMUMS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_HDG_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_HEADING_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_IAS_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_SPEED_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_BARO",
+              "Value": "2147483648",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_INCREASE_STOP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_MINIMUMS",
+              "Value": "0x80000000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "MINIMUMS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_HEADING_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_SPEED_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_BARO",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 13,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_ALT_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_VS_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_MINIMUMS",
+              "Value": "0x02000000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "MINIMUMS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_HDG_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_HEADING_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_IAS_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_SPEED_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_BARO",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_DECREASE_STOP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_MINIMUMS",
+              "Value": "0x20000000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "MINIMUMS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_HEADING_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_SPEED_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_EFIS_CPT_BARO",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 14,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "Park_Brk_on",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 15,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 16,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "IAS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_IAS",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 17,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "BARO",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 18,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "HDG",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_HDG",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 19,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "MINIMUMS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_VS",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 20,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "ALT",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_ALT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 21,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_DN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 22,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 23,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 24,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:MAX_REV:1",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:1",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE1_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:1",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:1",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:1",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:1",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:1",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 25,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:MAX_REV:2",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:2",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE2_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:2",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:2",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:2",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:2",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 26,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER3_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:MAX_REV:3",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:3",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE3_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:3",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:3",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER3_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:3",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:3",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:3",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 27,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER4_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:MAX_REV:4",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:4",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE4_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:4",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:4",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER4_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:4",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:4",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:4",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 28,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_TOGA1_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "THROTTLE1_TOGA",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 29,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_TOGA2_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "THROTTLE2_TOGA",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 30,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "GEAR_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 31,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_DOWN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "GEAR_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 32,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 33,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_FD_SWITCH_L",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_FD_SWITCH_R",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_FDS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 34,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_FD_SWITCH_R",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_FD_SWITCH_L",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_FDS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 35,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_AT_ARM_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_ATHR_ARM",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 36,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_MCP_AT_ARM_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "MCP_ATHR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 37,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG1_FUEL_CTRL_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_STRT_LVR_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 38,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG1_FUEL_CTRL_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_STRT_LVR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 39,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG2_FUEL_CTRL_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_STRT_LVR_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 40,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG2_FUEL_CTRL_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_STRT_LVR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 41,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG3_FUEL_CTRL_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_STRT_LVR_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 42,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG3_FUEL_CTRL_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG3_STRT_LVR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 43,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG4_FUEL_CTRL_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_STRT_LVR_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 44,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_ENG4_FUEL_CTRL_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG4_STRT_LVR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 45,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 46,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 47,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_747QOTSII_EVT_CONTROL_STAND_TOGA2_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "THROTTLE2_TOGA",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    }
+  ],
+  "LEDs": [
+    {
+      "ByteIndex": 0,
+      "BitIndex": 0,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_Battery_Sw_ON,bool",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunBatteryOFF,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 0,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunHDG_HOLD,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunLOC,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunAPP,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunLNAV,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 4,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunVNAV,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunFLCH,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunSPD,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunAP:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunAP:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_MCP_annunAP:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR LEFT POSITION, Percent over 100",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 1,
+      "ConditionLogic": "AND",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR LEFT POSITION, Percent over 100",
+          "ConditionValue": "<1",
+          "ConditionIsCustom": false
+        },
+        {
+          "Condition": "A:GEAR LEFT POSITION, Percent over 100",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 2,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR CENTER POSITION, Percent over 100",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 3,
+      "ConditionLogic": "AND",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR CENTER POSITION, Percent over 100",
+          "ConditionValue": "<1",
+          "ConditionIsCustom": false
+        },
+        {
+          "Condition": "A:GEAR CENTER POSITION, Percent over 100",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 4,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR RIGHT POSITION, Percent over 100",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 5,
+      "ConditionLogic": "AND",
+      "Conditions": [
+        {
+          "Condition": "A:GEAR RIGHT POSITION, Percent over 100",
+          "ConditionValue": "<1",
+          "ConditionIsCustom": false
+        },
+        {
+          "Condition": "A:GEAR RIGHT POSITION, Percent over 100",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": false
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_WARN_annunMASTER_WARNING:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_WARN_annunMASTER_WARNING:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:4,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": []
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunXFEED_VALVE:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunXFEED_VALVE:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunXFEED_VALVE:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunXFEED_VALVE:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainFwd:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainFwd:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainFwd:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainFwd:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainAft:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainAft:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainAft:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_MainAft:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_OvrdFwd:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_OvrdFwd:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_OvrdAft:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_OvrdAft:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_Stab:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_Stab:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_Ctr:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunPRESS_Ctr:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunJettisonNozleVALVE:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FUEL_annunJettisonNozleVALVE:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunWindowHeatINOP:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunWindowHeatINOP:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunEngAntiIceVALVE:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunEngAntiIceVALVE:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunEngAntiIceVALVE:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunEngAntiIceVALVE:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ICE_annunWingAntiIceVALVE,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ENG_Start_Light:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ENG_Start_Light:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ENG_Start_Light:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ENG_Start_Light:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 4,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_FIRE_HandleIllumination:4,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_WARN_annunMASTER_CAUTION:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_WARN_annunMASTER_CAUTION:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annun_SYS_FAULT:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annun_SYS_FAULT:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annun_SYS_FAULT:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annun_SYS_FAULT:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annunPack_SYS_FAIL,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_AIR_annunZone_SYS_FAIL,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_HYD_annunSYS_FAULT:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_HYD_annunSYS_FAULT:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_HYD_annunSYS_FAULT:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_HYD_annunSYS_FAULT:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_BRAKES_ParkingBrakeLeverOn,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunGenOFF:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunGenOFF:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunGenOFF:2,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunGenOFF:3,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunUtilOFF:0,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_ELEC_annunUtilOFF:1,bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:0,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:1,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:2,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:3,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:4,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:5,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:6,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:7,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:8,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_DOOR_state:9,number",
+          "ConditionValue": "!=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_747QOTSII_LTS_IndLightsTestSw,number",
+          "ConditionValue": "=0",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": []
+    }
+  ],
+  "ConfiguratorSettings": {
+    "device": "Bravo Throttle Quadrant"
+  }
+}

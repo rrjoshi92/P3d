@@ -1,0 +1,56 @@
+-- ############################################### --
+-- ## PDMG737 RADIOS Fix
+-- ############################################### --
+
+-- RADIOS block buttons and switches
+RADIOS = {
+["COM ."]	= Default_COM_select  ,
+["NAV ."]	= Default_NAV_select  ,
+["ADF ."]	= Default_ADF_select  ,
+["DME ."]	= Default_DME_select  ,
+["TRAN."]	= Default_XPND_select  ,
+["TFR ."]	= Default_RADIOS_swap  ,
+["STBY."]	= Default_RADIOS_mode  ,
+
+["COM1 Select"]	= empty  ,
+["COM2 Select"]	= empty  ,
+["COM1 Swap"]	= empty  ,
+["COM2 Swap"]	= empty  ,
+["COMs Mode"]	= Radios_COM_AUDIO_toggle  ,
+
+["NAV1 Select"]	= empty  ,
+["NAV2 Select"]	= empty  ,
+["NAV1 Swap"]	= empty  ,
+["NAV2 Swap"]	= empty  ,
+["NAVs Mode"]	= Radios_NAV_AUDIO_toggle  ,
+
+["ADF1 Select"]	= empty  ,
+["ADF2 Select"]	= empty  ,
+["ADFs Mode"]	= Radios_ADF_AUDIO_toggle  ,
+
+["DME1 Select"]	= NGX_AP_CRS_LR_sync  ,
+["DME2 Select"]	= NGX_AP_CRS_LR_sync  ,
+["DMEs Mode"]	= Radios_DME_AUDIO_toggle  ,
+
+["XPND Select"]	= empty  ,
+["XPND Swap"]	= empty  ,
+["XPND Mode"]	= Transponder_MODE_toggle  ,
+}
+
+DME1 = {
+["A  +"]   	= NGX_AP_CRS_LR_inc  ,
+["A ++"]   	= NGX_AP_CRS_LR_incfast  ,
+["A  -"]   	= NGX_AP_CRS_LR_dec  ,
+["A --"]   	= NGX_AP_CRS_LR_decfast  ,
+["PRESS"]  	= NGX_AP_CRS_LR_toggle  ,
+}
+
+FRE1 = {
+["A  +"]	= Default_RADIOS_plus  ,
+["A ++"]	= Default_RADIOS_plusfast  ,
+["A  -"]	= Default_RADIOS_minus  ,
+["A --"]	= Default_RADIOS_minusfast,
+["PRESS"]	= Default_RADIOS_press  ,
+}
+
+

@@ -1,0 +1,962 @@
+================================================================================
+LINDA Functions - PMDG 777
+================================================================================
+Created by LINDA 3.2.6 on 12 Aug 2020 @ 0717
+================================================================================
+
+TEST
+====
+
+test
+TimeAccel show
+PMDG AP SPD show
+PMDG AP ALT show
+PMDG AP VS show
+
+SYSTEM FUNCTIONS
+================
+
+InitVars
+InitDsp
+Timer
+PMDG FLIGHT INFO
+PMDG AP MODES UPDATE
+Doors show
+
+AUTOPILOT DIALS
+===============
+
+NGX AP CRSL show
+NGX AP CRSR show
+PMDG AP CRSL inc
+PMDG AP CRSL incfast
+PMDG AP CRSL dec
+PMDG AP CRSL decfast
+PMDG AP CRSR inc
+PMDG AP CRSR incfast
+PMDG AP CRSR dec
+PMDG AP CRSR decfast
+PMDG AP CRS LR sync
+PMDG AP CRS LR toggle
+PMDG AP CRS LR inc
+PMDG AP CRS LR incfast
+PMDG AP CRS LR dec
+PMDG AP CRS LR decfast
+PMDG AP SPD inc
+PMDG AP SPD incfast
+PMDG AP SPD dec
+PMDG AP SPD decfast
+PMDG AP HDG BANK toggle
+PMDG AP HDG inc
+PMDG AP HDG incfast
+PMDG AP HDG dec
+PMDG AP HDG decfast
+PMDG AP HDG show
+PMDG AP BANK show
+PMDG AP BANK inc
+PMDG AP BANK dec
+PMDG AP ALT inc
+PMDG AP ALT incfast
+PMDG AP ALT dec
+PMDG AP ALT decfast
+PMDG AP VS inc
+PMDG AP VS dec
+
+AP BUTTONS
+==========
+
+PMDG AP FD1 on
+PMDG AP FD1 off
+PMDG AP FD1 toggle
+PMDG AP FD2 on
+PMDG AP FD2 off
+PMDG AP FD2 toggle
+PMDG AP both FD on
+PMDG AP both FD off
+PMDG AP both FD toggle
+PMDG AP AT1 on
+PMDG AP AT1 off
+PMDG AP AT1 toggle
+PMDG AP AT2 on
+PMDG AP AT2 off
+PMDG AP AT2 toggle
+PMDG AP both AT on
+PMDG AP both AT off
+PMDG AP both AT toggle
+PMDG AP TOGA
+PMDG AP L
+PMDG AP R
+PMDG CLB CON
+PMDG AT
+PMDG LNAV
+PMDG VNAV
+PMDG FLCH
+PMDG HDG HOLD
+PMDG VS FPA
+PMDG ALT HOLD
+PMDG LOC
+PMDG APP
+PMDG Push SPD
+PMDG Push HDG
+PMDG Push ALT
+PMDG AP Disengage Bar on
+PMDG AP Disengage Bar off
+PMDG AP Disengage Bar toggle
+PMDG AP Disengage
+PMDG AT Disengage
+
+OVERHEAD HYDRAULIC
+==================
+
+DEMAND ELEC1 on
+DEMAND ELEC1 auto
+DEMAND ELEC1 off
+DEMAND ELEC1 toggle
+DEMAND ELEC2 on
+DEMAND ELEC2 auto
+DEMAND ELEC2 off
+DEMAND ELEC2 toggle
+C1 AIR on
+C1 AIR auto
+C1 AIR off
+C1 AIR toggle
+C2 AIR on
+C2 AIR auto
+C2 AIR off
+C2 AIR toggle
+HYDR ENG1 on
+HYDR ENG1 off
+HYDR ENG1 toggle
+HYDR ELECC1 on
+HYDR ELECC1 off
+HYDR ELECC1 toggle
+HYDR ELECC2 on
+HYDR ELECC2 off
+HYDR ELECC2 toggle
+HYDR ENG2 on
+HYDR ENG2 off
+HYDR ENG2 toggle
+HYDR ENG1 Both on
+HYDR ENG1 Both off
+HYDR ELECC1 Both on
+HYDR ELECC1 Both off
+HYDR ELECC2 Both on
+HYDR ELECC2 Both off
+HYDR ENG2 Both on
+HYDR ENG2 Both off
+
+OVERHEAD  ELECTRIC
+==================
+
+BATTERY SWITCH on
+BATTERY SWITCH off
+BATTERY SWITCH toggle
+APU GEN SWITCH on
+APU GEN SWITCH off
+APU GEN SWITCH toggle
+APU SEL SWITCH off
+APU SEL SWITCH on
+APU SEL SWITCH start
+GRD PWR SEC SWITCH on
+GRD PWR SEC SWITCH off
+GRD PWR SEC SWITCH toggle
+GRD PWR PRIM SWITCH on
+GRD PWR PRIM SWITCH off
+GRD PWR PRIM SWITCH toggle
+GRD POWER Both on
+GRD POWER Both off
+GRD POWER Both toggle
+
+BUS TIES
+
+L BUS TIE on
+L BUS TIE off
+L BUS TIE toggle
+R BUS TIE on
+R BUS TIE off
+R BUS TIE toggle
+
+OVERHEAD EXTERNAL LIGHTS
+========================
+
+LANDING L on
+LANDING L off
+LANDING L toggle
+LANDING NOSE on
+LANDING NOSE off
+LANDING NOSE toggle
+LANDING R on
+LANDING R off
+LANDING R toggle
+LANDING L R on
+LANDING L R off
+LANDING L R toggle
+LANDING LIGHTS on
+LANDING LIGHTS off
+LANDING LIGHTS toggle
+L TURNOFF on
+L TURNOFF off
+L TURNOFF toggle
+R TURNOFF on
+R TURNOFF off
+R TURNOFF toggle
+R L TURNOFF on
+R L TURNOFF off
+R L TURNOFF toggle
+PMDG Taxi on
+PMDG Taxi off
+PMDG Taxi toggle
+PMDG Strobe on
+PMDG Strobe off
+PMDG Strobe toggle
+PMDG BCN on
+PMDG BCN off
+PMDG BCN toggle
+PMDG NAV on
+PMDG NAV off
+PMDG NAV toggle
+PMDG Logo on
+PMDG Logo off
+PMDG Logo toggle
+PMDG Wing on
+PMDG Wing off
+PMDG Wing toggle
+
+OVERHEAD INTERNAL LIGHTS
+========================
+
+PANEL LIGHT CONTROL inc
+PANEL LIGHT CONTROL incfast
+PANEL LIGHT CONTROL dec
+PANEL LIGHT CONTROL decfast
+PANEL LIGHT CONTROL off
+PANEL LIGHT CONTROL on
+CB LIGHT CONTROL inc
+CB LIGHT CONTROL incfast
+CB LIGHT CONTROL dec
+CB LIGHT CONTROL decfast
+CB LIGHT CONTROL off
+CB LIGHT CONTROL on
+GS LIGHT CONTROL inc
+GS LIGHT CONTROL incfast
+GS LIGHT CONTROL dec
+GS LIGHT CONTROL decfast
+GS LIGHT CONTROL off
+GS LIGHT CONTROL on
+GSFlood LIGHT CONTROL inc
+GSFlood LIGHT CONTROL incfast
+GSFlood LIGHT CONTROL dec
+GSFlood LIGHT CONTROL decfast
+GSFlood LIGHT CONTROL off
+GSFlood LIGHT CONTROL on
+DOME SWITCH on
+DOME SWITCH off
+DOME SWITCH toggle
+MASTER BRIGHT CONTROL inc
+MASTER BRIGHT CONTROL incfast
+MASTER BRIGHT CONTROL dec
+MASTER BRIGHT CONTROL decfast
+MASTER BRIGHT CONTROL off
+MASTER BRIGHT CONTROL on
+
+PANEL OTHER LIGHTS
+==================
+
+FWD LEFT FLOOD LIGHT CONTROL inc
+FWD LEFT FLOOD LIGHT CONTROL incfast
+FWD LEFT FLOOD LIGHT CONTROL dec
+FWD LEFT FLOOD LIGHT CONTROL decfast
+FWD LEFT FLOOD LIGHT CONTROL off
+FWD LEFT FLOOD LIGHT CONTROL on
+FWD RIGHT FLOOD LIGHT CONTROL inc
+FWD RIGHT FLOOD LIGHT CONTROL incfast
+FWD RIGHT FLOOD LIGHT CONTROL dec
+FWD RIGHT FLOOD LIGHT CONTROL decfast
+FWD RIGHT FLOOD LIGHT CONTROL off
+FWD RIGHT FLOOD LIGHT CONTROL on
+PED FLOOD LIGHT CONTROL inc
+PED FLOOD LIGHT CONTROL incfast
+PED FLOOD LIGHT CONTROL dec
+PED FLOOD LIGHT CONTROL decfast
+PED FLOOD LIGHT CONTROL off
+PED FLOOD LIGHT CONTROL on
+ALL PANEL FLOOD LIGHTS inc
+ALL PANEL FLOOD LIGHTS incfast
+ALL PANEL FLOOD LIGHTS dec
+ALL PANEL FLOOD LIGHTS decfast
+ALL PANEL FLOOD LIGHTS on
+ALL PANEL FLOOD LIGHTS off
+
+OVERHEAD  MISCELLANEOUS
+=======================
+
+EMER EXIT LIGHT SWITCH arm
+EMER EXIT LIGHT SWITCH on
+EMER EXIT LIGHT SWITCH off
+EMER EXIT LIGHT GUARD open
+EMER EXIT LIGHT GUARD close
+SMOKING ELECTRONICS show
+NO SMOKING LIGHT SWITCH off
+NO SMOKING LIGHT SWITCH auto
+NO SMOKING LIGHT SWITCH on
+FASTEN BELTS LIGHT SWITCH off
+FASTEN BELTS LIGHT SWITCH auto
+FASTEN BELTS LIGHT SWITCH on
+
+OVERHEAD  FUEL PANEL
+====================
+
+PUMP 1 FORWARD on
+PUMP 1 FORWARD off
+PUMP 1 FORWARD toggle
+PUMP 2 FORWARD on
+PUMP 2 FORWARD off
+PUMP 2 FORWARD toggle
+FWD PUMPS on
+FWD PUMPS off
+FWD PUMPS toggle
+PUMP 1 AFT on
+PUMP 1 AFT off
+PUMP 1 AFT toggle
+PUMP 2 AFT on
+PUMP 2 AFT off
+PUMP 2 AFT toggle
+AFTERWARDS PUMPS on
+AFTERWARDS PUMPS off
+AFTERWARDS PUMPS toggle
+CROSSFEED FORWARD on
+CROSSFEED FORWARD off
+CROSSFEED FORWARD toggle
+CROSSFEED AFT on
+CROSSFEED AFT off
+CROSSFEED AFT toggle
+CROSSFEED PUMPS on
+CROSSFEED PUMPS off
+CROSSFEED PUMPS toggle
+LEFT PUMPS on
+LEFT PUMPS off
+LEFT PUMPS toggle
+RIGHT PUMPS on
+RIGHT PUMPS off
+RIGHT PUMPS toggle
+PUMP L CENTER on
+PUMP L CENTER off
+PUMP L CENTER toggle
+PUMP R CENTER on
+PUMP R CENTER off
+PUMP R CENTER toggle
+PUMPS CENTER on
+PUMPS CENTER off
+PUMPS CENTER toggle
+
+ANTI ICE
+========
+
+OH ICE WING ANTIICE on
+OH ICE WING ANTIICE auto
+OH ICE WING ANTIICE off
+OH ICE WING ANTIICE toggle
+OH ICE WING ANTIICE inc
+OH ICE WING ANTIICE dec
+OH ICE ENGINE ANTIICE L on
+OH ICE ENGINE ANTIICE L auto
+OH ICE ENGINE ANTIICE L off
+OH ICE ENGINE ANTIICE L toggle
+OH ICE ENGINE ANTIICE L inc
+OH ICE ENGINE ANTIICE L dec
+OH ICE ENGINE ANTIICE R on
+OH ICE ENGINE ANTIICE R auto
+OH ICE ENGINE ANTIICE R off
+OH ICE ENGINE ANTIICE R toggle
+OH ICE ENGINE ANTIICE R inc
+OH ICE ENGINE ANTIICE R dec
+OH ICE ENGINE ANTIICE on
+OH ICE ENGINE ANTIICE auto
+OH ICE ENGINE ANTIICE off
+OH ICE ENGINE ANTIICE inc
+OH ICE ENGINE ANTIICE dec
+
+OVERHEAD  ENGINE CONTROL
+========================
+
+ENGINE L START start
+ENGINE L START norm
+ENGINE L START toggle
+ENGINE R START start
+ENGINE R START norm
+ENGINE R START toggle
+
+OVERHEAD AIR
+============
+
+AIRCOND PACK SWITCH L on
+AIRCOND PACK SWITCH L off
+AIRCOND PACK SWITCH L toggle
+AIRCOND PACK SWITCH R on
+AIRCOND PACK SWITCH R off
+AIRCOND PACK SWITCH R toggle
+AIRCOND PACK SWITCH Both on
+AIRCOND PACK SWITCH Both off
+
+GLARESHIELD  EFIS CAPTAIN
+=========================
+
+EFIS CPT MINIMUMS baro
+EFIS CPT MINIMUMS radio
+EFIS CPT MINIMUMS RAD BARO toggle
+EFIS CPT MINIMUMS inc
+EFIS CPT MINIMUMS dec
+EFIS CPT MINIMUMS rst
+EFIS CPT VOR ADF L vor
+EFIS CPT VOR ADF L off
+EFIS CPT VOR ADF L adf
+EFIS CPT VOR ADF L inc
+EFIS CPT VOR ADF L dec
+EFIS CPT MAP MODE show
+EFIS CPT MAP MODE inc
+EFIS CPT MAP MODE dec
+EFIS CPT MAP MODE ctr
+EFIS CPT RANGE show
+EFIS CPT RANGE inc
+EFIS CPT RANGE dec
+EFIS CPT RANGE TFC
+EFIS CPT VOR ADF R vor
+EFIS CPT VOR ADF R off
+EFIS CPT VOR ADF R adf
+EFIS CPT VOR ADF R inc
+EFIS CPT VOR ADF R dec
+EFIS CPT BARO in
+EFIS CPT BARO hpa
+EFIS CPT BARO IN HPA toggle
+EFIS CPT BARO inc
+EFIS CPT BARO dec
+EFIS CPT BARO STD
+EFIS CPT FPV
+EFIS CPT MTRS
+EFIS CPT WXR
+EFIS CPT STA
+EFIS CPT WPT
+EFIS CPT ARPT
+EFIS CPT DATA
+EFIS CPT POS
+EFIS CPT TERR
+
+GLARESHIELD  DISPLAY SELECT PANEL
+=================================
+
+PMDG Select L Inbnd
+PMDG Select R Inbnd
+PMDG Select Lwr Ctr
+PMDG Disp inc
+PMDG Disp dec
+PMDG Disp Eng
+PMDG Disp Stat
+PMDG Disp Elec
+PMDG Disp Hyd
+PMDG Disp Fuel
+PMDG Disp Air
+PMDG Disp Door
+PMDG Disp Gear
+PMDG Disp Fctl
+PMDG Disp Cam
+PMDG DispList inc
+PMDG DispList dec
+PMDG Disp Chkl
+PMDG Disp Comm
+PMDG Disp Nav
+PMDG Disp CancRcl
+PMDG Toggle Chkl Stat
+
+FORWARD PANEL  AUTOBRAKES
+=========================
+
+PMDG Autobrake show
+PMDG Autobrake inc
+PMDG Autobrake dec
+ABS AUTOBRAKE SELECTOR rto
+ABS AUTOBRAKE SELECTOR off
+ABS AUTOBRAKE SELECTOR disarm
+ABS AUTOBRAKE SELECTOR 1
+ABS AUTOBRAKE SELECTOR 2
+ABS AUTOBRAKE SELECTOR 3
+ABS AUTOBRAKE SELECTOR 4
+ABS AUTOBRAKE SELECTOR max
+
+PEDESTAL  FUEL CONTROL
+======================
+
+ENG1 START LEVER run
+ENG1 START LEVER cutoff
+ENG1 START LEVER toggle
+ENG2 START LEVER run
+ENG2 START LEVER cutoff
+ENG2 START LEVER toggle
+
+PEDESTAL  CONTROL STAND
+=======================
+
+ALT PITCH TRIM show
+ALT PITCH TRIM LEVER neutral
+ALT PITCH TRIM LEVER up
+ALT PITCH TRIM LEVER down
+PMDG Spoilers arm
+PMDG Spoilers disarm
+
+PEDESTAL  AFT AISLE  WX RADAR PANEL
+===================================
+
+WXR L TFR
+WXR L WX
+WXR L WX T
+WXR L MAP
+WXR L GC
+WXR AUTO
+WXR L R
+WXR TEST
+WXR R TFR
+WXR R WX
+WXR R WX T
+WXR R MAP
+WXR R GC
+WXR L TILT CONTROL inc
+WXR L TILT CONTROL dec
+WXR L GAIN CONTROL inc
+WXR L GAIN CONTROL dec
+WXR R TILT CONTROL inc
+WXR R TILT CONTROL dec
+WXR R GAIN CONTROL inc
+WXR R GAIN CONTROL dec
+
+PEDESTAL  AFT AISLE STAND  TCAS PANEL
+=====================================
+
+TCAS ALTSOURCE altn
+TCAS ALTSOURCE norm
+TCAS ALTSOURCE toggle
+TCAS IDENT
+PMDG TCAS show
+TCAS MODE stby
+TCAS MODE alt
+TCAS MODE xpndr
+TCAS MODE TA
+TCAS MODE TARA
+TCAS TEST
+TCAS XPNDR R
+TCAS XPNDR L
+TCAS XPNDR toggle
+PMDG TCAS inc
+PMDG TCAS dec
+
+WARNINGS
+========
+
+PMDG MasterWarn Capt
+PMDG MasterWarn FO
+PMDG GS Inhibit
+
+CLOCK
+=====
+
+clock
+
+ADIRU
+=====
+
+ADIRU SWITCH on
+ADIRU SWITCH off
+ADIRU SWITCH toggle
+
+DOORS LEFT
+==========
+
+L Entry 1L open
+L Entry 1L close
+L Entry 1L toggle
+L Entry 2L open
+L Entry 2L close
+L Entry 2L toggle
+L Entry 3L open
+L Entry 3L close
+L Entry 3L toggle
+L Entry 4L open
+L Entry 4L close
+L Entry 4L toggle
+L Entry 5L open
+L Entry 5L close
+L Entry 5L toggle
+L Entries All open
+L Entries All close
+L Entries All toggle
+L Entries GSX open
+L Entries GSX close
+L Entries GSX toggle
+
+DOORS RIGHT
+===========
+
+R Entry 1R open
+R Entry 1R close
+R Entry 1R toggle
+R Entry 2R open
+R Entry 2R close
+R Entry 2R toggle
+R Entry 3R open
+R Entry 3R close
+R Entry 3R toggle
+R Entry 4R open
+R Entry 4R close
+R Entry 4R toggle
+R Entry 5R open
+R Entry 5R close
+R Entry 5R toggle
+R Entries All open
+R Entries All close
+R Entries All toggle
+R Entries GSX open
+R Entries GSX close
+R Entries GSX toggle
+
+CARGO AND ACCESS
+================
+
+Cargo FWD open
+Cargo FWD close
+Cargo FWD toggle
+Cargo AFT open
+Cargo AFT close
+Cargo AFT toggle
+Cargo BULK open
+Cargo BULK close
+Cargo BULK toggle
+Cargo MAIN open
+Cargo MAIN close
+Cargo MAIN toggle
+All Cargo open
+All Cargo close
+All Cargo toggle
+Fwd Access open
+Fwd Access close
+Fwd Access toggle
+Fwd EE open
+Fwd EE close
+Fwd EE toggle
+
+CAPTAIN'S CDU
+=============
+
+CDU L LSK1L
+CDU L LSK2L
+CDU L LSK3L
+CDU L LSK4L
+CDU L LSK5L
+CDU L LSK6L
+CDU L LSK1R
+CDU L LSK2R
+CDU L LSK3R
+CDU L LSK4R
+CDU L LSK5R
+CDU L LSK6R
+CDU L INITREF
+CDU L RTE
+CDU L DEPARR
+CDU L ALTN
+CDU L VNAV
+CDU L FIX
+CDU L LEGS
+CDU L HOLD
+CDU L FMCCOMM
+CDU L PROG
+CDU L EXEC
+CDU L MENU
+CDU L NAVRAD
+CDU L PREVPAGE
+CDU L NEXTPAGE
+CDU L 1
+CDU L 2
+CDU L 3
+CDU L 4
+CDU L 5
+CDU L 6
+CDU L 7
+CDU L 8
+CDU L 9
+CDU L PERIOD
+CDU L 0
+CDU L PLUSMIN
+CDU L A
+CDU L B
+CDU L C
+CDU L D
+CDU L E
+CDU L F
+CDU L G
+CDU L H
+CDU L I
+CDU L J
+CDU L K
+CDU L L
+CDU L M
+CDU L N
+CDU L O
+CDU L P
+CDU L Q
+CDU L R
+CDU L S
+CDU L T
+CDU L U
+CDU L V
+CDU L W
+CDU L X
+CDU L Y
+CDU L Z
+CDU L SP
+CDU L DEL
+CDU L DIAGONAL
+CDU L CLR
+CDU L BRTMIN
+CDU L BRTPLUS
+
+CAPT CDU PAGES
+==============
+
+CDU L Fuel
+CDU L Payload
+CDU L Doors
+CDU L Pushback
+CDU L GroundConn
+CDU L GroundOps
+CDU L GroundMaint
+CDU L CabLights
+CDU L AutoFlight
+
+CAPT CDU GROUND CONNECTIONS
+===========================
+
+CDU L Wheel Chocks on
+CDU L Wheel Chocks off
+CDU L Wheel Chocks toggle
+CDU L PowerType dual
+CDU L PowerType single
+CDU L PowerType toggle
+CDU L ExtPower on
+CDU L ExtPower off
+CDU L AirStart on
+CDU L AirStart off
+CDU L AirStart toggle
+CDU L AirCondition on
+CDU L AirCondition off
+CDU L AirCondition toggle
+
+FIRST OFFICER'S CDU
+===================
+
+CDU R LSK1L
+CDU R LSK2L
+CDU R LSK3L
+CDU R LSK4L
+CDU R LSK5L
+CDU R LSK6L
+CDU R LSK1R
+CDU R LSK2R
+CDU R LSK3R
+CDU R LSK4R
+CDU R LSK5R
+CDU R LSK6R
+CDU R INITREF
+CDU R RTE
+CDU R DEPARR
+CDU R ALTN
+CDU R VNAV
+CDU R FIX
+CDU R LEGS
+CDU R HOLD
+CDU R FMCCOMM
+CDU R PROG
+CDU R EXEC
+CDU R MENU
+CDU R NAVRAD
+CDU R PREVPAGE
+CDU R NEXTPAGE
+CDU R 1
+CDU R 2
+CDU R 3
+CDU R 4
+CDU R 5
+CDU R 6
+CDU R 7
+CDU R 8
+CDU R 9
+CDU R PERIOD
+CDU R 0
+CDU R PLUSMIN
+CDU R A
+CDU R B
+CDU R C
+CDU R D
+CDU R E
+CDU R F
+CDU R G
+CDU R H
+CDU R I
+CDU R J
+CDU R K
+CDU R L
+CDU R M
+CDU R N
+CDU R O
+CDU R P
+CDU R Q
+CDU R R
+CDU R S
+CDU R T
+CDU R U
+CDU R V
+CDU R W
+CDU R X
+CDU R Y
+CDU R Z
+CDU R SP
+CDU R DEL
+CDU R DIAGONAL
+CDU R CLR
+CDU R BRTMIN
+CDU R BRTPLUS
+
+FO CDU PAGES
+============
+
+CDU R Fuel
+CDU R Payload
+CDU R Doors
+CDU R Pushback
+CDU R GroundConn
+CDU R GroundOps
+CDU R GroundMaint
+CDU R CabLights
+CDU R AutoFlight
+
+FO CDU GROUND CONNECTIONS
+=========================
+
+CDU R Wheel Chocks on
+CDU R Wheel Chocks off
+CDU R Wheel Chocks toggle
+CDU R PowerType dual
+CDU R PowerType single
+CDU R PowerType toggle
+CDU R ExtPower on
+CDU R ExtPower off
+CDU R AirStart on
+CDU R AirStart off
+CDU R AirStart toggle
+CDU R AirCondition on
+CDU R AirCondition off
+CDU R AirCondition toggle
+
+CENTER CDU
+==========
+
+CDU C LSK1L
+CDU C LSK2L
+CDU C LSK3L
+CDU C LSK4L
+CDU C LSK5L
+CDU C LSK6L
+CDU C LSK1R
+CDU C LSK2R
+CDU C LSK3R
+CDU C LSK4R
+CDU C LSK5R
+CDU C LSK6R
+CDU C INITREF
+CDU C RTE
+CDU C DEPARR
+CDU C ALTN
+CDU C VNAV
+CDU C FIX
+CDU C LEGS
+CDU C HOLD
+CDU C FMCCOMM
+CDU C PROG
+CDU C EXEC
+CDU C MENU
+CDU C NAVRAD
+CDU C PREVPAGE
+CDU C NEXTPAGE
+CDU C 1
+CDU C 2
+CDU C 3
+CDU C 4
+CDU C 5
+CDU C 6
+CDU C 7
+CDU C 8
+CDU C 9
+CDU C PERIOD
+CDU C 0
+CDU C PLUSMIN
+CDU C A
+CDU C B
+CDU C C
+CDU C D
+CDU C E
+CDU C F
+CDU C G
+CDU C H
+CDU C I
+CDU C J
+CDU C K
+CDU C L
+CDU C M
+CDU C N
+CDU C O
+CDU C P
+CDU C Q
+CDU C R
+CDU C S
+CDU C T
+CDU C U
+CDU C V
+CDU C W
+CDU C X
+CDU C Y
+CDU C Z
+CDU C SP
+CDU C DEL
+CDU C DIAGONAL
+CDU C CLR
+CDU C BRTMIN
+CDU C BRTPLUS
+
+CENTER CDU PAGES
+================
+
+CDU C Fuel
+CDU C Payload
+CDU C Doors
+CDU C Pushback
+CDU C GroundConn
+CDU C GroundOps
+CDU C GroundMaint
+CDU C CabLights
+CDU C AutoFlight
+
+CENTER CDU GROUND CONNECTIONS
+=============================
+
+CDU C Wheel Chocks on
+CDU C Wheel Chocks off
+CDU C Wheel Chocks toggle
+CDU C PowerType dual
+CDU C PowerType single
+CDU C PowerType toggle
+CDU C ExtPower on
+CDU C ExtPower off
+CDU C AirStart on
+CDU C AirStart off
+CDU C AirStart toggle
+CDU C AirCondition on
+CDU C AirCondition off
+CDU C AirCondition toggle
+
+===========================================================================

@@ -1,0 +1,546 @@
+-- config-mcp2a.lua @ 1911130903 (LINDA 3.1.0.815) --
+
+-- ############################################### --
+-- ## EFIS block mode1
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS1 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Std"  ,
+["InHg."]   = VC_GSLD_CP_BARO_Switch_inHg  ,
+["hPa ."]   = VC_GSLD_CP_BARO_Switch_hPa  ,
+["FD  ."]   = VC_GSLD_CP_EFIS_FD  ,
+["ILS ."]   = VC_GSLD_CP_EFIS_LS  ,
+["CSTR."]   = VC_GSLD_CP_EFIS_CSTR  ,
+["WPT ."]   = VC_GSLD_CP_EFIS_WPT  ,
+["VORD."]   = VC_GSLD_CP_EFIS_VORD  ,
+["NDB ."]   = VC_GSLD_CP_EFIS_NDB  ,
+["ARPT."]   = VC_GSLD_CP_EFIS_ARPT  ,
+["ADF1:"]   = VC_GSLD_CP_EFIS_VORADF_1_off  ,
+["ADF1."]   = VC_GSLD_CP_EFIS_VORADF_1_adf  ,
+["VOR1:"]   = VC_GSLD_CP_EFIS_VORADF_1_off  ,
+["VOR1."]   = VC_GSLD_CP_EFIS_VORADF_1_vor  ,
+["ADF2:"]   = VC_GSLD_CP_EFIS_VORADF_2_off  ,
+["ADF2."]   = VC_GSLD_CP_EFIS_VORADF_2_adf  ,
+["VOR2:"]   = VC_GSLD_CP_EFIS_VORADF_2_off  ,
+["VOR2."]   = VC_GSLD_CP_EFIS_VORADF_2_vor  ,
+}
+
+-- AEFIS BARO knob
+BARO1 = {
+["A SHOW"]  = Altimeter_BARO_show  ,
+["A  +"]    = VC_GSLD_CP_BARO_inc  ,
+["A ++"]    = VC_GSLD_CP_BARO_inc  ,
+["A  -"]    = VC_GSLD_CP_BARO_dec  ,
+["A --"]    = VC_GSLD_CP_BARO_dec  ,
+["PRESS"]   = VC_GSLD_CP_EFIS_Baro_toggle  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM1 = {
+["A SHOW"]  = VC_GSLD_CP_EFIS_ND_Mode_show  ,
+["A  +"]    = VC_GSLD_CP_EFIS_ND_Mode_inc  ,
+["A ++"]    = VC_GSLD_CP_EFIS_ND_Mode_inc  ,
+["A  -"]    = VC_GSLD_CP_EFIS_ND_Mode_dec  ,
+["A --"]    = VC_GSLD_CP_EFIS_ND_Mode_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = Do_nothing  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR1 = {
+["A SHOW"]  = VC_GSLD_CP_EFIS_ND_Range_show  ,
+["A  +"]    = VC_GSLD_CP_EFIS_ND_Range_inc  ,
+["A ++"]    = VC_GSLD_CP_EFIS_ND_Range_inc  ,
+["A  -"]    = VC_GSLD_CP_EFIS_ND_Range_dec  ,
+["A --"]    = VC_GSLD_CP_EFIS_ND_Range_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## EFIS block mode2
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS2 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "WXR"  ,
+["InHg."]   = empty  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = Flood_ALL_dec  ,
+["ILS ."]   = Flood_ALL_inc  ,
+["CSTR."]   = VC_PED_WXRadar_Mode_wx  ,
+["WPT ."]   = VC_PED_WXRadar_Mode_wxt  ,
+["VORD."]   = VC_PED_WXRadar_Mode_turb  ,
+["NDB ."]   = VC_PED_WXRadar_Mode_map  ,
+["ARPT."]   = VC_PED_WXR_SYS_1off_toggle  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = EFB_DISPLAY_UNIT_toback  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = EFB_DISPLAY_UNIT_tofront  ,
+}
+
+-- AEFIS BARO knob
+BARO2 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = PED_Dimmer_inc  ,
+["A ++"]    = PED_Dimmer_inc  ,
+["A  -"]    = PED_Dimmer_dec  ,
+["A --"]    = PED_Dimmer_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM2 = {
+["A SHOW"]  = VC_PED_WXRadar_Gain_show  ,
+["A  +"]    = VC_PED_WXRadar_Gain_inc  ,
+["A ++"]    = VC_PED_WXRadar_Gain_inc  ,
+["A  -"]    = VC_PED_WXRadar_Gain_dec  ,
+["A --"]    = VC_PED_WXRadar_Gain_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR2 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = empty  ,
+["A ++"]    = empty  ,
+["A  -"]    = empty  ,
+["A --"]    = empty  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## EFIS block mode3
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS3 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["InHg."]   = empty  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = empty  ,
+["ILS ."]   = empty  ,
+["CSTR."]   = empty  ,
+["WPT ."]   = empty  ,
+["VORD."]   = empty  ,
+["NDB ."]   = empty  ,
+["ARPT."]   = empty  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = RXP_WX500_SUBMODE_DN  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = RXP_WX500_SUBMODE_UP  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = RXP_WX500_RANGE_DN  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = RXP_WX500_RANGE_UP  ,
+}
+
+-- AEFIS BARO knob
+BARO3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_GAIN_INC  ,
+["A ++"]    = RXP_WX500_GAIN_INC  ,
+["A  -"]    = RXP_WX500_GAIN_DEC  ,
+["A --"]    = RXP_WX500_GAIN_DEC  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_MAIN_MODE_NEXT  ,
+["A ++"]    = RXP_WX500_MAIN_MODE_NEXT  ,
+["A  -"]    = RXP_WX500_MAIN_MODE_PREV  ,
+["A --"]    = RXP_WX500_MAIN_MODE_PREV  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_TILT_INC  ,
+["A ++"]    = RXP_WX500_TILT_INC  ,
+["A  -"]    = RXP_WX500_TILT_DEC  ,
+["A --"]    = RXP_WX500_TILT_DEC  ,
+["PRESS"]   = RXP_WX500_TILT_ZERO  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## FCU block mode1
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP1 = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "MCP1"  ,
+["MACH."]   	= VC_GSLD_FCU_SPD_MACH_Button  ,
+["LOC ."]   	= VC_GSLD_FCU_LOC  ,
+["TRK ."]   	= VC_GSLD_FCU_HDGTRKVSFPA  ,
+["AP1 ."]   	= VC_GSLD_FCU_AP1  ,
+["AP2 ."]   	= VC_GSLD_FCU_AP2  ,
+["ATHR."]   	= VC_GSLD_FCU_ATHR  ,
+["EXPD."]   	= VC_GSLD_FCU_EXPED  ,
+["MTR ."]   	= VC_GSLD_FCU_ALT_STEP_toggle  ,
+["APPR."]   	= VC_GSLD_FCU_APPR  ,
+}
+
+-- AFCU SPD knob
+SPD1 = {
+["A SHOW"]  	= SPD_show  ,
+["A  +"]    	= VC_GSLD_FCU_SPD_inc  ,
+["A ++"]    	= VC_GSLD_FCU_SPD_inc  ,
+["A  -"]    	= VC_GSLD_FCU_SPD_dec  ,
+["A --"]    	= VC_GSLD_FCU_SPD_dec  ,
+["PRESS"]   	= VC_GSLD_FCU_SPD_push  ,
+["PULL"]    	= VC_GSLD_FCU_SPD_pull  ,
+}
+
+-- AFCU HDG knob
+HDG1 = {
+["A SHOW"]  	= HDG_show  ,
+["A  +"]    	= VC_GSLD_FCU_HDG_inc  ,
+["A ++"]    	= VC_GSLD_FCU_HDG_incfast  ,
+["A  -"]    	= VC_GSLD_FCU_HDG_dec  ,
+["A --"]    	= VC_GSLD_FCU_HDG_decfast  ,
+["PRESS"]   	= VC_GSLD_FCU_HDG_push  ,
+["PULL"]    	= VC_GSLD_FCU_HDG_pull  ,
+}
+
+-- AFCU ALT knob
+ALT1 = {
+["A SHOW"]  	= ALT_show  ,
+["A  +"]    	= VC_GSLD_FCU_ALT_inc  ,
+["A ++"]    	= VC_GSLD_FCU_ALT_incfast  ,
+["A  -"]    	= VC_GSLD_FCU_ALT_dec  ,
+["A --"]    	= VC_GSLD_FCU_ALT_decfast  ,
+["PRESS"]   	= VC_GSLD_FCU_ALT_push  ,
+["PULL"]    	= VC_GSLD_FCU_ALT_pull  ,
+}
+
+-- AFCU VVS knob
+VVS1 = {
+["A SHOW"]  	= VVS_show  ,
+["A  +"]    	= VC_GSLD_FCU_VS_inc  ,
+["A ++"]    	= VC_GSLD_FCU_VS_inc  ,
+["A  -"]    	= VC_GSLD_FCU_VS_dec  ,
+["A --"]    	= VC_GSLD_FCU_VS_dec  ,
+["PRESS"]   	= VC_GSLD_FCU_VS_push  ,
+["PULL"]    	= VC_GSLD_FCU_VS_pull  ,
+}
+
+
+-- ############################################### --
+-- ## FCU block mode2
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP2 = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "Dply"  ,
+["MACH."]   	= Autopilot_MACH_button  ,
+["LOC ."]   	= empty  ,
+["TRK ."]   	= Autopilot_TRK_button  ,
+["AP1 ."]   	= ALL_DISP_DIMM_med  ,
+["AP2 ."]   	= ALL_DISP_DIMM_high  ,
+["ATHR."]   	= ALL_WX_DISP_DIMM_med  ,
+["EXPD."]   	= Autopilot_EXPD_button  ,
+["MTR ."]   	= empty  ,
+["APPR."]   	= Autopilot_APPR_button  ,
+}
+
+-- AFCU SPD knob
+SPD2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= ALL_PANEL_INTEG_LT_inc  ,
+["A ++"]    	= ALL_PANEL_INTEG_LT_inc  ,
+["A  -"]    	= ALL_PANEL_INTEG_LT_dec  ,
+["A --"]    	= ALL_PANEL_INTEG_LT_dec  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= ALL_DISP_DIMM_inc  ,
+["A ++"]    	= ALL_DISP_DIMM_inc  ,
+["A  -"]    	= ALL_DISP_DIMM_dec  ,
+["A --"]    	= ALL_DISP_DIMM_dec  ,
+["PRESS"]   	= ALL_DISP_DIMM_high  ,
+["PULL"]    	= ALL_DISP_DIMM_med  ,
+}
+
+-- AFCU ALT knob
+ALT2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= Flood_ALL_inc  ,
+["A ++"]    	= Flood_ALL_inc  ,
+["A  -"]    	= Flood_ALL_dec  ,
+["A --"]    	= Flood_ALL_dec  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU VVS knob
+VVS2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= ALL_WX_DISP_DIMM_inc  ,
+["A ++"]    	= ALL_WX_DISP_DIMM_inc  ,
+["A  -"]    	= ALL_WX_DISP_DIMM_dec  ,
+["A --"]    	= ALL_WX_DISP_DIMM_dec  ,
+["PRESS"]   	= ALL_WX_DISP_DIMM_high  ,
+["PULL"]    	= ALL_WX_DISP_DIMM_med  ,
+}
+
+
+-- ############################################### --
+-- ## FCU block mode3
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP3 = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "MCP3"  ,
+["MACH."]   	= Autopilot_MACH_button  ,
+["LOC ."]   	= empty  ,
+["TRK ."]   	= Autopilot_TRK_button  ,
+["AP1 ."]   	= empty  ,
+["AP2 ."]   	= empty  ,
+["ATHR."]   	= Autopilot_ATHR_button  ,
+["EXPD."]   	= Autopilot_EXPD_button  ,
+["MTR ."]   	= RXP_WX500_TRACK_R  ,
+["APPR."]   	= Autopilot_APPR_button  ,
+}
+
+-- AFCU SPD knob
+SPD3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU VVS knob
+VVS3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+
+-- ############################################### --
+-- ## USER block mode1
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER1 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Lght"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = VC_OVHD_APU_Master_toggle  ,
+["BTN5."]   = VC_OVHD_APU_Start_on  ,
+["BTN6."]   = VC_OVHD_APU_Bleed_toggle  ,
+["BTN7."]   = VS_GSLD_CP_MasterWarningCaution  ,
+["BTN8."]   = VC_PED_ATCXPDR_IDENT  ,
+["USR1."]   = VC_OVHD_EXTLT_Strobe_toggle  ,
+["USR2."]   = VC_OVHD_EXTLT_Beacon_toggle  ,
+["USR3."]   = VC_OVHD_EXTLT_NavLogo_toggle  ,
+["USR4."]   = VC_OVHD_EXTLT_RwyTurnoff_toggle  ,
+["USR5."]   = VC_OVHD_EXTLT_LL_Both_toggle  ,
+["USR6."]   = VC_OVHD_EXTLT_Nose_toggle  ,
+["USR7."]   = VC_OVHD_SIGNS_All_toggle  ,
+["USR8."]   = VC_OVHD_INTLT_Dome_off  ,
+["LAMP."]   = VC_OVHD_INTLT_Dome_toggle  ,
+}
+
+-- ############################################### --
+-- ## USER block mode2
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER2 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "XPDR"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = VC_PED_MDCU_L_EXTPWR_toggle  ,
+["BTN5."]   = VC_OVHD_ELECExtPwr_toggle  ,
+["BTN6."]   = VC_PED_MDCU_L_BRIGHT  ,
+["BTN7."]   = VS_GSLD_CP_MasterWarningCaution  ,
+["BTN8."]   = VC_PED_ATCXPDR_IDENT  ,
+["USR1."]   = VC_PED_ATCXPDR_ON_OFF_cycle  ,
+["USR2."]   = VC_PED_ATCXPDR_ALT_RPTG_toggle  ,
+["USR3."]   = VC_PED_ATCXPDR_MODE_toggle  ,
+["USR4."]   = VC_PED_ATCXPDR_THRT_blw  ,
+["USR5."]   = VC_PED_ATCXPDR_THRT_all  ,
+["USR6."]   = VC_PED_ATCXPDR_THRT_abv  ,
+["USR7."]   = VC_PED_ECP_TOCFG  ,
+["USR8."]   = VC_PED_WXRadar_PWS_toggle  ,
+["LAMP."]   = VC_OVHD_INTLT_Dome_toggle  ,
+}
+
+-- ############################################### --
+-- ## USER block mode3
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER3 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Eng"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = VC_PED_ENG_1_MSTR_Switch_toggle  ,
+["BTN5."]   = VC_PED_ENG_MODE_toggle  ,
+["BTN6."]   = VC_PED_ENG_2_MSTR_Switch_toggle  ,
+["BTN7."]   = VS_GSLD_CP_MasterWarningCaution  ,
+["BTN8."]   = VC_PED_ATCXPDR_IDENT  ,
+["USR1."]   = VC_OVHD_ELECBatt1_toggle  ,
+["USR2."]   = VC_OVHD_ELECBatt2_toggle  ,
+["USR3."]   = VC_OVHD_APU_Master_toggle  ,
+["USR4."]   = VC_OVHD_APU_Start_on  ,
+["USR5."]   = VC_OVHD_APU_Bleed_toggle  ,
+["USR6."]   = VC_OVHD_HYD_RAT_MAN_on  ,
+["USR7."]   = VC_OVHD_FIRE_ALL_TEST  ,
+["USR8."]   = VC_OVHD_ADIRS_ALL_cycle  ,
+["LAMP."]   = VC_OVHD_INTLT_Dome_toggle  ,
+}
+
+-- ############################################### --
+-- ## RADIOS block mode1
+-- ############################################### --
+
+-- RADIOS block buttons and switches
+RADIOS = {
+["COM ."]	= Default_COM_select  ,
+["NAV ."]	= Default_NAV_select  ,
+["ADF ."]	= Default_ADF_select  ,
+["DME ."]	= Default_DME_select  ,
+["TRAN."]	= Default_XPND_select  ,
+["TFR ."]	= Default_RADIOS_swap  ,
+["STBY."]	= Default_RADIOS_mode  ,
+
+["COM1 Select"] = VC_PED_RADIO_1_VHF1_push  ,
+["COM2 Select"] = VC_PED_RADIO_1_VHF2_push  ,
+["COM1 Swap"]   = empty  ,
+["COM2 Swap"]   = empty  ,
+["COMs Mode"]   = Radios_COM_AUDIO_toggle  ,
+
+["NAV1 Select"] = empty  ,
+["NAV2 Select"] = empty  ,
+["NAV1 Swap"]   = empty  ,
+["NAV2 Swap"]   = empty  ,
+["NAVs Mode"]   = Radios_NAV_AUDIO_toggle  ,
+
+["ADF1 Select"] = empty  ,
+["ADF2 Select"] = empty  ,
+["ADFs Mode"]   = Radios_ADF_AUDIO_toggle  ,
+
+["DME1 Select"] = empty  ,
+["DME2 Select"] = empty  ,
+["DMEs Mode"]   = Radios_DME_AUDIO_toggle  ,
+
+["XPND Select"] = empty  ,
+["XPND Swap"]   = VC_PED_ATCXPDR_VCUpdate  ,
+["XPND Mode"]   = Transponder_MODE_toggle  ,
+}
+
+DME1 = {
+["A  +"]   	= empty  ,
+["A ++"]   	= empty  ,
+["A  -"]   	= empty  ,
+["A --"]   	= empty  ,
+["PRESS"]  	= empty  ,
+}
+
+FRE1 = {
+["A  +"]   	= Default_RADIOS_plus  ,
+["A ++"]   	= Default_RADIOS_plusfast  ,
+["A  -"]   	= Default_RADIOS_minus  ,
+["A --"]   	= Default_RADIOS_minusfast  ,
+["PRESS"]  	= Default_RADIOS_press  ,
+}
+

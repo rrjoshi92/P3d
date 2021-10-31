@@ -1,0 +1,90 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP{MODE} = {
+["ENABLED"]	= {ENABLED}  ,
+["IDENT"]	= "{IDENT}"  ,
+["TOGA"] 	= {TOGA}  ,
+["TOGN"] 	= {TOGN}  ,
+["N1"] 		= {N1}  ,
+["SPD"] 	= {SPD}  ,
+["FLCH"] 	= {FLCH}  ,
+["HDGSEL"] 	= {HDGSEL}  ,
+["HDGHLD"] 	= {HDGHLD}  ,
+["ALTHLD"] 	= {ALTHLD}  ,
+["V/S FPA"] 	= {VSFPA}  ,
+["APP"] 	= {APP}  ,
+["VNAV"] 	= {VNAV}  ,
+["LNAV"] 	= {LNAV}  ,
+["CMDA"] 	= {CMDA}  ,
+["CMDB"] 	= {CMDB}  ,
+["CMDC"] 	= {CMDC}  ,
+["LOC"] 	= {LOC}  ,
+["CWSA"] 	= {CWSA}  ,
+["CWSB"] 	= {CWSB}  ,
+["A/T UP"] 	= {ATON}  ,
+["A/T DN"] 	= {ATOFF}  ,
+["F/D UP"] 	= {FDON}  ,
+["F/D DN"] 	= {FDOFF}  ,
+["MASTER UP"] 	= {MSTON}  ,
+["MASTER DN"] 	= {MSTOFF}  ,
+}
+
+
+-- MCP CRS knob
+CRS{MODE} = {
+["A SHOW"]	= {CRS A SHOW}  ,
+["A +"]		= {CRS A +}  ,
+["A ++"]	= {CRS A ++}  ,
+["A -"]		= {CRS A -}  ,
+["A --"]	= {CRS A --}  ,
+["PRESS"] 	= {CRS PRESS}  ,
+}
+
+
+-- MCP SPD knob
+SPD{MODE} = {
+["A SHOW"]	= {SPD A SHOW}  ,
+["A +"]		= {SPD A +}  ,
+["A ++"]	= {SPD A ++}  ,
+["A -"]		= {SPD A -}  ,
+["A --"]	= {SPD A --}  ,
+["PRESS"] 	= {SPD PRESS}  ,
+}
+
+
+-- MCP HDG knob
+HDG{MODE} = {
+["A SHOW"]	= {HDG A SHOW}  ,
+["A +"]		= {HDG A +}  ,
+["A ++"]	= {HDG A ++}  ,
+["A -"]		= {HDG A -}  ,
+["A --"]	= {HDG A --}  ,
+["PRESS"] 	= {HDG PRESS}  ,
+}
+
+
+-- MCP ALT knob
+ALT{MODE} = {
+["A SHOW"]	= {ALT A SHOW}  ,
+["A +"]		= {ALT A +}  ,
+["A ++"]	= {ALT A ++}  ,
+["A -"]		= {ALT A -}  ,
+["A --"]	= {ALT A --}  ,
+["PRESS"] 	= {ALT PRESS}  ,
+}
+
+
+-- MCP VVS knob
+VVS{MODE} = {
+["A SHOW"]	= {VVS A SHOW}  ,
+["A +"]		= {VVS A +}  ,
+["A ++"]	= {VVS A ++}  ,
+["A -"]		= {VVS A -}  ,
+["A --"]	= {VVS A --}  ,
+["PRESS"] 	= {VVS PRESS}  ,
+}
+
+

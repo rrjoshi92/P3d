@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2 User Int Lights
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "InLt"  ,
+["BTN1."] 	= AB_Sign_CABINCREW_toggle  ,
+["BTN2."] 	= AB_Lights_DOME_toggle  ,
+["BTN3."] 	= AB_Sign_SEATBELTS_toggle  ,
+["BTN4."] 	= AB_Lights_EMER_toggle  ,
+["BTN5."] 	= AB_MCDU_KEYB_toggle  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+}
+

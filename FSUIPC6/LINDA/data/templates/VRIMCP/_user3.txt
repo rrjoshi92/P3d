@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER{MODE} = {
+["ENABLED"] = {ENABLED}  ,
+["IDENT"]   = "{IDENT}"  ,
+["BTN1."]   = {BTN1.}  ,
+["BTN2."]   = {BTN2.}  ,
+["BTN3."]   = {BTN3.}  ,
+["BTN4."]   = {BTN4.}  ,
+["BTN5."]   = {BTN5.}  ,
+["BTN6."]   = {BTN6.}  ,
+["BTN7."]   = {BTN7.}  ,
+["BTN8."]   = {BTN8.}  ,
+["USR1."]   = {USR1.}  ,
+["USR2."]   = {USR2.}  ,
+["USR3."]   = {USR3.}  ,
+["USR4."]   = {USR4.}  ,
+["USR5."]   = {USR5.}  ,
+["USR6."]   = {USR6.}  ,
+["USR7."]   = {USR7.}  ,
+["USR8."]   = {USR8.}  ,
+["LAMP."]   = {LAMP.}  ,
+}
+

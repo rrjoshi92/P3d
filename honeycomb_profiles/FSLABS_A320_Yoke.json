@@ -1,0 +1,1212 @@
+{
+  "Version": 1,
+  "SaveName": "FSLABS_A320_Yoke",
+  "Data": [
+    {
+      "ButtonNumber": 0,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "BRAKES",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 1,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "FLAPS_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 2,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "FLAPS_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 3,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AUTOPILOT_OFF",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "AP_DISCONNECT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 4,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 5,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_DN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 6,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 7,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_DN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 8,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:RUDDER_TRIM_LEFT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "RUDDER_TRIM_LEFT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 9,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:RUDDER_TRIM_RIGHT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "RUDDER_TRIM_RIGHT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 10,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:RUDDER_TRIM_LEFT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "RUDDER_TRIM_LEFT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 11,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:RUDDER_TRIM_RIGHT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "RUDDER_TRIM_RIGHT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 12,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "DOME_LGTS_BRGT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 13,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "DOME_LGTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 14,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72542",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72542",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ANN_LGTS_TEST",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 15,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "ANN_LGTS_BRGT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72541",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_INTLT_AnnLt_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 16,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "SEATBETLS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72546",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_SIGNS_SeatBelts_Switch",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 17,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "SEATBELTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72546",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_SIGNS_SeatBelts_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 18,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72552",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72552",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "NO_SMOKING_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 19,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72551",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "NO_SMOKING_AUTO",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_SIGNS_NoSmoking_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 20,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "BCN_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72476",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_Beacon_Switch",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 21,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "BCN_LGTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72476",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_Beacon_Switch",
+              "ConditionValue": "=10",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 22,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72497",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72497",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72507",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72507",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "LDG&RWYTO_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72491",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_RwyTurnoff_Switch",
+              "ConditionValue": "=10",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 23,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72496",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72496",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72506",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72506",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "LDG&RWYTO_LGTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72491",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_RwyTurnoff_Switch",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 24,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72512",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72512",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "TO_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_Land_L_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72512",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "TAXI_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_Land_L_Switch",
+              "ConditionValue": "<20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 25,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72511",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72511",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "TAXI_TO_LGTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 26,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72487",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72487",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "NAV&LOGO_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 27,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72486",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72486",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "NAV&LOGO_LGTS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 28,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72472",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72472",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "STROBE_LGTS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 29,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "72471",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "STROBE_LGTS_AUTO",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_OVHD_EXTLT_Strobe_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 30,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78252",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78252",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG_MODE_CRANK",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 31,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG_MODE_NORM",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78253",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_PED_ENG_MODE_Switch",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78252",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:VC_PED_ENG_MODE_Switch",
+              "ConditionValue": "=20",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 32,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78253",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:ROTOR_BRAKE",
+              "Value": "78253",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG_MODE_IGNSTART",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 33,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 34,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    }
+  ],
+  "LEDs": [],
+  "ConfiguratorSettings": {
+    "device": "Alpha Flight Controls"
+  }
+}

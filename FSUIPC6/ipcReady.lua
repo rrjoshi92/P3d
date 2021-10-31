@@ -1,0 +1,2 @@
+ipc.runlua('linda')
+

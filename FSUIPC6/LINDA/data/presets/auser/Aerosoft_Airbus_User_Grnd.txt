@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Aerosoft Airbus Grnd
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Grnd"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = AB_Eng1_MASTER_toggle  ,
+["BTN5."]   = AB_Ign_toggle  ,
+["BTN6."]   = AB_Eng2_MASTER_toggle  ,
+["BTN7."]   = AB_Alarms_BOTH_off  ,
+["BTN8."]   = VATSIM_SetStandard  ,
+["USR1."]   = AB_WheelChocks_toggle  ,
+["USR2."]   = AB_TrafficCones_toggle  ,
+["USR3."]   = AB_ExtPwr_GPU_toggle  ,
+["USR4."]   = AB_ExtPwr_toggle  ,
+["USR5."]   = AB_APU_MASTER_toggle  ,
+["USR6."]   = AB_APU_START_toggle  ,
+["USR7."]   = AB_APU_BLEED_toggle  ,
+["USR8."]   = AB_APU_GEN_toggle  ,
+["LAMP."]   = AB_Lights_PANEL_toggle  ,
+}
+

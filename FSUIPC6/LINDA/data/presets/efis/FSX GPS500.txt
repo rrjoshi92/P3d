@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## FSX GPS500
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= {ENABLED}  ,
+["IDENT"]		= "GPS"  ,
+["FPV"] 		= GPS_ENTER_button  ,
+["MTR"] 		= GPS_DIRECTTO_button  ,
+["WX"] 			= empty  ,
+["STA"] 		= GPS_MENU_button  ,
+["WPT"] 		= GPS_CLR_button  ,
+["ARPT"] 		= GPS_NRST_button  ,
+["DATA"] 		= GPS_FPL_button  ,
+["POS"] 		= GPS_PROC_button  ,
+["TERR"] 		= GPS_TERR_button  ,
+["ADF1"] 		= EFIS_ADF1  ,
+["ADF2"] 		= EFIS_ADF2  ,
+["VOR1"] 		= EFIS_VOR1  ,
+["VOR2"] 		= EFIS_VOR2  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= GPS_PAGE_show  ,
+["A +"]			= GPS_PAGE_inc  ,
+["A ++"]		= GPS_PAGE_inc  ,
+["A -"]			= GPS_PAGE_dec  ,
+["A --"]		= GPS_PAGE_dec  ,
+["PRESS"] 		= KNOB_MODE_toggle  ,
+["B SHOW"]		= EFIS_MINIMUMS_show  ,
+["B +"]			= EFIS_MINIMUMS_inc  ,
+["B ++"]		= EFIS_MINIMUMS_inc  ,
+["B -"]			= EFIS_MINIMUMS_dec  ,
+["B --"]		= EFIS_MINIMUMS_dec  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= Altimeter_BARO_show  ,
+["A +"]			= Altimeter_BARO_plus  ,
+["A ++"]		= Altimeter_BARO_plusfast  ,
+["A -"]			= Altimeter_BARO_minus  ,
+["A --"]		= Altimeter_BARO_minusfast  ,
+["PRESS"] 		= Altimeter_BARO_MODE_toggle  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A +"]			= GPS_GROUP_inc  ,
+["A ++"]		= GPS_GROUP_inc  ,
+["A -"]			= GPS_GROUP_dec  ,
+["A --"]		= GPS_GROUP_dec  ,
+["PRESS"] 		= GPS_CRSR_button  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A +"]			= GPS_ZOOM_inc  ,
+["A ++"]		= GPS_ZOOM_inc  ,
+["A -"]			= GPS_ZOOM_dec  ,
+["A --"]		= GPS_ZOOM_dec  ,
+["PRESS"] 		= GPS_CRSR_button  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+

@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## PDMG 737 Lights
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Lght"  ,
+["BTN1."]   = NGX_AP_CMDA_toggle  ,
+["BTN2."]   = NGX_AP_MASTER_toggle  ,
+["BTN3."]   = NGX_AP_CMDB_toggle  ,
+["BTN4."]   = NGX_AP_CWSA  ,
+["BTN5."]   = NGX_WARN_FIRE_reset  ,
+["BTN6."]   = NGX_AP_CWSB  ,
+["BTN7."]   = NGX_WARN_MASTER_reset  ,
+["BTN8."]   = NGX_SYSTEM_ANN_reset  ,
+["USR1."]   = NGX_LAND_ALL_toggle  ,
+["USR2."]   = NGX_TAXI_ALL_toggle  ,
+["USR3."]   = NGX_WING_toggle  ,
+["USR4."]   = NGX_NAV_cycle  ,
+["USR5."]   = NGX_BEACON_toggle  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_MCP_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = NGX_LIGHT_PANEL_ALL_toggle  ,
+}
+

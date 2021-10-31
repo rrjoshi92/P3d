@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## PDMG737 TEST
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "MOD1"  ,
+["BTN1."] 	= NGX_AUTOBRAKE_dec  ,
+["BTN2."] 	= NGX_AUTOBRAKE_inc  ,
+["BTN3."] 	= NGX_XPND_MODE_dec  ,
+["BTN4."] 	= NGX_XPND_MODE_inc  ,
+["BTN5."] 	= NGX_TCAS_test  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+}
+

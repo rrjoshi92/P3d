@@ -1,0 +1,79 @@
+-- ############################################### --
+-- ## PMDG737 MCP Default
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP = {
+["ENABLED"]	= true  ,
+["IDENT"] 	= "std"  ,
+["TO  ."] 	= NGX_AP_TOGA  ,
+["GA  ."] 	= NGX_AP_P_reset  ,
+["N1  ."] 	= NGX_AP_N1  ,
+["SPD ."] 	= NGX_AP_SPEED  ,
+["FLCH."] 	= NGX_AP_LVLCHG  ,
+["SEL ."] 	= NGX_AP_SPD_INTV  ,
+["HHLD."] 	= NGX_AP_HDGSEL  ,
+["AHLD."] 	= NGX_AP_ALTHLD  ,
+["VHLD."] 	= NGX_AP_VS  ,
+["APP ."] 	= NGX_AP_APP  ,
+["VNAV."] 	= NGX_AP_VNAV  ,
+["LNAV."] 	= NGX_AP_LNAV  ,
+["CMDA."] 	= NGX_AP_CMDA_toggle  ,
+["CMDB."] 	= NGX_AP_CMDB_toggle  ,
+["CMDC."] 	= NGX_WARN_MASTER_reset  ,
+["LOC ."] 	= NGX_AP_VORLOC  ,
+["CWSA."] 	= NGX_AP_CWSA  ,
+["CWSB."] 	= NGX_AP_CWSB  ,
+["AT  ."] 	= NGX_AP_ATHR_arm  ,
+["AT  :"] 	= NGX_AP_ATHR_off  ,
+["FD  ."] 	= NGX_AP_FD_both_on  ,
+["FD  :"] 	= NGX_AP_FD_both_off  ,
+["AP  ."]	= NGX_AP_MASTER_on  ,
+["AP  :"] 	= NGX_AP_MASTER_off  ,
+}
+
+
+-- MCP SPD knob
+SPD = {
+["A SHOW"]	= empty  ,
+["A  +"]	= NGX_AP_SPD_inc  ,
+["A ++"]	= NGX_AP_SPD_incfast  ,
+["A  -"]	= NGX_AP_SPD_dec  ,
+["A --"]	= NGX_AP_SPD_decfast  ,
+["PRESS"] 	= NGX_AP_SPD_INTV  ,
+}
+
+
+-- MCP HDG knob
+HDG = {
+["A SHOW"]	= empty  ,
+["A  +"]	= NGX_AP_HDG_inc  ,
+["A ++"]	= NGX_AP_HDG_incfast  ,
+["A  -"]	= NGX_AP_HDG_dec  ,
+["A --"]	= NGX_AP_HDG_decfast  ,
+["PRESS"] 	= NGX_AP_HDG_BANK_toggle  ,
+}
+
+
+-- MCP ALT knob
+ALT = {
+["A SHOW"]	= empty  ,
+["A  +"]	= NGX_AP_ALT_inc  ,
+["A ++"]	= NGX_AP_ALT_incfast  ,
+["A  -"]	= NGX_AP_ALT_dec  ,
+["A --"]	= NGX_AP_ALT_decfast  ,
+["PRESS"] 	= NGX_AP_ALT_INTV  ,
+}
+
+
+-- MCP VVS knob
+VVS = {
+["A SHOW"]	= empty  ,
+["A  +"]	= NGX_AP_VS_inc  ,
+["A ++"]	= NGX_AP_VS_inc  ,
+["A  -"]	= NGX_AP_VS_dec  ,
+["A --"]	= NGX_AP_VS_dec  ,
+["PRESS"] 	= empty  ,
+}
+
+

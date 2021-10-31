@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## RealityXP GNS530
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= {ENABLED}  ,
+["IDENT"]		= "Main"  ,
+["FPV"] 		= RXP_530_ENT  ,
+["MTR"] 		= RXP_530_CLR  ,
+["WX"] 			= RXP_530_show  ,
+["STA"] 		= RXP_530_CDI  ,
+["WPT"] 		= RXP_530_OBS  ,
+["ARPT"] 		= RXP_530_MSG  ,
+["DATA"] 		= RXP_530_FPL  ,
+["POS"] 		= RXP_530_NAV  ,
+["TERR"] 		= RXP_530_PROC  ,
+["ADF1"] 		= empty  ,
+["ADF2"] 		= empty  ,
+["VOR1"] 		= empty  ,
+["VOR2"] 		= empty  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_530_RANGE_INC  ,
+["A ++"]		= RXP_530_RANGE_INC  ,
+["A -"]			= RXP_530_RANGE_DEC  ,
+["A --"]		= RXP_530_RANGE_DEC  ,
+["PRESS"] 		= KNOB_MODE_toggle  ,
+["B SHOW"]		= EFIS_MINIMUMS_show  ,
+["B +"]			= EFIS_MINIMUMS_inc  ,
+["B ++"]		= EFIS_MINIMUMS_inc  ,
+["B -"]			= EFIS_MINIMUMS_dec  ,
+["B --"]		= EFIS_MINIMUMS_dec  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= Altimeter_BARO_show  ,
+["A +"]			= Altimeter_BARO_plus  ,
+["A ++"]		= Altimeter_BARO_plusfast  ,
+["A -"]			= Altimeter_BARO_minus  ,
+["A --"]		= Altimeter_BARO_minusfast  ,
+["PRESS"] 		= Altimeter_BARO_MODE_toggle  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_530_LKNOBO_R  ,
+["A ++"]		= RXP_530_LKNOBO_R  ,
+["A -"]			= RXP_530_LKNOBO_L  ,
+["A --"]		= RXP_530_LKNOBO_L  ,
+["PRESS"] 		= KNOB_MODE_toggle  ,
+["B SHOW"]		= empty  ,
+["B +"]			= RXP_530_LKNOBI_R  ,
+["B ++"]		= RXP_530_LKNOBI_R  ,
+["B -"]			= RXP_530_LKNOBI_L  ,
+["B --"]		= RXP_530_LKNOBI_L  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_530_RKNOBO_R  ,
+["A ++"]		= RXP_530_RKNOBO_R  ,
+["A -"]			= RXP_530_RKNOBO_L  ,
+["A --"]		= RXP_530_RKNOBO_L  ,
+["PRESS"] 		= KNOB_MODE_toggle  ,
+["B SHOW"]		= empty  ,
+["B +"]			= RXP_530_RKNOBI_R  ,
+["B ++"]		= RXP_530_RKNOBI_R  ,
+["B -"]			= RXP_530_RKNOBI_L  ,
+["B --"]		= RXP_530_RKNOBI_L  ,
+}
+
+

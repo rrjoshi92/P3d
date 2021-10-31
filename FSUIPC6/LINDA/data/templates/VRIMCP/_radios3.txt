@@ -1,0 +1,55 @@
+﻿-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- RADIOS block buttons and switches
+RADIOS{MODE} = {
+["COM ."]	= Default_COM_select  ,
+["NAV ."]	= Default_NAV_select  ,
+["ADF ."]	= Default_ADF_select  ,
+["DME ."]	= Default_DME_select  ,
+["TRAN."]	= Default_XPND_select  ,
+["TFR ."]	= Default_RADIOS_swap  ,
+["STBY."]	= Default_RADIOS_mode  ,
+
+["COM1 Select"] = {COMsel1}  ,
+["COM2 Select"] = {COMsel2}  ,
+["COM1 Swap"]   = {COMswp1}  ,
+["COM2 Swap"]   = {COMswp2}  ,
+["COMs Mode"]   = Radios_COM_AUDIO_toggle  ,
+
+["NAV1 Select"] = {NAVsel1}  ,
+["NAV2 Select"] = {NAVsel2}  ,
+["NAV1 Swap"]   = {NAVswp1}  ,
+["NAV2 Swap"]   = {NAVswp2}  ,
+["NAVs Mode"]   = Radios_NAV_AUDIO_toggle  ,
+
+["ADF1 Select"] = {ADFsel1}  ,
+["ADF2 Select"] = {ADFsel2}  ,
+["ADFs Mode"]   = Radios_ADF_AUDIO_toggle  ,
+
+["DME1 Select"] = {DMEsel1}  ,
+["DME2 Select"] = {DMEsel2}  ,
+["DMEs Mode"]   = Radios_DME_AUDIO_toggle  ,
+
+["XPND Select"] = {XPNDsel1}  ,
+["XPND Swap"]   = {XPNDsel2}  ,
+["XPND Mode"]   = Transponder_MODE_toggle  ,
+}
+
+DME1 = {
+["A  +"]   	= {DME A +}  ,
+["A ++"]   	= {DME A ++}  ,
+["A  -"]   	= {DME A -}  ,
+["A --"]   	= {DME A --}  ,
+["PRESS"]  	= {DME PRESS}  ,
+}
+
+FRE1 = {
+["A  +"]   	= Default_RADIOS_plus  ,
+["A ++"]   	= Default_RADIOS_plusfast  ,
+["A  -"]   	= Default_RADIOS_minus  ,
+["A --"]   	= Default_RADIOS_minusfast  ,
+["PRESS"]  	= Default_RADIOS_press  ,
+}
+

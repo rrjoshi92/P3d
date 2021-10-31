@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS{MODE} = {
+["ENABLED"]		= {ENABLED}  ,
+["IDENT"]		= "{IDENT}"  ,
+["FPV"] 		= {FPV}  ,
+["MTR"] 		= {MTR}  ,
+["WX"] 			= {WX}  ,
+["STA"] 		= {STA}  ,
+["WPT"] 		= {WPT}  ,
+["ARPT"] 		= {ARPT}  ,
+["DATA"] 		= {DATA}  ,
+["POS"] 		= {POS}  ,
+["TERR"] 		= {TERR}  ,
+["ADF1"] 		= {ADF1}  ,
+["ADF2"] 		= {ADF2}  ,
+["VOR1"] 		= {VOR1}  ,
+["VOR2"] 		= {VOR2}  ,
+}
+
+
+-- EFIS MINS knob
+MINS{MODE} = {
+["A SHOW"]		= {MINS A SHOW}  ,
+["A +"]			= {MINS A +}  ,
+["A ++"]		= {MINS A ++}  ,
+["A -"]			= {MINS A -}  ,
+["A --"]		= {MINS A --}  ,
+["PRESS"] 		= {MINS PRESS}  ,
+["B SHOW"]		= {MINS B SHOW}  ,
+["B +"]			= {MINS B +}  ,
+["B ++"]		= {MINS B ++}  ,
+["B -"]			= {MINS B -}  ,
+["B --"]		= {MINS B --}  ,
+}
+
+
+-- EFIS BARO knob
+BARO{MODE} = {
+["A SHOW"]		= {BARO A SHOW}  ,
+["A +"]			= {BARO A +}  ,
+["A ++"]		= {BARO A ++}  ,
+["A -"]			= {BARO A -}  ,
+["A --"]		= {BARO A --}  ,
+["PRESS"] 		= {BARO PRESS}  ,
+["B SHOW"]		= {BARO B SHOW}  ,
+["B +"]			= {BARO B +}  ,
+["B ++"]		= {BARO B ++}  ,
+["B -"]			= {BARO B -}  ,
+["B --"]		= {BARO B --}  ,
+}
+
+
+-- EFIS CTR knob
+CTR{MODE} = {
+["A SHOW"]		= {CTR A SHOW}  ,
+["A +"]			= {CTR A +}  ,
+["A ++"]		= {CTR A ++}  ,
+["A -"]			= {CTR A -}  ,
+["A --"]		= {CTR A --}  ,
+["PRESS"] 		= {CTR PRESS}  ,
+["B SHOW"]		= {CTR B SHOW}  ,
+["B +"]			= {CTR B +}  ,
+["B ++"]		= {CTR B ++}  ,
+["B -"]			= {CTR B -}  ,
+["B --"]		= {CTR B --}  ,
+}
+
+
+-- EFIS TFC knob
+TFC{MODE} = {
+["A SHOW"]		= {TFC A SHOW}  ,
+["A +"]			= {TFC A +}  ,
+["A ++"]		= {TFC A ++}  ,
+["A -"]			= {TFC A -}  ,
+["A --"]		= {TFC A --}  ,
+["PRESS"] 		= {TFC PRESS}  ,
+["B SHOW"]		= {TFC B SHOW}  ,
+["B +"]			= {TFC B +}  ,
+["B ++"]		= {TFC B ++}  ,
+["B -"]			= {TFC B -}  ,
+["B --"]		= {TFC B --}  ,
+}
+
+

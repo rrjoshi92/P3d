@@ -1,0 +1,112 @@
+FSUIPC6 Installer v1.2.3 for v6.0.9
+Running in folder 'C:\Users\Ravi\AppData\Local\Temp\Rar$EXa14444.44456'
+Determining installation details...
+FSUIPC5 SetupPath: 
+HKCU entry: C:\Prepar3D v5\
+Returning Modules location: C:\Prepar3D v5\Modules
+P3Dv4: P3Dv4Installed=1, InstallType=P3DModulesFolder, OriginalInstallDir=C:\Prepar3D v5\Modules, FSUIPCInstalledv4=1,
+       DLLFile=, XmlAddonFile=, InstallDocumentsLocation=C:\Users\Ravi\Documents\FSUIPC6
+P3Dv5: P3Dv5Installed=1, InstallType=AddOn, OriginalInstallDir=C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6, FSUIPCInstalledv5=1, 
+       DLLFile=, XmlAddonFile=, InstallDocumentsLocation=C:\Users\Ravi\Documents\FSUIPC6
+FSUIPC installed in P3Dv5 will be removed.
+UninstallString found for P3Dv5: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\uninstallFSUIPC6.exe
+Uninstaller for P3Dv5 not found at uninstall location.
+Deleting FSUIPC documentation installed in C:\Users\Ravi\Documents\FSUIPC6
+Deleted folder C:\Users\Ravi\Documents\FSUIPC6
+Deleting xml add-on file C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\add-on.xml
+Deleting xml add-on directory C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6
+Uninitiall for P3Dv5 completed.
+Default installation directory is now 'C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6'
+Installing via add-on xml method
+Documents folder location for P3Dv5 add-on: C:\Users\Ravi\Documents
+Creating add-on directory C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6...
+Create folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6
+Creating add-on xml file C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\add-on.xml...
+Saving add-on xml...
+Add-on xml created for P3Dv5.
+Output folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6
+Extract: FSUIPC6.dll... 100%
+Installing DLL with InstallType=AddOn
+FSUIPC6 dll file installed in C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6.
+XML-add-on installation was selected - no DLL.xml update needed.
+FSUIPC6.dll installation completed.
+Installing User Manuals...
+Create folder: C:\Users\Ravi\Documents\FSUIPC6
+Documents directory created: C:\Users\Ravi\Documents\FSUIPC6
+Output folder: C:\Users\Ravi\Documents\FSUIPC6
+Extract: Installing and Registering FSUIPC.pdf... 100%
+Extract: FSUIPC for Advanced Users.pdf... 100%
+Extract: FSUIPC History.pdf... 100%
+Extract: FSUIPC Offsets Status.pdf... 100%
+Extract: FSUIPC User Guide.pdf... 100%
+Extract: Profiles in Separate Files.pdf... 100%
+Output folder: C:\Users\Ravi\AppData\Local\Temp\Rar$EXa14444.44456
+FSUIPC6 User Manuals installed in C:\Users\Ravi\Documents\FSUIPC6.
+Installing Lua Documentation...
+Output folder: C:\Users\Ravi\Documents\FSUIPC6
+Extract: FSUIPC Lua Library.pdf... 100%
+Extract: FSUIPC Lua Plug-Ins.pdf... 100%
+Extract: Lua License.pdf... 100%
+Extract: Lua Plugins for VRInsight Devices.pdf... 100%
+Extract: LuaFileSystem.pdf... 100%
+Extract: Example LUA plugins.zip... 100%
+Output folder: C:\Users\Ravi\AppData\Local\Temp\Rar$EXa14444.44456
+FSUIPC6 Lua Documents installed in C:\Users\Ravi\Documents\FSUIPC6.
+Installing PMDG Offset Mappings documentation...
+Output folder: C:\Users\Ravi\Documents\FSUIPC6
+Extract: Offset Mapping for PMDG 737NGX and 737NGXu.pdf... 100%
+Extract: Offset Mapping for PMDG 747QOTSII.pdf... 100%
+Extract: Offset Mapping for PMDG 777X.pdf... 100%
+Output folder: C:\Users\Ravi\AppData\Local\Temp\Rar$EXa14444.44456
+PMDG Offset Mapping documents installed in C:\Users\Ravi\Documents\FSUIPC6.
+Installing ASN WX Radar Facilities documentation...
+Output folder: C:\Users\Ravi\Documents\FSUIPC6
+Extract: ASN WX Radar facilities in FSUIPC.pdf... 100%
+Output folder: C:\Users\Ravi\AppData\Local\Temp\Rar$EXa14444.44456
+ASN WX Radar facilities documentation installed in C:\Users\Ravi\Documents\FSUIPC6.
+Installing SDK...
+Create folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\SDK
+SDK folder created: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\SDK
+Output folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\SDK
+Extract: FSUIPC feedback control.txt... 100%
+Extract: FSUIPC for Programmers.pdf... 100%
+Extract: FSUIPC.FSI... 100%
+Extract: FSUIPC_User_Lib_for_VC_2010.zip
+Extract: FSUIPCDotNetClient2.4.zip... 100%
+Extract: Library for FS Internal Users.zip... 100%
+Extract: Module_User_lib_for_VC_2010.zip... 100%
+Extract: ModuleUser64.zip... 100%
+Extract: New Weather Interface for FS2004.zip... 100%
+Extract: NewWeather.h... 100%
+Extract: ReadMe.txt... 100%
+Extract: UIPC_RealBasic_SDK.zip... 100%
+Extract: UIPC_SDK_ASM.zip... 100%
+Extract: UIPC_SDK_BCB5.zip... 100%
+Extract: UIPC_SDK_C.zip... 100%
+Extract: UIPC_SDK_.NET_(C#,VB.NET).txt... 100%
+Extract: UIPC_SDK_Delphi.zip... 100%
+Extract: UIPC_SDK_JAVA.zip... 100%
+Extract: UIPC_SDK_JAVA_64bit.zip... 100%
+Extract: UIPC_SDK_MFC.zip... 100%
+Extract: UIPC_SDK_Python.zip... 100%
+Extract: UIPC_SDK_VisualBasic.zip... 100%
+Extract: UIPC64_SDK_C_version2.zip... 100%
+Extract: UIPCAWI.zip... 100%
+Installation of SDK completed.
+Installing HidScanner...
+Create folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Utilities folder created: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Output folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Extract: HidScanner.exe... 100%
+HidScanner installed in C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Installing FS-Interrogate 2...
+Output folder: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Extract: FSInterrogate2std.exe... 100%
+FS-Interrogate 2 installed in C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\Utils
+Output folder: C:\Users\Ravi\Documents\FSUIPC6
+Extract: FSI2 Manual.pdf... 100%
+FS-Interrogate 2 User'Manual installed in C:\Users\Ravi\Documents\FSUIPC6
+Installation of FS-Interrogate 2 completed.
+Installation completed. Generating uninstaller...
+Created uninstaller: C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\uninstallFSUIPC6.exe
+Updating registry for v5 installation...

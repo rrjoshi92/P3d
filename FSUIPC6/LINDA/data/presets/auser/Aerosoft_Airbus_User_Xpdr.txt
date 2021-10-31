@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Aerosoft Airbus Transponder
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "XPDR"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = "Keys:_1"  ,
+["BTN5."]   = "Keys:_Shift+P"  ,
+["BTN6."]   = "Keys:_2"  ,
+["BTN7."]   = AB_Alarms_BOTH_off  ,
+["BTN8."]   = AB_XPDR_Ident  ,
+["USR1."]   = AB_XPDR_dec  ,
+["USR2."]   = AB_XPDR_inc  ,
+["USR3."]   = AB_PDS_XPNDR_blw  ,
+["USR4."]   = AB_PDS_XPNDR_nor  ,
+["USR5."]   = AB_PDS_XPNDR_abv  ,
+["USR6."]   = AB_MCDU_KEYB_toggle  ,
+["USR7."]   = AB_Lights_PANEL_toggle  ,
+["USR8."]   = DspMode_Toggle  ,
+["LAMP."]   = AB_Lights_PANEL_toggle  ,
+}
+

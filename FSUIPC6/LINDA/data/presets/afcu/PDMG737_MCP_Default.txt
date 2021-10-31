@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## PDMG 737 MCP Default
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "Main"  ,
+["MACH."]   	= NGX_AP_N1  ,
+["LOC ."]   	= NGX_AP_VORLOC  ,
+["TRK ."]   	= empty  ,
+["AP1 ."]   	= NGX_AP_VNAV  ,
+["AP2 ."]   	= NGX_AP_LNAV  ,
+["ATHR."]   	= NGX_AP_ATHR_toggle  ,
+["EXPD."]   	= NGX_AP_ALT_INTV  ,
+["MTR ."]   	= empty  ,
+["APPR."]   	= NGX_AP_APP  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]  	= NGX_AP_SPD_show  ,
+["A  +"]    	= NGX_AP_SPD_inc  ,
+["A ++"]    	= NGX_AP_SPD_incfast  ,
+["A  -"]    	= NGX_AP_SPD_dec  ,
+["A --"]    	= NGX_AP_SPD_decfast  ,
+["PRESS"]   	= NGX_AP_SPEED  ,
+["PULL"]    	= NGX_AP_SPD_INTV  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]  	= NGX_AP_HDG_show  ,
+["A  +"]    	= NGX_AP_HDG_inc  ,
+["A ++"]    	= NGX_AP_HDG_incfast  ,
+["A  -"]    	= NGX_AP_HDG_dec  ,
+["A --"]    	= NGX_AP_HDG_decfast  ,
+["PRESS"]   	= NGX_AP_HDGSEL  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]  	= NGX_AP_ALT_show  ,
+["A  +"]    	= NGX_AP_ALT_inc  ,
+["A ++"]    	= NGX_AP_ALT_incfast  ,
+["A  -"]    	= NGX_AP_ALT_dec  ,
+["A --"]    	= NGX_AP_ALT_decfast  ,
+["PRESS"]   	= NGX_AP_ALTHLD  ,
+["PULL"]    	= NGX_AP_LVLCHG  ,
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]  	= NGX_AP_VS_show  ,
+["A  +"]    	= NGX_AP_VS_inc  ,
+["A ++"]    	= NGX_AP_VS_inc  ,
+["A  -"]    	= NGX_AP_VS_dec  ,
+["A --"]    	= NGX_AP_VS_dec  ,
+["PRESS"]   	= NGX_AP_VS  ,
+["PULL"]    	= empty  ,
+}
+
+

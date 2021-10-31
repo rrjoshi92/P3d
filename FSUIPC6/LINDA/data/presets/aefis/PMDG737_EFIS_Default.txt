@@ -1,0 +1,72 @@
+-- ############################################### --
+-- ## PMDG 737 EFIS Default
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "EFIS"  ,
+["InHg."]   = NGX_EFIS_BARO_MODE_inHg  ,
+["hPa ."]   = NGX_EFIS_BARO_MODE_hpa  ,
+["FD  ."]   = NGX_AP_FD_both_toggle  ,
+["ILS ."]   = DspMode_Toggle  ,
+["CSTR."]   = NGX_EFIS_STA  ,
+["WPT ."]   = NGX_EFIS_WPT  ,
+["VORD."]   = NGX_EFIS_ARPT  ,
+["NDB ."]   = NGX_EFIS_DATA  ,
+["ARPT."]   = NGX_EFIS_POS  ,
+["ADF1:"]   = NGX_EFIS_NAV1_off  ,
+["ADF1."]   = NGX_EFIS_NAV1_adf  ,
+["VOR1:"]   = NGX_EFIS_NAV1_off  ,
+["VOR1."]   = NGX_EFIS_NAV1_vor  ,
+["ADF2:"]   = NGX_EFIS_NAV2_off  ,
+["ADF2."]   = NGX_EFIS_NAV2_adf  ,
+["VOR2:"]   = NGX_EFIS_NAV2_off  ,
+["VOR2."]   = NGX_EFIS_NAV2_vor  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = empty  ,
+["A  +"]    = NGX_EFIS_BARO_inc  ,
+["A ++"]    = NGX_EFIS_BARO_inc  ,
+["A  -"]    = NGX_EFIS_BARO_dec  ,
+["A --"]    = NGX_EFIS_BARO_dec  ,
+["PRESS"]   = NGX_EFIS_BARO_STD_toggle  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = NGX_EFIS_ND_MODE_show  ,
+["A  +"]    = NGX_EFIS_ND_MODE_inc  ,
+["A ++"]    = NGX_EFIS_ND_MODE_inc  ,
+["A  -"]    = NGX_EFIS_ND_MODE_dec  ,
+["A --"]    = NGX_EFIS_ND_MODE_dec  ,
+["PRESS"]   = NGX_EFIS_ND_MODE_CTR  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = NGX_EFIS_ND_MODE_show  ,
+["A  +"]    = NGX_EFIS_ND_RNG_inc  ,
+["A ++"]    = NGX_EFIS_ND_RNG_inc  ,
+["A  -"]    = NGX_EFIS_ND_RNG_dec  ,
+["A --"]    = NGX_EFIS_FO_ND_RNG_dec  ,
+["PRESS"]   = NGX_EFIS_ND_RNG_TFC  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+

@@ -1,0 +1,57 @@
+-- ############################################### --
+-- ## Aerosoft Airbus EFIS ECAM
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "ECAM"  ,
+["InHg."]   = AB_DOORS_Back_left_toggle  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = AB_DOORS_Front_left_toggle  ,
+["ILS ."]   = AB_DOORS_Cargo_toggle  ,
+["CSTR."]   = AB_ECAM_NONE  ,
+["WPT ."]   = AB_ECAM_DOOR  ,
+["VORD."]   = AB_ECAM_CLR  ,
+["NDB ."]   = AB_ECAM_RCL  ,
+["ARPT."]   = AB_ECAM_TO_CONFIG  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = empty  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = empty  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = AB_ECAM_modes_show  ,
+["A  +"]    = AB_ECAM_MODE_next  ,
+["A ++"]    = AB_ECAM_MODE_next  ,
+["A  -"]    = AB_ECAM_MODE_prev  ,
+["A --"]    = AB_ECAM_MODE_prev  ,
+["PRESS"]   = AB_ECAM_NONE  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = AB_ECAMU_Pwr_show  ,
+["A  +"]    = AB_ECAMU_Pwr_inc  ,
+["A ++"]    = AB_ECAMU_Pwr_inc  ,
+["A  -"]    = AB_ECAMU_Pwr_dec  ,
+["A --"]    = AB_ECAMU_Pwr_dec  ,
+["PRESS"]   = AB_ECAMU_Pwr_toggle  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = AB_ECAML_Pwr_show  ,
+["A  +"]    = AB_ECAML_Pwr_inc  ,
+["A ++"]    = AB_ECAML_Pwr_inc  ,
+["A  -"]    = AB_ECAML_Pwr_dec  ,
+["A --"]    = AB_ECAML_Pwr_dec  ,
+["PRESS"]   = AB_ECAML_Pwr_toggle  ,
+}
+

@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## Default settings
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "Lght"  ,
+["0"] 		= Lights_PANEL_toggle  ,
+["1"] 		= Lights_LANDING_toggle  ,
+["2"] 		= Lights_NAV_toggle  ,
+["3"] 		= Lights_STROBE_toggle  ,
+["4"] 		= Lights_BEACON_toggle  ,
+["5"] 		= EFIS_MODE_toggle  ,
+["6"] 		= MCP_MODE_toggle  ,
+["7"] 		= USER_MODE_toggle  ,
+}
+

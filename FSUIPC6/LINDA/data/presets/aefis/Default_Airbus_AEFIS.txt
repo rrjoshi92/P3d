@@ -1,0 +1,72 @@
+-- ############################################### --
+-- ## Default Airbus X AEFIS
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Std"  ,
+["InHg."]   = BARO_Unit_inHg  ,
+["hPa ."]   = BARO_Unit_hPa  ,
+["FD  ."]   = Autopilot_FD_toggle  ,
+["ILS ."]   = Autopilot_LS_toggle  ,
+["CSTR."]   = ND_CSTR_on  ,
+["WPT ."]   = ND_WPT_on  ,
+["VORD."]   = ND_VOR_on  ,
+["NDB ."]   = ND_NDB_on  ,
+["ARPT."]   = ND_ARPT_on  ,
+["ADF1:"]   = ND_ARROW1_off  ,
+["ADF1."]   = ND_ARROW1_adf  ,
+["VOR1:"]   = ND_ARROW1_off  ,
+["VOR1."]   = ND_ARROW1_vor  ,
+["ADF2:"]   = ND_ARROW2_off  ,
+["ADF2."]   = ND_ARROW2_adf  ,
+["VOR2:"]   = ND_ARROW2_off  ,
+["VOR2."]   = ND_ARROW2_vor  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = empty  ,
+["A  +"]    = AB_BARO_inc  ,
+["A ++"]    = AB_BARO_inc  ,
+["A  -"]    = AB_BARO_dec  ,
+["A --"]    = AB_BARO_dec  ,
+["PRESS"]   = Baro_MODE_toggle  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = ND_MODE_show  ,
+["A  +"]    = ND_MODE_inc  ,
+["A ++"]    = ND_MODE_inc  ,
+["A  -"]    = ND_MODE_dec  ,
+["A --"]    = ND_MODE_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = ND_RANGE_show  ,
+["A  +"]    = ND_RANGE_inc  ,
+["A ++"]    = ND_RANGE_inc  ,
+["A  -"]    = ND_RANGE_dec  ,
+["A --"]    = ND_RANGE_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+

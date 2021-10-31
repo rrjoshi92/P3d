@@ -1,0 +1,26 @@
+-- ############################################### --
+-- ## PDMG 737 Ground
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "DOOR"  ,
+["BTN1."]   = NGX_CDU2_Fuel  ,
+["BTN2."]   = NGX_CDU2_Payload  ,
+["BTN3."]   = NGX_CDU2_GroundConn  ,
+["BTN4."]   = NGX_CDU2_Wheel_Chocks  ,
+["BTN5."]   = NGX_CDU2_PitotCovers  ,
+["BTN6."]   = NGX_CDU2_GroundPower  ,
+["BTN7."]   = NGX_CDU2_Doors  ,
+["BTN8."]   = NGX_CDU2_Pushback  ,
+["USR1."]   = NGX_CDU2_MainDoors_right  ,
+["USR2."]   = NGX_CDU2_MainDoors_right  ,
+["USR3."]   = NGX_CDU2_Cargo_Doors  ,
+["USR4."]   = NGX_CDU2_GPU_and_AC_and_AirStart_on  ,
+["USR5."]   = NGX_CDU2_GPU_and_AC_and_AirStart_off  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_USER_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+}
+

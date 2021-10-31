@@ -1,0 +1,63 @@
+-- ############################################### --
+-- ## EMPTY
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"]		= true  ,
+["IDENT"] 		= "FCU1"  ,
+["MACH."] 		= empty  ,
+["LOC ."] 		= empty  ,
+["TRK ."] 		= empty  ,
+["AP1 ."] 		= empty  ,
+["AP2 ."] 		= empty  ,
+["ATHR."] 		= empty  ,
+["EXPD."] 		= empty  ,
+["MTR ."] 		= empty  ,
+["APPR."] 		= empty  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["PULL"]        	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["PULL"]        	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["PULL"]        	= empty  ,  
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["PULL"]        	= empty  ,
+}
+

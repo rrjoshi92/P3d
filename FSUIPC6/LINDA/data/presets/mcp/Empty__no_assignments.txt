@@ -1,0 +1,90 @@
+-- ############################################### --
+-- ## Empty (no assignments)
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "empty"  ,
+["TOGA"] 		= empty  ,
+["TOGN"] 		= empty  ,
+["N1"] 			= empty  ,
+["SPD"] 		= empty  ,
+["FLCH"] 		= empty  ,
+["HDGSEL"] 		= empty  ,
+["HDGHLD"] 		= empty  ,
+["ALTHLD"] 		= empty  ,
+["V/S FPA"] 	= empty  ,
+["APP"] 		= empty  ,
+["VNAV"] 		= empty  ,
+["LNAV"] 		= empty  ,
+["CMDA"] 		= empty  ,
+["CMDB"] 		= empty  ,
+["CMDC"] 		= empty  ,
+["LOC"] 		= empty  ,
+["CWSA"] 		= empty  ,
+["CWSB"] 		= empty  ,
+["A/T UP"] 		= empty  ,
+["A/T DN"] 		= empty  ,
+["F/D UP"] 		= empty  ,
+["F/D DN"] 		= empty  ,
+["MASTER UP"] 	= empty  ,
+["MASTER DN"] 	= empty  ,
+}
+
+
+-- MCP CRS knob
+CRS = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+}
+
+
+-- MCP SPD knob
+SPD = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+}
+
+
+-- MCP HDG knob
+HDG = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+}
+
+
+-- MCP ALT knob
+ALT = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+}
+
+
+-- MCP VVS knob
+VVS = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+}
+
+

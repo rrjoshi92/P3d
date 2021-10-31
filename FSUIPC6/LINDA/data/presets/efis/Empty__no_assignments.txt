@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## Empty (no assignments)
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= ""  ,
+["FPV"] 		= empty  ,
+["MTR"] 		= empty  ,
+["WX"] 			= empty  ,
+["STA"] 		= empty  ,
+["WPT"] 		= empty  ,
+["ARPT"] 		= empty  ,
+["DATA"] 		= empty  ,
+["POS"] 		= empty  ,
+["TERR"] 		= empty  ,
+["ADF1"] 		= empty  ,
+["ADF2"] 		= empty  ,
+["VOR1"] 		= empty  ,
+["VOR2"] 		= empty  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A +"]			= empty  ,
+["A ++"]		= empty  ,
+["A -"]			= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+

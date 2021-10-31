@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## Doors
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "DOOR"  ,
+["BTN1."] 	= DOOR_1_toggle  ,
+["BTN2."] 	= DOOR_2_toggle  ,
+["BTN3."] 	= DOOR_3_toggle  ,
+["BTN4."] 	= DOOR_4_toggle  ,
+["BTN5."] 	= empty  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+}
+

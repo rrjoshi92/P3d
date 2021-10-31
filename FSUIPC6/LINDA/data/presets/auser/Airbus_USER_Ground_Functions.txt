@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Airbus Ground Functions
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Grnd"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = Engine1_MASTER_toggle  ,
+["BTN5."]   = Ignition_toggle  ,
+["BTN6."]   = Engine2_MASTER_toggle  ,
+["BTN7."]   = Alarms_BOTH_off  ,
+["BTN8."]   = VATSIM_SetStandard  ,
+["USR1."]   = WheelChocks_toggle  ,
+["USR2."]   = TrafficCones_toggle  ,
+["USR3."]   = ExternalPowerGPU_toggle  ,
+["USR4."]   = EXT_PWR_toggle  ,
+["USR5."]   = APU_MASTER_toggle  ,
+["USR6."]   = APU_START_toggle  ,
+["USR7."]   = APU_BLEED_toggle  ,
+["USR8."]   = APU_GEN_toggle  ,
+["LAMP."]   = AB_Lights_PANEL_toggle  ,
+}
+

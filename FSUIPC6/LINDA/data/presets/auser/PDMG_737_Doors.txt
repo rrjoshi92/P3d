@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## PDMG 737 Doors
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "DOOR"  ,
+["BTN1."]   = empty  ,
+["BTN2."]   = empty  ,
+["BTN3."]   = empty  ,
+["BTN4."]   = empty  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = empty  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = DOOR_1_toggle  ,
+["USR2."]   = DOOR_2_toggle  ,
+["USR3."]   = DOOR_3_toggle  ,
+["USR4."]   = DOOR_4_toggle  ,
+["USR5."]   = empty  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_USER_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = Lights_PANEL_toggle  ,
+}
+

@@ -1,0 +1,11 @@
+3C00:ST:255:Air file path
+2B00:DB:DEC::GPS heading (with drift)
+0D0C:UW:BIN::Lights bits
+66C0:UB:DEC:*1/1:LINDA reload configs
+66C1:ST:50:LINDA commands pipe
+08B2:UD:DEC:*1/1:Carb Heat
+094A:UD:DEC:*1/1:Carb Heat 2
+057C:UD:DEC:/360*65536/65536:Bank
+30C0:DB:DEC:*1/1:Total weight
+3BFC:UW:DEC:/256:Total weight
+0894:UW:BIN::Engine Start Switch

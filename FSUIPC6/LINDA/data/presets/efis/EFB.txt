@@ -1,0 +1,89 @@
+-- ############################################### --
+-- ## EFB
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "EFB"  ,
+["FPV ."] 		= EFB_ON_SCREEN_MENU_hide  ,
+["MTR ."] 		= empty  ,
+["WX  ."] 		= empty  ,
+["STA ."] 		= EFB_ON_SCREEN_MENU_show  ,
+["WPT ."] 		= empty  ,
+["ARPT."] 		= EFB_DISPLAY_UNIT_tofront  ,
+["DATA."] 		= EFB_DISPLAY_UNIT_toggle  ,
+["POS ."] 		= EFB_MOVING_MAP_toggle  ,
+["TERR."] 		= EFB_COLOR_MODE_toggle  ,
+["VORL:"] 		= EFB_DISPLAY_UNIT_toback  ,
+["VORR:"] 		= EFB_DISPLAY_UNIT_toback  ,
+["VORL."] 		= EFB_DISPLAY_UNIT_tofront  ,
+["VORR."] 		= EFB_DISPLAY_UNIT_tofront  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A  +"]		= EFB_ZOOM_out  ,
+["A ++"]		= EFB_ZOOM_out  ,
+["A  -"]		= EFB_ZOOM_in  ,
+["A --"]		= EFB_ZOOM_in  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+

@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## Airbus MCP Default
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "Main"  ,
+["MACH."]   	= SPD_MACH_toggle  ,
+["LOC ."]   	= Autopilot_LOC_toggle  ,
+["TRK ."]   	= HDG_TRK_toggle  ,
+["AP1 ."]   	= Autopilot_AP1_toggle  ,
+["AP2 ."]   	= Autopilot_AP2_toggle  ,
+["ATHR."]   	= Autopilot_ATHR_toggle  ,
+["EXPD."]   	= Autopilot_EXPED_toggle  ,
+["MTR ."]   	= AB_ALT_Step_toggle  ,
+["APPR."]   	= Autopilot_APPR_toggle  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]  	= AB_SPD_show  ,
+["A  +"]    	= AB_SPD_plus  ,
+["A ++"]    	= AB_SPD_plusfast  ,
+["A  -"]    	= AB_SPD_minus  ,
+["A --"]    	= AB_SPD_minusfast  ,
+["PRESS"]   	= Autopilot_SPD_managed  ,
+["PULL"]    	= Autopilot_SPD_set  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]  	= AB_HDG_show  ,
+["A  +"]    	= AB_HDG_plus  ,
+["A ++"]    	= AB_HDG_plusfast  ,
+["A  -"]    	= AB_HDG_minus  ,
+["A --"]    	= AB_HDG_minusfast  ,
+["PRESS"]   	= Autopilot_HDG_managed  ,
+["PULL"]    	= Autopilot_HDG_set  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]  	= AB_ALT_show  ,
+["A  +"]    	= AB_ALT_plus  ,
+["A ++"]    	= AB_ALT_plusfast  ,
+["A  -"]    	= AB_ALT_minus  ,
+["A --"]    	= AB_ALT_minusfast  ,
+["PRESS"]   	= Autopilot_ALT_managed  ,
+["PULL"]    	= Autopilot_ALT_set  ,
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]  	= AB_VS_show  ,
+["A  +"]    	= AB_VS_plus  ,
+["A ++"]    	= AB_VS_plusfast  ,
+["A  -"]    	= AB_VS_minus  ,
+["A --"]    	= AB_VS_minusfast  ,
+["PRESS"]   	= Autopilot_VS_level  ,
+["PULL"]    	= Autopilot_VS_pull  ,
+}
+
+

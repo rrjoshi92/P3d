@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Aerosoft Airbus Lights
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Lght"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = AB_Autobrake_cycle  ,
+["BTN5."]   = AB_Brakefan_toggle  ,
+["BTN6."]   = AB_Antiskid_toggle  ,
+["BTN7."]   = AB_Alarms_BOTH_off  ,
+["BTN8."]   = AB_XPDR_Ident  ,
+["USR1."]   = AB_Lights_STROBE_toggle  ,
+["USR2."]   = AB_Lights_BEACON_toggle  ,
+["USR3."]   = AB_Lights_NAV_LOGO_toggle  ,
+["USR4."]   = AB_Lights_RUNWAY_toggle  ,
+["USR5."]   = AB_Lights_LANDING_toggle  ,
+["USR6."]   = AB_Lights_TAXI_toggle  ,
+["USR7."]   = AB_Sign_CABINCREW_toggle  ,
+["USR8."]   = AB_Lights_DOME_toggle  ,
+["LAMP."]   = AB_Lights_PANEL_toggle  ,
+}
+

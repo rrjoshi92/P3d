@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## DOORS
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "DOOR"  ,
+["FPV ."] 		= empty  ,
+["MTR ."] 		= empty  ,
+["WX  ."] 		= DOOR_1_toggle  ,
+["STA ."] 		= DOOR_2_toggle  ,
+["WPT ."] 		= DOOR_3_toggle  ,
+["ARPT."] 		= DOOR_4_toggle  ,
+["DATA."] 		= empty  ,
+["POS ."] 		= empty  ,
+["TERR."] 		= empty  ,
+["VORL:"] 		= empty  ,
+["VORR:"] 		= empty  ,
+["VORL."] 		= empty  ,
+["VORR."] 		= empty  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+

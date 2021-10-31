@@ -1,0 +1,72 @@
+-- ############################################### --
+-- ## Airbus Weather Radar
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "WxR"  ,
+["InHg."]   = empty  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = ECAM_RCL  ,
+["ILS ."]   = ECAM_DOOR  ,
+["CSTR."]   = AB_Radios_toggle  ,
+["WPT ."]   = AB_WX_TERR_toggle  ,
+["VORD."]   = AB_WX_SYS_toggle  ,
+["NDB ."]   = AB_WX_MULTI_toggle  ,
+["ARPT."]   = AB_WX_GCS_toggle  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = empty  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = empty  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = ND_RadarPower_show  ,
+["A  +"]    = ND_RadarPower_inc  ,
+["A ++"]    = ND_RadarPower_inc  ,
+["A  -"]    = ND_RadarPower_dec  ,
+["A --"]    = ND_RadarPower_dec  ,
+["PRESS"]   = ND_RadarPower_on  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = AB_WX_GAIN_show  ,
+["A  +"]    = AB_WX_GAIN_inc  ,
+["A ++"]    = AB_WX_GAIN_inc  ,
+["A  -"]    = AB_WX_GAIN_dec  ,
+["A --"]    = AB_WX_GAIN_dec  ,
+["PRESS"]   = AB_WX_GAIN_cal  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = AB_WX_TILT_show  ,
+["A  +"]    = AB_WX_TILT_inc  ,
+["A ++"]    = AB_WX_TILT_inc  ,
+["A  -"]    = AB_WX_TILT_dec  ,
+["A --"]    = AB_WX_TILT_dec  ,
+["PRESS"]   = AB_WX_TILT_zero  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+

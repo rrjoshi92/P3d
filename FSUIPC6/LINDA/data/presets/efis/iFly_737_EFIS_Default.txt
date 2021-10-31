@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## iFly 737 EFIS Default
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "GPS"  ,
+["FPV ."] 		= iFly737_EFIS_Fpv  ,
+["MTR ."] 		= iFly737_EFIS_Mtrs  ,
+["WX  ."] 		= iFly737_EFIS_Wxr  ,
+["STA ."] 		= iFly737_EFIS_Sta  ,
+["WPT ."] 		= iFly737_EFIS_Wpt  ,
+["ARPT."] 		= iFly737_EFIS_Arpt  ,
+["DATA."] 		= iFly737_EFIS_Data  ,
+["POS ."] 		= iFly737_EFIS_Pos  ,
+["TERR."] 		= Do_nothing  ,
+["VORL:"] 		= iFly737_EFIS_Nav1Down  ,
+["VORR:"] 		= iFly737_EFIS_Nav2Down  ,
+["VORL."] 		= iFly737_EFIS_Nav1Up  ,
+["VORR."] 		= iFly737_EFIS_Nav2Up  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= GPS_PAGE_show  ,
+["A  +"]		= iFly737_EFIS_MinsInc  ,
+["A ++"]		= iFly737_EFIS_MinsInc  ,
+["A  -"]		= iFly737_EFIS_MinsDec  ,
+["A --"]		= iFly737_EFIS_MinsDec  ,
+["PRESS"] 		= iFly737_EFIS_MinsPush  ,
+["B SHOW"]		= EFIS_MINIMUMS_show  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= Altimeter_BARO_show  ,
+["A  +"]		= Altimeter_BARO_plus  ,
+["A ++"]		= Altimeter_BARO_plusfast  ,
+["A  -"]		= Altimeter_BARO_minus  ,
+["A --"]		= Altimeter_BARO_minusfast  ,
+["PRESS"] 		= iFly737_EFIS_BaroPush  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= iFly737_EFIS_CTRInc  ,
+["A ++"]		= iFly737_EFIS_CTRInc  ,
+["A  -"]		= iFly737_EFIS_CTRDec  ,
+["A --"]		= iFly737_EFIS_CTRDec  ,
+["PRESS"] 		= iFly737_EFIS_CTRPush  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A  +"]		= iFly737_EFIS_TFCInc  ,
+["A ++"]		= iFly737_EFIS_TFCInc  ,
+["A  -"]		= iFly737_EFIS_TFCDec  ,
+["A --"]		= iFly737_EFIS_TFCDec  ,
+["PRESS"] 		= iFly737_EFIS_TFCPush  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+

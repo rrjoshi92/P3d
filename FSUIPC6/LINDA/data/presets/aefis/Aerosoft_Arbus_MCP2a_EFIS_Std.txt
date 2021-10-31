@@ -1,0 +1,57 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2a EFIS Std
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Std"  ,
+["InHg."]   = AB_BARO_Unit_inHg  ,
+["hPa ."]   = AB_BARO_Unit_hPa  ,
+["FD  ."]   = AB_AP_FD_toggle  ,
+["ILS ."]   = AB_AP_LS_toggle  ,
+["CSTR."]   = AB_ND_CSTR_on  ,
+["WPT ."]   = AB_ND_WPT_on  ,
+["VORD."]   = AB_ND_VOR_on  ,
+["NDB ."]   = AB_ND_NDB_on  ,
+["ARPT."]   = AB_ND_ARPT_on  ,
+["ADF1:"]   = AB_ND_ARROW1_off  ,
+["ADF1."]   = AB_ND_ARROW1_adf  ,
+["VOR1:"]   = AB_ND_ARROW1_off  ,
+["VOR1."]   = AB_ND_ARROW1_vor  ,
+["ADF2:"]   = AB_ND_ARROW2_off  ,
+["ADF2."]   = AB_ND_ARROW2_adf  ,
+["VOR2:"]   = AB_ND_ARROW2_off  ,
+["VOR2."]   = AB_ND_ARROW2_vor  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = AB_BARO_show  ,
+["A  +"]    = AB_BARO_inc  ,
+["A ++"]    = AB_BARO_inc  ,
+["A  -"]    = AB_BARO_dec  ,
+["A --"]    = AB_BARO_dec  ,
+["PRESS"]   = AB_BARO_MODE_toggle  ,
+}
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = AB_ND_MODE_show  ,
+["A  +"]    = AB_ND_MODE_inc  ,
+["A ++"]    = AB_ND_MODE_inc  ,
+["A  -"]    = AB_ND_MODE_dec  ,
+["A --"]    = AB_ND_MODE_dec  ,
+["PRESS"]   = AB_ND_MODE_ARC  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = AB_ND_RANGE_show  ,
+["A  +"]    = AB_ND_RANGE_inc  ,
+["A ++"]    = AB_ND_RANGE_inc  ,
+["A  -"]    = AB_ND_RANGE_dec  ,
+["A --"]    = AB_ND_RANGE_dec  ,
+["PRESS"]   = AB_ND_RANGE_40  ,
+}
+

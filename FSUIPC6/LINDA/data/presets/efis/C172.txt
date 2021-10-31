@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## tmp-172
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "MAIN"  ,
+["FPV ."] 		= A172_Alternator_toggle  ,
+["MTR ."] 		= A172_Battery_toggle  ,
+["WX  ."] 		= A172_FuelPump_toggle  ,
+["STA ."] 		= A172_BeaconLight_toggle  ,
+["WPT ."] 		= A172_LandingLight_toggle  ,
+["ARPT."] 		= A172_TaxiLight_toggle  ,
+["DATA."] 		= A172_NavLight_toggle  ,
+["POS ."] 		= A172_StrobeLight_toggle  ,
+["TERR."] 		= A172_PitotHeat_toggle  ,
+["VORL:"] 		= A172_Magneto_dec  ,
+["VORR:"] 		= A172_Avionics_off  ,
+["VORL."] 		= A172_Magneto_inc  ,
+["VORR."] 		= A172_Avionics_on  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= A172_EGTref_show  ,
+["A  +"]		= A172_EGTref_inc  ,
+["A ++"]		= A172_EGTref_incfast  ,
+["A  -"]		= A172_EGTref_dec  ,
+["A --"]		= A172_EGTref_decfast  ,
+["PRESS"] 		= VRI_KNOB_MODE_toggle  ,
+["B SHOW"]		= Rudder_Trim_show  ,
+["B  +"]		= Aileron_Trim_right  ,
+["B ++"]		= empty  ,
+["B  -"]		= Aileron_Trim_left  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= Altimeter_BARO_show  ,
+["A  +"]		= Altimeter_BARO_plus  ,
+["A ++"]		= Altimeter_BARO_plusfast  ,
+["A  -"]		= Altimeter_BARO_minus  ,
+["A --"]		= Altimeter_BARO_minusfast  ,
+["PRESS"] 		= Altimeter_BARO_MODE_toggle  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= A172_InstrLight_show  ,
+["A  +"]		= A172_InstrLight_plus  ,
+["A ++"]		= A172_InstrLight_plusfast  ,
+["A  -"]		= A172_InstrLight_minus  ,
+["A --"]		= A172_InstrLight_minusfast  ,
+["PRESS"] 		= VRI_KNOB_MODE_toggle  ,
+["B SHOW"]		= A172_PanelsLight_show  ,
+["B  +"]		= A172_PanelsLight_plus  ,
+["B ++"]		= A172_PanelsLight_plusfast  ,
+["B  -"]		= A172_PanelsLight_minus  ,
+["B --"]		= A172_PanelsLight_minusfast  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= A172_CabinHeat_show  ,
+["A  +"]		= A172_CabinHeat_inc  ,
+["A ++"]		= A172_CabinHeat_incfast  ,
+["A  -"]		= A172_CabinHeat_dec  ,
+["A --"]		= A172_CabinHeat_decfast  ,
+["PRESS"] 		= VRI_KNOB_MODE_toggle  ,
+["B SHOW"]		= A172_CabinVent_show  ,
+["B  +"]		= A172_CabinVent_inc  ,
+["B ++"]		= A172_CabinVent_incfast  ,
+["B  -"]		= A172_CabinVent_dec  ,
+["B --"]		= A172_CabinVent_decfast  ,
+}
+
+

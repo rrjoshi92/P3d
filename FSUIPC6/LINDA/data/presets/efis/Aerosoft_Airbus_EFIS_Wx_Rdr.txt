@@ -1,0 +1,68 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2 EFIS Wx Rdr
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "EFB"  ,
+["FPV ."] 		= empty  ,
+["MTR ."] 		= empty  ,
+["WX  ."] 		= AB_WX_SYS_toggle  ,
+["STA ."] 		= AB_WX_GAIN_show  ,
+["WPT ."] 		= AB_WX_GCS_toggle  ,
+["ARPT."] 		= AB_WX_MULTI_toggle  ,
+["DATA."] 		= empty  ,
+["POS ."] 		= empty  ,
+["TERR."] 		= AB_WX_TERR_toggle  ,
+["VORL:"] 		= empty  ,
+["VORR:"] 		= empty  ,
+["VORL."] 		= empty  ,
+["VORR."] 		= empty  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= AB_Pwr_AllDisp_inc  ,
+["A ++"]		= AB_Pwr_AllDisp_inc  ,
+["A  -"]		= AB_Pwr_AllDisp_dec  ,
+["A --"]		= AB_Pwr_AllDisp_dec  ,
+["PRESS"] 		= AB_All_Avionics_on  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= AB_BARO_show  ,
+["A  +"]		= AB_BARO_inc  ,
+["A ++"]		= AB_BARO_inc  ,
+["A  -"]		= AB_BARO_dec  ,
+["A --"]		= AB_BARO_dec  ,
+["PRESS"] 		= AB_BARO_MODE_toggle  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= AB_WX_GAIN_show  ,
+["A  +"]		= AB_WX_GAIN_inc  ,
+["A ++"]		= AB_WX_GAIN_inc  ,
+["A  -"]		= AB_WX_GAIN_dec  ,
+["A --"]		= AB_WX_GAIN_dec  ,
+["PRESS"] 		= AB_WX_GAIN_cal  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= AB_WX_TILT_show  ,
+["A  +"]		= AB_WX_TILT_inc  ,
+["A ++"]		= AB_WX_TILT_inc  ,
+["A  -"]		= AB_WX_TILT_dec  ,
+["A --"]		= AB_WX_TILT_dec  ,
+["PRESS"] 		= AB_WX_TILT_zero  ,
+}
+
+

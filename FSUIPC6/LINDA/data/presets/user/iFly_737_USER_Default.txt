@@ -1,0 +1,19 @@
+-- ############################################### --
+-- ## iFly 737 USER Default
+-- ############################################### --
+
+-- USER block buttons and switches
+USER = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "PNL"  ,
+["BTN1."] 	= iFly737_FireWarn  ,
+["BTN2."] 	= iFly737_MasterCaution  ,
+["BTN3."] 	= iFly737_AutoBrakeDec  ,
+["BTN4."] 	= iFly737_AutoBrakeInc  ,
+["BTN5."] 	= Do_nothing  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+["LAMP."]   	= Lights_PANEL_toggle  ,
+}
+

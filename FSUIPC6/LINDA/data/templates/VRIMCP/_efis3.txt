@@ -1,0 +1,72 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS{MODE} = {
+["ENABLED"] = {ENABLED}  ,
+["IDENT"]   = "{IDENT}"  ,
+["InHg."]   = {InHg.}  ,
+["hPa ."]   = {hPa .}  ,
+["FD  ."]   = {FD  .}  ,
+["ILS ."]   = {ILS .}  ,
+["CSTR."]   = {CSTR.}  ,
+["WPT ."]   = {WPT .}  ,
+["VORD."]   = {VORD.}  ,
+["NDB ."]   = {NDB .}  ,
+["ARPT."]   = {ARPT.}  ,
+["ADF1:"]   = {ADF1:}  ,
+["ADF1."]   = {ADF1.}  ,
+["VOR1:"]   = {VOR1:}  ,
+["VOR1."]   = {VOR1.}  ,
+["ADF2:"]   = {ADF2:}  ,
+["ADF2."]   = {ADF2.}  ,
+["VOR2:"]   = {VOR2:}  ,
+["VOR2."]   = {VOR2.}  ,
+}
+
+-- AEFIS BARO knob
+BARO{MODE} = {
+["A SHOW"]  = {BARO A SHOW}  ,
+["A  +"]    = {BARO A +}  ,
+["A ++"]    = {BARO A ++}  ,
+["A  -"]    = {BARO A -}  ,
+["A --"]    = {BARO A --}  ,
+["PRESS"]   = {BARO PRESS}  ,
+["B SHOW"]  = {BARO B SHOW}  ,
+["B  +"]    = {BARO B +}  ,
+["B ++"]    = {BARO B ++}  ,
+["B  -"]    = {BARO B -}  ,
+["B --"]    = {BARO B --}  ,
+}
+
+-- AEFIS NDM knob
+NDM{MODE} = {
+["A SHOW"]  = {NDM A SHOW}  ,
+["A  +"]    = {NDM A +}  ,
+["A ++"]    = {NDM A ++}  ,
+["A  -"]    = {NDM A -}  ,
+["A --"]    = {NDM A --}  ,
+["PRESS"]   = {NDM PRESS}  ,
+["B SHOW"]  = {NDM B SHOW}  ,
+["B  +"]    = {NDM B +}  ,
+["B ++"]    = {NDM B ++}  ,
+["B  -"]    = {NDM B -}  ,
+["B --"]    = {NDM B --}  ,
+}
+
+-- AEFIS NDR knob
+NDR{MODE} = {
+["A SHOW"]  = {NDR A SHOW}  ,
+["A  +"]    = {NDR A +}  ,
+["A ++"]    = {NDR A ++}  ,
+["A  -"]    = {NDR A -}  ,
+["A --"]    = {NDR A --}  ,
+["PRESS"]   = {NDR PRESS}  ,
+["B SHOW"]  = {NDR B SHOW}  ,
+["B  +"]    = {NDR B +}  ,
+["B ++"]    = {NDR B ++}  ,
+["B  -"]    = {NDR B -}  ,
+["B --"]    = {NDR B --}  ,
+}
+

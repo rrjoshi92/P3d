@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## PMDG737 EFIS Default
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "MOD1"  ,
+["FPV ."] 		= NGX_EFIS_FPV  ,
+["MTR ."] 		= NGX_EFIS_MTRS  ,
+["WX  ."] 		= MCP2weather_OAT_Wind_Celsius  ,
+["STA ."] 		= NGX_EFIS_STA  ,
+["WPT ."] 		= NGX_EFIS_WPT  ,
+["ARPT."] 		= NGX_EFIS_ARPT  ,
+["DATA."] 		= NGX_EFIS_DATA  ,
+["POS ."] 		= NGX_EFIS_POS  ,
+["TERR."] 		= NGX_EFIS_TERR  ,
+["VORL:"] 		= NGX_EFIS_NAV1_dec  ,
+["VORR:"] 		= NGX_EFIS_NAV2_dec  ,
+["VORL."] 		= NGX_EFIS_NAV1_inc  ,
+["VORR."] 		= NGX_EFIS_NAV2_inc  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A  +"]		= NGX_EFIS_MINS_inc  ,
+["A ++"]		= NGX_EFIS_MINS_inc  ,
+["A  -"]		= NGX_EFIS_MINS_dec  ,
+["A --"]		= NGX_EFIS_MINS_dec  ,
+["PRESS"] 		= NGX_EFIS_MINS_RST  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A  +"]		= NGX_EFIS_BARO_inc  ,
+["A ++"]		= NGX_EFIS_BARO_inc  ,
+["A  -"]		= NGX_EFIS_BARO_dec  ,
+["A --"]		= NGX_EFIS_BARO_dec  ,
+["PRESS"] 		= NGX_EFIS_BARO_STD_toggle  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= NGX_EFIS_ND_MODE_inc  ,
+["A ++"]		= NGX_EFIS_ND_MODE_inc  ,
+["A  -"]		= NGX_EFIS_ND_MODE_dec  ,
+["A --"]		= NGX_EFIS_ND_MODE_dec  ,
+["PRESS"] 		= NGX_EFIS_ND_MODE_CTR  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A  +"]		= NGX_EFIS_ND_RNG_inc  ,
+["A ++"]		= NGX_EFIS_ND_RNG_inc  ,
+["A  -"]		= NGX_EFIS_ND_RNG_dec  ,
+["A --"]		= NGX_EFIS_ND_RNG_dec  ,
+["PRESS"] 		= NGX_EFIS_ND_RNG_TFC  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+

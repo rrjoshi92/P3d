@@ -1,0 +1,31 @@
+-- ############################################### --
+-- ## {NAME}
+-- ############################################### --
+
+-- RADIOS block buttons and switches
+RADIOS{MODE} = {
+["COM1 Select"]	= {COMsel1}  ,
+["COM2 Select"]	= {COMsel2}  ,
+["COM1 Swap"]	= {COMswp1}  ,
+["COM2 Swap"]	= {COMswp2}  ,
+["COMs Mode"]	= {COMmode}  ,
+
+["NAV1 Select"]	= {NAVsel1}  ,
+["NAV2 Select"]	= {NAVsel2}  ,
+["NAV1 Swap"]	= {NAVswp1}  ,
+["NAV2 Swap"]	= {NAVswp2}  ,
+["NAVs Mode"]	= {NAVmode}  ,
+
+["ADF1 Select"]	= {ADFsel1}  ,
+["ADF2 Select"]	= {ADFsel2}  ,
+["ADFs Mode"]	= {ADFmode}  ,
+
+["DME1 Select"]	= {DMEsel1}  ,
+["DME2 Select"]	= {DMEsel2}  ,
+["DMEs Mode"]	= {DMEmode}  ,
+
+["XPND Select"]	= {XPNDsel1}  ,
+["XPND Swap"]	= {XPNDsel2}  ,
+["XPND Mode"]	= {XPNDmode}  ,
+}
+

@@ -1,0 +1,79 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2 FCU
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP = {
+["ENABLED"]	= true  ,
+["IDENT"] 	= "FCU"  ,
+["TO  ."] 	= empty  ,
+["GA  ."] 	= empty  ,
+["N1  ."] 	= AB_AP_SPDMACH_toggle  ,
+["SPD ."] 	= AB_AP_SPD_set  ,
+["FLCH."] 	= AB_AP_EXPED_toggle  ,
+["SEL ."] 	= AB_ALT_Step_toggle  ,
+["HHLD."] 	= AB_AP_HDG_set  ,
+["AHLD."] 	= AB_AP_ALT_set  ,
+["VHLD."] 	= AB_AP_VS_pull  ,
+["APP ."] 	= AB_AP_APPR_toggle  ,
+["VNAV."] 	= AB_ECAM_MODE_next  ,
+["LNAV."] 	= AB_ECAM_MODE_prev  ,
+["CMDA."] 	= AB_AP_AP1_toggle  ,
+["CMDB."] 	= AB_AP_AP2_toggle  ,
+["CMDC."] 	= AB_Alarms_BOTH_off  ,
+["LOC ."] 	= AB_AP_LOC_toggle  ,
+["CWSA."] 	= AB_AP_LS_toggle  ,
+["CWSB."] 	= AB_DspMode_Toggle  ,
+["AT  ."] 	= AB_AP_ATHR_on  ,
+["AT  :"] 	= AB_AP_ATHR_off  ,
+["FD  ."] 	= AB_AP_FD_on  ,
+["FD  :"] 	= AB_AP_FD_off  ,
+["AP  ."]	= AB_AP_both_on  ,
+["AP  :"] 	= AB_AP_Disengage  ,
+}
+
+
+-- MCP SPD knob
+SPD = {
+["A SHOW"]	= SPD_show  ,
+["A  +"]	= AB_SPD_plus  ,
+["A ++"]	= AB_SPD_plusfast  ,
+["A  -"]	= AB_SPD_minus  ,
+["A --"]	= AB_SPD_minusfast  ,
+["PRESS"] 	= AB_AP_SPD_managed  ,
+}
+
+
+-- MCP HDG knob
+HDG = {
+["A SHOW"]	= HDG_show  ,
+["A  +"]	= AB_HDG_plus  ,
+["A ++"]	= AB_HDG_plusfast  ,
+["A  -"]	= AB_HDG_minus  ,
+["A --"]	= AB_HDG_minusfast  ,
+["PRESS"] 	= AB_AP_HDG_managed  ,
+}
+
+
+-- MCP ALT knob
+ALT = {
+["A SHOW"]	= ALT_show  ,
+["A  +"]	= AB_ALT_plus  ,
+["A ++"]	= AB_ALT_plusfast  ,
+["A  -"]	= AB_ALT_minus  ,
+["A --"]	= AB_ALT_minusfast  ,
+["PRESS"] 	= AB_AP_ALT_managed  ,
+}
+
+
+-- MCP VVS knob
+VVS = {
+["A SHOW"]	= VVS_show  ,
+["A  +"]	= AB_VS_plus  ,
+["A ++"]	= AB_VS_plusfast  ,
+["A  -"]	= AB_VS_minus  ,
+["A --"]	= AB_VS_minusfast  ,
+["PRESS"] 	= AB_AP_VS_level  ,
+}
+
+

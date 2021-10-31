@@ -1,0 +1,79 @@
+-- ############################################### --
+-- ## A172 MCP Default
+-- ############################################### --
+
+-- MCP block buttons and switches
+MCP = {
+["ENABLED"]	= true  ,
+["IDENT"] 	= "MCP1"  ,
+["TO  ."] 	= A172_FuelSelector_toggle  ,
+["GA  ."] 	= A172_AnnLights_test  ,
+["N1  ."] 	= empty  ,
+["SPD ."] 	= empty  ,
+["FLCH."] 	= empty  ,
+["SEL ."] 	= A172_TempUnits_toggle  ,
+["HHLD."] 	= A172_AP_Button_hdg  ,
+["AHLD."] 	= A172_AP_Button_arm  ,
+["VHLD."] 	= A172_AP_Button_alt  ,
+["APP ."] 	= A172_AP_Button_apr  ,
+["VNAV."] 	= empty  ,
+["LNAV."] 	= A172_AP_Button_nav  ,
+["CMDA."] 	= Autopilot_MASTER_toggle  ,
+["CMDB."] 	= empty  ,
+["CMDC."] 	= empty  ,
+["LOC ."] 	= A172_AP_Button_rev  ,
+["CWSA."] 	= empty  ,
+["CWSB."] 	= DSP_MODE_toggle  ,
+["AT  ."] 	= A172_AltStaticAir_off  ,
+["AT  :"] 	= A172_AltStaticAir_on  ,
+["FD  ."] 	= A172_FuelCutoff_open  ,
+["FD  :"] 	= A172_FuelCutoff_close  ,
+["AP  ."]	= Autopilot_MASTER_on  ,
+["AP  :"] 	= Autopilot_MASTER_off  ,
+}
+
+
+-- MCP SPD knob
+SPD = {
+["A SHOW"]	= SPD_show  ,
+["A  +"]	= CRS_plus  ,
+["A ++"]	= CRS_plusfast  ,
+["A  -"]	= CRS_minus  ,
+["A --"]	= CRS_minusfast  ,
+["PRESS"] 	= CRS_diplay_toggle  ,
+}
+
+
+-- MCP HDG knob
+HDG = {
+["A SHOW"]	= HDG_show  ,
+["A  +"]	= A172_AP_HDG_plus  ,
+["A ++"]	= A172_AP_HDG_plusfast  ,
+["A  -"]	= A172_AP_HDG_minus  ,
+["A --"]	= A172_AP_HDG_minusfast  ,
+["PRESS"] 	= Autopilot_HDG_BUG_align  ,
+}
+
+
+-- MCP ALT knob
+ALT = {
+["A SHOW"]	= ALT_show  ,
+["A  +"]	= A172_AP_ALT_plus  ,
+["A ++"]	= A172_AP_ALT_plusfast  ,
+["A  -"]	= A172_AP_ALT_minus  ,
+["A --"]	= A172_AP_ALT_minusfast  ,
+["PRESS"] 	= Autopilot_ALTSEL_mode  ,
+}
+
+
+-- MCP VVS knob
+VVS = {
+["A SHOW"]	= VVS_show  ,
+["A  +"]	= A172_AP_VS_plus  ,
+["A ++"]	= A172_AP_VS_plus  ,
+["A  -"]	= A172_AP_VS_minus  ,
+["A --"]	= A172_AP_VS_minus  ,
+["PRESS"] 	= Autopilot_VSSEL_mode  ,
+}
+
+

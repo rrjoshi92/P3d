@@ -1,0 +1,26 @@
+-- ############################################### --
+-- ## PDMG 737 USER Default
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Deft"  ,
+["BTN1."]   = NGX_AP_CMDA_toggle  ,
+["BTN2."]   = NGX_WARN_MASTER_reset  ,
+["BTN3."]   = NGX_AP_CWSB  ,
+["BTN4."]   = empty  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = empty  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = NGX_AUTOBRAKE_dec  ,
+["USR2."]   = NGX_AUTOBRAKE_inc  ,
+["USR3."]   = NGX_XPND_MODE_dec  ,
+["USR4."]   = NGX_XPND_MODE_inc  ,
+["USR5."]   = NGX_TCAS_test  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_USER_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+}
+

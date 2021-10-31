@@ -1,0 +1,170 @@
+********* FSUIPC6, Version 6.0.9 (26th June 2020) by Pete & John Dowson *********
+Prepar3D.exe version = 5.2.22.27615
+Running inside Prepar3D v5
+Module base=7FFF35430000
+Windows 10 Pro 64 Bit reported as Build 19043, Release ID: 2009 (OS 10.0)
+Reading options from "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\FSUIPC6.ini"
+Checking the Registrations now ...
+User Name="PatchedBychinaflier"
+User Addr="CrackBy@chinaflier"
+User WideFS Name="CrackBychinaflier"
+User WideFS Addr="CrackBy@chinaflier"
+FSUIPC6 Key is provided
+WideFS7 Key is provided
+        0 System time = 30/10/2021 09:38:57
+       15 FLT UNC path = "\\DESKTOP-VV3U3BT\Documents\Prepar3D v5 Files\"
+       15 Using DialogMode
+       31 FS UNC path = "\\DESKTOP-VV3U3BT\Prepar3D v5\"
+       93 ---------------------- Joystick Device Scan -----------------------
+       93 Product= Bravo Throttle Quadrant
+       93    Manufacturer= Honeycomb Aeronautical
+       93    Serial Number= E6012E0E13183B00
+       93    Vendor=294B, Product=1901 (Version 1.5)
+       93    GUIDs returned for product: VID_294B&PID_1901:
+       93       GUID= {BF7C36D0-788E-11EB-8001-444553540000}
+       93       Details: Btns=48, POVs=(0, 0, 0, 0), Cal=x00000000, Max=R1023,U1023,V1023,X1023,Y1023,Z1023
+       93 Product= vJoy - Virtual Joystick
+       93    Manufacturer= Shaul Eizikovich
+       93    Serial Number= 2.1.9
+       93    Vendor=1234, Product=BEAD (Version 2.25)
+       93    GUIDs returned for product: VID_1234&PID_BEAD:
+       93       GUID= {170F6D40-6BE2-11EB-8002-444553540000}
+       93       Details: Btns=32, POVs=(0, 0, 0, 0), Cal=x00000000, Max=R0,U0,V0,X0,Y0,Z0
+      109 Product= Saitek Pro Flight Rudder Pedals
+      109    Manufacturer= Saitek
+      109    Vendor=06A3, Product=0763 (Version 1.1)
+      109    GUIDs returned for product: VID_06A3&PID_0763:
+      109       GUID= {CF28C340-7D21-11EB-8001-444553540000}
+      109       Details: Btns=0, POVs=(0, 0, 0, 0), Cal=x00000000, Max=R511,U0,V0,X127,Y127,Z0
+      109 Product= Alpha Flight Controls
+      109    Manufacturer= Honeycomb Aeronautical
+      109    Serial Number= E6012E0F1C153B00
+      109    Vendor=294B, Product=1900 (Version 3.0)
+      109    GUIDs returned for product: VID_294B&PID_1900:
+      109       GUID= {BF7C5DE0-788E-11EB-8002-444553540000}
+      109       Details: Btns=35, POVs=(0, 0, 0, 0), Cal=x00000000, Max=R0,U0,V0,X1023,Y1023,Z0
+      109 -------------------------------------------------------------------
+      109 Device acquired for use:
+      109    Joystick ID = 2 (Registry okay)
+      109    2=Bravo Throttle Quadrant
+      109    2.GUID={BF7C36D0-788E-11EB-8001-444553540000}
+      109 Device acquired for use:
+      109    Joystick ID = 1 (Registry okay)
+      109    1=vJoy Device
+      109    1.GUID={170F6D40-6BE2-11EB-8002-444553540000}
+      109 Device acquired for use:
+      109    Joystick ID = 0 (Registry okay)
+      109    0=Flight Rudder Pedals
+      109    0.GUID={CF28C340-7D21-11EB-8001-444553540000}
+      109 Device acquired for use:
+      109    Joystick ID = 3 (Registry okay)
+      109    3=Alpha Flight Controls
+      109    3.GUID={BF7C5DE0-788E-11EB-8002-444553540000}
+      109 -------------------------------------------------------------------
+      156 Controllers are set to ON, using DirectInput within P3D
+      156 LogOptions=00000000 00000001
+      156 -------------------------------------------------------------------
+      156 SimConnect_Open succeeded: waiting to check version okay
+      156 Opened separate AI Traffic client okay
+      156 VRI port 1 "com0" failed to open
+    55796 Running in "Lockheed Martin® Prepar3D® v5", Version: 5.2.22.27615 (SimConnect: 5.2.0.0)
+    55796 Initialising SimConnect data requests now
+    55796 FSUIPC Menu entry added
+    55812 ... Using Prepar3D with Professional License
+    56734 \\DESKTOP-VV3U3BT\Users\Ravi\AppData\Local\Lockheed Martin\Prepar3D v5\Prepar3D_Default.fxml
+    56734 \\DESKTOP-VV3U3BT\Prepar3D v5\SimObjects\Airplanes\F-35A\F-35A.air
+    90796 Weather Mode now = Theme
+    95000 \\DESKTOP-VV3U3BT\Prepar3D v5\SimObjects\Airplanes\PMDG 777-200LR\B777-200LR.air
+    95000 PMDG 777 offsets enabled
+    95000 \\DESKTOP-VV3U3BT\Documents\Prepar3D v5 Files\Previous Flight.fxml
+   104562 ### The user object is 'PMDG 777-200LR Delta Air Lines (N702DN | 2008 | The Spirit of Atlanta)'
+   104562 ### Mode is NORMAL
+   109062 ### Mode: PAUSE on
+   337171 Aircraft loaded: running normally now ...
+   337250 User Aircraft ID 2 supplied, now being used
+   338218 System time = 30/10/2021 09:44:35, Simulator time = 17:00:00 (16:00Z)
+   338265 Aircraft="PMDG 777-200LR Delta Air Lines (N702DN | 2008 | The Spirit of Atlanta)"
+   367250 Loading Complete ...
+   367265 ### Mode is NORMAL
+   369171 -------------------- Starting everything now ----------------------
+   369171 Starting WideServer now ...
+   369234 LUA.0: beginning "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\ipcReady.lua"
+   369250 ASN active function link set
+   369250 Ready for ActiveSky WX radar with additional data
+   369343 LUA.1: LINDA:: [START] *********************** STARTING LINDA ***********************
+   369359 LUA.1: LINDA:: [START] Loading System Configuration files
+   369359 LUA.1: [START] file_exists linda-cfg/system/config-sys.lua
+   369359 LUA.1: LINDA:: [START] Loading linda-cfg/system/config-sys
+   369484 LUA.1: [START] file_exists linda-cfg/system/config-sys.lua
+   369484 LUA.1: [START] Accessing linda-cfg/system/config-sys
+   369484 LUA.1: LINDA:: [START] linda-cfg/system/config-sys loaded
+   369500 LUA.1: LINDA:: *********************************************************************
+   369500 LUA.1: LINDA:: [START] WARNING - All LUA logging switched off !!!
+   369500 LUA.1: LINDA:: [START] Go to Setup LINDA to switch on (if required)
+   369500 LUA.1: LINDA:: *********************************************************************
+   369500 LUA.1: [START] file_exists linda-cfg/system/config-hid.lua
+   369500 LUA.1: LINDA:: [START] Loading linda-cfg/system/config-hid
+   369500 LUA.1: LINDA:: [START] linda-cfg/system/config-hid loaded
+   369515 LUA.1: [START] file_exists linda-cfg/system/config-vri.lua
+   369515 LUA.1: LINDA:: [START] Loading linda-cfg/system/config-vri
+   369515 LUA.1: LINDA:: [START] linda-cfg/system/config-vri loaded
+   369531 LUA.1: LINDA:: [START] System Configuration files loaded
+   370562 LUA.1: [START] not file_exists linda/aircrafts/./ident.lua
+   370562 LUA.1: [START] not file_exists linda/aircrafts/../ident.lua
+   370562 LUA.1: [START] not file_exists linda/aircrafts/.DS_Store/ident.lua
+   370578 LUA.1: [START] file_exists linda/aircrafts/Aerosoft CRJ/ident.lua
+   370578 LUA.1: [START] file_exists linda/aircrafts/FSLabs A3xx/ident.lua
+   370578 LUA.1: [START] not file_exists linda/aircrafts/FSX Default/ident.lua
+   370593 LUA.1: [START] file_exists linda/aircrafts/PMDG 737 NGXu/ident.lua
+   370593 LUA.1: [START] file_exists linda/aircrafts/PMDG 737NGX/ident.lua
+   370609 LUA.1: [START] file_exists linda/aircrafts/PMDG 747/ident.lua
+   370609 LUA.1: [START] file_exists linda/aircrafts/PMDG 777/ident.lua
+   370734 LUA.1: [START] file_exists linda/system/init.lua
+   372250 Advanced Weather Interface Enabled
+   400781 Sim stopped: average frame rate for last 32 secs = 25.5 fps
+   400781    Max AI traffic was 0 aircraft
+   400781 -------------------------------------------------------------------
+   567265 ### Mode: PAUSE on
+   580703 ### Mode is NORMAL
+   583765 ### Mode: PAUSE on
+   696953 ### Mode is NORMAL
+   914250 Sim stopped: average frame rate for last 333 secs = 44.5 fps
+   914250    Max AI traffic was 0 aircraft
+   914250 -------------------------------------------------------------------
+   915734 === Closing session: waiting for DLLStop to be called ...
+   928250 === DLLStop called ...
+   928250 === Getting Lua plug-ins to close ...
+   928250 === Closing external processes we started ...
+   929250 === About to kill any Lua plug-ins still running ...
+   929406 Lua threads being terminated:
+   929406       0 = "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda/system/init.lua"
+   929578 LUA: "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda/system/init.lua": killed
+   931687       1 = "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda.lua"
+   931843 LUA: "C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda.lua": killed
+   931843 === Closing global Lua thread
+   932859 === About to kill my timers ...
+   933062 === Restoring window procs ...
+   933062 === Unloading libraries ...
+   933062 === stopping other threads ...
+   933062 === ... Button scanning ...
+   933156 === ... Axis scanning ...
+   933265 === Releasing joystick devices ...
+   933265 === Freeing macro memory
+   933265 === Removing any offset overrides
+   933265 === Closing all WideFS threads
+   934609 === Clearing any displays left
+   934609 === NOTE: not calling SimConnect_Close ...
+   934609 === AI slots deleted!
+   934609 === Freeing button memory ...
+   934609 === Deleting wxstationlist.bin file ...
+   934609 === Closing my Windows ...
+   934609 === Freeing FS libraries ...
+   935609 === Closing devices ...
+   938125 === Closing the Log ... Bye Bye! ...
+   938125 System time = 30/10/2021 09:54:35, Simulator time = 13:04:22 (16:04Z)
+   938125 *** FSUIPC log file being closed
+Minimum frame rate was 22.1 fps, Maximum was 47.7 fps
+Average frame rate for running time of 405 secs = 41.9 fps
+Maximum AI traffic for session was 0 aircraft
+Memory managed: 271 Allocs, 270 Freed
+********* FSUIPC Log file closed ***********

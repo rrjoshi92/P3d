@@ -1,0 +1,56 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2a EFIS WX Rdr
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS = {
+["ENABLED"] = true  ,
+["IDENT"]   = "WxR"  ,
+["InHg."]   = empty  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = AB_ECAM_RCL  ,
+["ILS ."]   = AB_ECAM_DOOR  ,
+["CSTR."]   = AB_Radios_toggle  ,
+["WPT ."]   = AB_WX_TERR_toggle  ,
+["VORD."]   = AB_WX_SYS_toggle  ,
+["NDB ."]   = AB_WX_MULTI_toggle  ,
+["ARPT."]   = AB_WX_GCS_toggle  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = empty  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = empty  ,
+}
+
+-- AEFIS BARO knob
+BARO = {
+["A SHOW"]  = AB_RDR_Pwr_show  ,
+["A  +"]    = AB_RDR_Pwr_inc  ,
+["A ++"]    = AB_RDR_Pwr_inc  ,
+["A  -"]    = AB_RDR_Pwr_dec  ,
+["A --"]    = AB_RDR_Pwr_dec  ,
+["PRESS"]   = AB_ND_Pwr_toggle  ,
+
+-- AEFIS NDM knob
+NDM = {
+["A SHOW"]  = AB_WX_GAIN_show  ,
+["A  +"]    = AB_WX_GAIN_inc  ,
+["A ++"]    = AB_WX_GAIN_inc  ,
+["A  -"]    = AB_WX_GAIN_dec  ,
+["A --"]    = AB_WX_GAIN_dec  ,
+["PRESS"]   = AB_WX_GAIN_cal  ,
+}
+
+-- AEFIS NDR knob
+NDR = {
+["A SHOW"]  = AB_WX_TILT_show  ,
+["A  +"]    = AB_WX_TILT_inc  ,
+["A ++"]    = AB_WX_TILT_inc  ,
+["A  -"]    = AB_WX_TILT_dec  ,
+["A --"]    = AB_WX_TILT_dec  ,
+["PRESS"]   = AB_WX_TILT_zero  ,
+}
+

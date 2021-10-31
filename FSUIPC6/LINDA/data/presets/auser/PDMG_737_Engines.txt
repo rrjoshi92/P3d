@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## PDMG 737 Engines
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "EngX"  ,
+["BTN1."]   = NGX_ENG1_idle  ,
+["BTN2."]   = NGX_IGN_both  ,
+["BTN3."]   = NGX_ENG2_idle  ,
+["BTN4."]   = NGX_ENG1_toggle  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = NGX_ENG2_toggle  ,
+["BTN7."]   = NGX_APU_dec  ,
+["BTN8."]   = NGX_APU_inc  ,
+["USR1."]   = NGX_XPND_MODE_dec  ,
+["USR2."]   = NGX_XPND_MODE_inc  ,
+["USR3."]   = NGX_TCAS_test  ,
+["USR4."]   = empty  ,
+["USR5."]   = empty  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_MCP_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = Lights_PANEL_toggle  ,
+}
+

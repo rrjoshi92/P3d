@@ -1,0 +1,27 @@
+-- ############################################### --
+-- ## Default Lights
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Lght"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = Lights_STROBE_toggle  ,
+["BTN5."]   = Lights_BEACON_toggle  ,
+["BTN6."]   = Lights_NAV_toggle  ,
+["BTN7."]   = Lights_TAXI_toggle  ,
+["BTN8."]   = Lights_LANDING_toggle  ,
+["USR1."]   = empty  ,
+["USR2."]   = empty  ,
+["USR3."]   = empty  ,
+["USR4."]   = empty  ,
+["USR5."]   = empty  ,
+["USR6."]   = empty  ,
+["USR7."]   = empty  ,
+["USR8."]   = empty  ,
+["LAMP."]   = Lights_PANEL_toggle  ,
+}
+

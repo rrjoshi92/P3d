@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## Aerosoft Airbus MCP2a FCU Disp
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "Disp"  ,
+["MACH."]   	= FS2Crew_SoftMute  ,
+["LOC ."]   	= DspMode_Toggle  ,
+["TRK ."]   	= "FSX:_VIEW_MODE:0"  ,
+["AP1 ."]   	= "Control:_66654:0"  ,
+["AP2 ."]   	= "FSX:_VIEW_MODE:0"  ,
+["ATHR."]   	= VATSIM_SetUnicom  ,
+["EXPD."]   	= FS2Crew_HardMute  ,
+["MTR ."]   	= "FSX:_VIEW_CAMERA_SELECT_0:0"  ,
+["APPR."]   	= FS2Crew_MainPanel  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]  	= AB_PFD_Pwr_show  ,
+["A  +"]    	= AB_PFD_Pwr_inc  ,
+["A ++"]    	= AB_PFD_Pwr_inc  ,
+["A  -"]    	= AB_PFD_Pwr_dec  ,
+["A --"]    	= AB_PFD_Pwr_dec  ,
+["PRESS"]   	= AB_PFD_Pwr_on  ,
+["PULL"]    	= AB_PFD_Pwr_off  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]  	= AB_ND_Pwr_show  ,
+["A  +"]    	= AB_ND_Pwr_inc  ,
+["A ++"]    	= AB_ND_Pwr_inc  ,
+["A  -"]    	= AB_ND_Pwr_dec  ,
+["A --"]    	= AB_ND_Pwr_dec  ,
+["PRESS"]   	= AB_ND_Pwr_on  ,
+["PULL"]    	= AB_ND_Pwr_off  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]  	= AB_ECAMU_Pwr_show  ,
+["A  +"]    	= AB_ECAMU_Pwr_inc  ,
+["A ++"]    	= AB_ECAMU_Pwr_inc  ,
+["A  -"]    	= AB_ECAMU_Pwr_dec  ,
+["A --"]    	= AB_ECAMU_Pwr_dec  ,
+["PRESS"]   	= AB_ECAMU_Pwr_on  ,
+["PULL"]    	= AB_ECAMU_Pwr_off  ,
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]  	= AB_ECAML_Pwr_show  ,
+["A  +"]    	= AB_ECAML_Pwr_inc  ,
+["A ++"]    	= AB_ECAML_Pwr_inc  ,
+["A  -"]    	= AB_ECAML_Pwr_dec  ,
+["A --"]    	= AB_ECAML_Pwr_dec  ,
+["PRESS"]   	= AB_ECAML_Pwr_on  ,
+["PULL"]    	= AB_ECAML_Pwr_off  ,
+}
+
+

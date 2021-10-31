@@ -1,0 +1,26 @@
+-- ############################################### --
+-- ## Airbus Lights
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER = {
+["ENABLED"] = true  ,
+["IDENT"]   = "Lght"  ,
+["BTN1."]   = VRI_EFIS_MODE_toggle  ,
+["BTN2."]   = VRI_MCP_MODE_toggle  ,
+["BTN3."]   = VRI_USER_MODE_toggle  ,
+["BTN4."]   = Autobrake_cycle  ,
+["BTN5."]   = AB_Brakefan_toggle  ,
+["BTN6."]   = AB_Antiskid_toggle  ,
+["BTN7."]   = Alarms_BOTH_off  ,
+["BTN8."]   = AB_XPDR_Ident  ,
+["USR1."]   = Lights_STROBE_toggle  ,
+["USR2."]   = Lights_BEACON_toggle  ,
+["USR3."]   = Lights_NAV_LOGO_toggle  ,
+["USR4."]   = Lights_RUNWAY_toggle  ,
+["USR5."]   = Lights_LANDING_toggle  ,
+["USR6."]   = Lights_TAXI_toggle  ,
+["USR7."]   = Sign_CABINCREW_toggle  ,
+["USR8."]   = Lights_DOME_toggle  ,
+}
+

@@ -1,0 +1,71 @@
+-- ############################################### --
+-- ## EMPTY
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= ""  ,
+["InHg."] 		= empty  ,
+["hPa ."] 		= empty  ,
+["FD  ."] 		= empty  ,
+["ILS ."] 		= empty  ,
+["CSTR."] 		= empty  ,
+["WPT ."] 		= empty  ,
+["VORD."] 		= empty  ,
+["NDB ."] 		= empty  ,
+["ARPT."] 		= empty  ,
+["ADF1:"] 		= empty  ,
+["ADF1."] 		= empty  ,
+["VOR1:"] 		= empty  ,
+["VOR1."] 		= empty  ,
+["ADF2:"] 		= empty  ,
+["ADF2."] 		= empty  ,
+["VOR2:"] 		= empty  ,
+["VOR2."] 		= empty  ,
+}
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+-- EFIS NDM knob
+NDM = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}
+
+-- EFIS NDR knob
+NDR = {
+["A SHOW"]		= empty  ,
+["A  +"]		= empty  ,
+["A ++"]		= empty  ,
+["A  -"]		= empty  ,
+["A --"]		= empty  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B  +"]		= empty  ,
+["B ++"]		= empty  ,
+["B  -"]		= empty  ,
+["B --"]		= empty  ,
+}

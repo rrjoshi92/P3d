@@ -1,0 +1,64 @@
+-- ############################################### --
+-- ## Default MCP
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "MCP1"  ,
+["MACH."]   	= Autopilot_MACH_button  ,
+["LOC ."]   	= Autopilot_LOC_button  ,
+["TRK ."]   	= Autopilot_TRK_button  ,
+["AP1 ."]   	= Autopilot_AP1_button  ,
+["AP2 ."]   	= Autopilot_AP2_button  ,
+["ATHR."]   	= Autopilot_ATHR_button  ,
+["EXPD."]   	= Autopilot_EXPD_button  ,
+["MTR ."]   	= Autopilot_MTR_button  ,
+["APPR."]   	= Autopilot_APPR_button  ,
+}
+
+-- AFCU SPD knob
+SPD = {
+["A SHOW"]  	= SPD_show  ,
+["A  +"]    	= SPD_plus  ,
+["A ++"]    	= SPD_plusfast  ,
+["A  -"]    	= SPD_minus  ,
+["A --"]    	= SPD_minusfast  ,
+["PRESS"]   	= SPD_press  ,
+["PULL"]    	= SPD_pull  ,
+}
+
+-- AFCU HDG knob
+HDG = {
+["A SHOW"]  	= HDG_show  ,
+["A  +"]    	= HDG_plus  ,
+["A ++"]    	= HDG_plusfast  ,
+["A  -"]    	= HDG_minus  ,
+["A --"]    	= HDG_minusfast  ,
+["PRESS"]   	= HDG_press  ,
+["PULL"]    	= HDG_pull  ,
+}
+
+-- AFCU ALT knob
+ALT = {
+["A SHOW"]  	= ALT_show  ,
+["A  +"]    	= ALT_plus  ,
+["A ++"]    	= ALT_plusfast  ,
+["A  -"]    	= ALT_minus  ,
+["A --"]    	= ALT_minusfast  ,
+["PRESS"]   	= ALT_press  ,
+["PULL"]    	= ALT_pull  ,
+}
+
+-- AFCU VVS knob
+VVS = {
+["A SHOW"]  	= VVS_show  ,
+["A  +"]    	= VVS_plus  ,
+["A ++"]    	= VVS_plusfast  ,
+["A  -"]    	= VVS_minus  ,
+["A --"]    	= VVS_minusfast  ,
+["PRESS"]   	= VVS_press  ,
+["PULL"]    	= VVS_pull  ,
+}
+
+

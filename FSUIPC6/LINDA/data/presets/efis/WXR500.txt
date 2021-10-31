@@ -1,0 +1,88 @@
+-- ############################################### --
+-- ## WXR500
+-- ############################################### --
+
+-- EFIS block buttons and switches
+EFIS = {
+["ENABLED"]		= true  ,
+["IDENT"]		= "WXR"  ,
+["FPV"] 		= RXP_WX500_TRACK_L  ,
+["MTR"] 		= RXP_WX500_TRACK_R  ,
+["WX"] 			= RXP_WX500_POPUP_TOGGLE  ,
+["STA"] 		= empty  ,
+["WPT"] 		= empty  ,
+["ARPT"] 		= empty  ,
+["DATA"] 		= empty  ,
+["POS"] 		= empty  ,
+["TERR"] 		= empty  ,
+["ADF1"] 		= RXP_WX500_SUBMODE_DN  ,
+["ADF2"] 		= RXP_WX500_RANGE_DN  ,
+["VOR1"] 		= RXP_WX500_SUBMODE_UP  ,
+["VOR2"] 		= RXP_WX500_RANGE_UP  ,
+}
+
+
+-- EFIS MINS knob
+MINS = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_WX500_BRT_INC  ,
+["A ++"]		= RXP_WX500_BRT_INC  ,
+["A -"]			= RXP_WX500_BRT_DEC  ,
+["A --"]		= RXP_WX500_BRT_DEC  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS BARO knob
+BARO = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_WX500_GAIN_INC  ,
+["A ++"]		= RXP_WX500_GAIN_INC  ,
+["A -"]			= RXP_WX500_GAIN_DEC  ,
+["A --"]		= RXP_WX500_GAIN_DEC  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS CTR knob
+CTR = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_WX500_MAIN_MODE_NEXT  ,
+["A ++"]		= RXP_WX500_MAIN_MODE_NEXT  ,
+["A -"]			= RXP_WX500_MAIN_MODE_PREV  ,
+["A --"]		= RXP_WX500_MAIN_MODE_PREV  ,
+["PRESS"] 		= empty  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+
+-- EFIS TFC knob
+TFC = {
+["A SHOW"]		= empty  ,
+["A +"]			= RXP_WX500_TILT_INC  ,
+["A ++"]		= RXP_WX500_TILT_INC  ,
+["A -"]			= RXP_WX500_TILT_DEC  ,
+["A --"]		= RXP_WX500_TILT_DEC  ,
+["PRESS"] 		= RXP_WX500_TILT_ZERO  ,
+["B SHOW"]		= empty  ,
+["B +"]			= empty  ,
+["B ++"]		= empty  ,
+["B -"]			= empty  ,
+["B --"]		= empty  ,
+}
+
+

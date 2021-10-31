@@ -1,0 +1,18 @@
+-- ############################################### --
+-- ## PDMG737 USER Dome Lights
+-- ############################################### --
+
+-- USER block buttons and switches
+USER{MODE} = {
+["ENABLED"]	= true  ,
+["IDENT"]	= "Dome"  ,
+["BTN1."] 	= NGX_DOME_cycle  ,
+["BTN2."] 	= NGX_DOME_off  ,
+["BTN3."] 	= NGX_DOME_dim  ,
+["BTN4."] 	= NGX_DOME_bright  ,
+["BTN5."] 	= NGX_DOME_toggle  ,
+["BTN6."] 	= VRI_EFIS_MODE_toggle  ,
+["BTN7."] 	= VRI_MCP_MODE_toggle  ,
+["BTN8."] 	= VRI_USER_MODE_toggle  ,
+}
+

@@ -1,0 +1,2529 @@
+{
+  "Version": 1,
+  "SaveName": "PMDG_NGX(u)_Throttle",
+  "Data": [
+    {
+      "ButtonNumber": 0,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_HDG_SEL_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 1,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_ALT_INTV_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 2,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_APP_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 3,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_LNAV_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 4,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_VNAV_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 5,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_LVL_CHG_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 6,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_SPEED_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 7,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_CMD_A_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 8,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 9,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:REV_0,bool",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE1_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:REV_0,bool",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 10,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:REV_1,bool",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "-14000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE2_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:REV_1,bool",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 11,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 12,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_VS_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_HEADING_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_EFIS_CPT_RANGE",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "CRS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_SPEED_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 3
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_VS_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_HEADING_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_EFIS_CPT_RANGE",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "CRS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_SPEED_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 13,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_VS_SELECTOR",
+              "Value": "16384",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_HEADING_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_EFIS_CPT_RANGE",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "CRS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_SPEED_SELECTOR",
+              "Value": "8192",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_ALTITUDE_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_VS_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_HEADING_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_EFIS_CPT_RANGE",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "CRS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_SPEED_SELECTOR",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 14,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 15,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 16,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "IAS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 17,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "CRS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 18,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "HDG",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 19,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "VS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 20,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "ALT",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 21,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_DN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 22,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 23,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 24,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 25,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:REV_0, bool",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 26,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:REV_1, bool",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 27,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 28,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 29,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_TOGA1_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 30,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 31,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_DOWN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 32,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 33,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_FD_SWITCH_L",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_FD_SWITCH_R",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 34,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_FD_SWITCH_L",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_FD_SWITCH_R",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 35,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_AT_ARM_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 36,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_MCP_AT_ARM_SWITCH",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 37,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 38,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_PARK_BRAKE_LEVER",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 39,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_ENG1_START_LEVER",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 40,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_ENG1_START_LEVER",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 41,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_ENG2_START_LEVER",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 42,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_ENG2_START_LEVER",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 43,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_TCAS_MODE",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 44,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_TCAS_MODE",
+              "Value": "4",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 45,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_OH_DOME_SWITCH",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 46,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_OH_DOME_SWITCH",
+              "Value": "2",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 47,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AS_PMDG_737NGX_EVT_CONTROL_STAND_TOGA2_SWITCH",
+              "Value": "536870912",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    }
+  ],
+  "LEDs": [
+    {
+      "ByteIndex": 1,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunHDG_SEL, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 1,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunVOR_LOC, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 2,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunAPP, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 3,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunLNAV, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 4,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunVNAV, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 5,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunLVL_CHG, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 6,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunSPEED, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunCMD_A, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_737NGX_MCP_annunCMD_B, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_locked:0, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 1,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_transit:0, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 2,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_locked:1, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 3,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_transit:1, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 4,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_locked:2, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 5,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_MAIN_annunGEAR_transit:2, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunFIRE_WARN:0, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunFIRE_WARN:1, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 7,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunOVHT_DET, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunENG, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 1,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunFUEL, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 2,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunANTI_ICE, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 3,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunOVERHEAD, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 4,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunAPU, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunMASTER_CAUTION:0, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunMASTER_CAUTION:1, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 6,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunAIR_COND, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 7,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunHYD, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 1,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_PED_annunParkingBrake, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 2,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunELEC, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 3,
+      "ConditionLogic": "",
+      "Conditions": [
+        {
+          "Condition": "L:AS_PMDG_737NGX_WARN_annunDOORS, bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 0,
+      "ConditionLogic": "",
+      "Conditions": []
+    }
+  ],
+  "ConfiguratorSettings": {
+    "device": "Bravo Throttle Quadrant"
+  }
+}

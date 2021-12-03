@@ -1,4 +1,4 @@
--- PMDG 737 NGXu config-hid.lua @ 2110081955 (LINDA 3.2.6.1111) --
+-- PMDG 737 NGXu config-hid.lua @ 2111222303 (LINDA 3.2.6.1111) --
 
 -- ## VJoy ## (1234BEAD0) ## {NoSerNum} ############
 
@@ -39,6 +39,7 @@ JSTKrp["1234BEAD0"][31]="NGX_EFIS_MINS_inc"
 
 -- ## Honeycomb Throttle ## (294B19010) ## {E6012E0E13183B0} ############
 
+JSTK["294B19010"][38]="Timer"
 
 -- ## Honeycomb Yoke ## (294B19000) ## {E6012E0F1C153B0} ############
 

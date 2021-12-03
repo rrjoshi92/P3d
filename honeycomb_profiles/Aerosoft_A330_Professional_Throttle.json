@@ -1,0 +1,3344 @@
+{
+  "Version": 1,
+  "SaveName": "Aerosoft_A330_Professional_Throttle",
+  "Data": [
+    {
+      "ButtonNumber": 0,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDG_Knob_Ani",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDGmode",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_PULL",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDG_Knob_Ani",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDGmode",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 1,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDG_Knob_Ani",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDGmode",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_PUSH",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDG_Knob_Ani",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDGmode",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 2,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_APPR_ON/OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AB_AP_LOC2",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_LOC2",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "L:AB_AP_LOC2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_LOC2",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 3,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_LOC_ON/OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AB_AP_LOC",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_LOC",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "L:AB_AP_LOC",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_LOC",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 4,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALT_Knob_Ani",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALTmode",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT_PULL",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALT_Knob_Ani",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALTmode",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 5,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALT_Knob_Ani",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALTmode",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT_PUSH",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALT_Knob_Ani",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALTmode",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 6,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPD_Knob_Ani",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_SPDmode",
+              "Value": "-1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_PULL",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "OR",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:SPEED_MODE",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPD_Knob_Ani",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_SPDmode",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_PUSH",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:SPEED_MODE",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:SPEED_MODE",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPD_Knob_Ani",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "INT:SPEED_MODE",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPD_Knob_Ani",
+              "ConditionValue": "=-1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPD_Knob_Ani",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_RELEASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 7,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "AP_ON/OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "L:AB_AP_AP1",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_AP1",
+              "ConditionValue": "0",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "L:AB_AP_AP1",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_AP1",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            },
+            {
+              "Variable": "L:AB_AP_AP2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_AP2",
+              "ConditionValue": "1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 8,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 9,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE1_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "-2000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:IDLE_REV:1",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:1",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "-16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:IDLE_REV:1",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 10,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:THROTTLE2_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "-2000",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:IDLE_REV:2",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_IDLE_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:MAX_REV:2",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "-16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "INT:IDLE_REV:2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_IDLE_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 11,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 12,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_Baro_set",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:Kohlsman_mem",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_Baro_FO_set",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:Kohlsman_mem_FO",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPEEDset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_SPEED_Select",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "399",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPDMACH",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_VSset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_VS_Select2",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_VS_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDGset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDG_Select",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "359",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALT_Select",
+              "Value": "+=100",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "49000",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT100_INCR",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_ALTSTEP",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALT_Select",
+              "Value": "+=1000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "49000",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT1000_INCR",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_ALTSTEP",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 2
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPEEDset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_Mach_Select",
+              "Value": "+=0.01",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "0.84",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_MACH_INCREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPDMACH",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 13,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_Baro_set",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:Kohlsman_mem",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_Baro_FO_set",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:Kohlsman_mem_FO",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "BARO",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPEEDset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_SPEED_Select",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "100",
+                "MaxValue": "",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SPD_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPDMACH",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_VSset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_VS_Select2",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_VS_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "VS",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_HDGset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_HDG_Select",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "359",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_HDG_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "HDG",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALT_Select",
+              "Value": "-=100",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "100",
+                "MaxValue": "",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT100_DECR",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_ALTSTEP",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 3
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTset",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_ALT_Select",
+              "Value": "-=1000",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "100",
+                "MaxValue": "",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_ALT1000_DECR",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "ALT",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_ALTSTEP",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 2
+        },
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_SPEEDset",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0",
+                "MaxValue": "30",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_AP_Mach_Select",
+              "Value": "-=0.01",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "0.10",
+                "MaxValue": "",
+                "Clamp": true
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_MACH_DECREASE",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "AND",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:FCU_SELECTOR, string",
+              "ConditionValue": "IAS",
+              "ConditionIsCustom": false
+            },
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:AB_AP_SPDMACH",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 14,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:LowECAM_Page",
+              "Value": "+=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "1",
+                "MaxValue": "13",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "CYCLE_ECAM_FWD",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:ECAM_Mode",
+              "ConditionValue": "!=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 15,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:LowECAM_Page",
+              "Value": "-=1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "1",
+                "MaxValue": "13",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "CYCLE_ECAM_BWD",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "L:ECAM_Mode",
+              "ConditionValue": "!=0",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 16,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "IAS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SEL_IAS",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 17,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "BARO",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 18,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "HDG",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SEL_HDG",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 19,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "VS",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SEL_VS",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 20,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:FCU_SELECTOR, string",
+              "Value": "ALT",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FCU_SEL_ALT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 21,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_DN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 22,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:ELEV_TRIM_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ELEV_TRIM_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 23,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 24,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 25,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:1",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER1_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:1",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:1",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE1_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 26,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:2",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:AXIS_THROTTLE_REVERSER2_SET",
+              "Value": "16383",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "INT:IDLE_REV:2",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": true
+            }
+          ],
+          "Repeat": 1
+        }
+      ],
+      "ReleaseEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "INT:MAX_REV:2",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "K:THROTTLE2_CUT",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MAX_REV_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ]
+    },
+    {
+      "ButtonNumber": 27,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 28,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 29,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AUTO_THROTTLE_ARM",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ATHR_DISCONNECT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 30,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_UP",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "GEAR_UP",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 31,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:GEAR_DOWN",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "GEAR_DOWN",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 32,
+      "PressEvent": [],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 33,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_FD",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_FO_FD",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FDS_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 34,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_FD",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_FO_FD",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "FDS_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 35,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_Baro_STD",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_Baro_FO_STD",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_PUSH",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 36,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_MPL_Baro_STD",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_MPL_Baro_FO_STD",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "EFIS_BARO_PULL",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 37,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "PRK_BRK_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:PARKING_BRAKES",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "A:BRAKE PARKING POSITION, Bool",
+              "ConditionValue": "=0",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 38,
+      "PressEvent": [
+        {
+          "Variables": [],
+          "Variable": "",
+          "Value": "",
+          "Name": "PRK_BRK_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [
+            {
+              "Variable": "K:PARKING_BRAKES",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              },
+              "Condition": "A:BRAKE PARKING POSITION, Bool",
+              "ConditionValue": "=1",
+              "ConditionIsCustom": false
+            }
+          ],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 39,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_Eng1Master",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MASTER_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 40,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_Eng1Master",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG1_MASTER_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 41,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_Eng2Master",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MASTER_ON",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 42,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_Eng2Master",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ENG2_MASTER_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 43,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_XPDR_STBY_TA_TARA",
+              "Value": "2",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_WX_Sys",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "XPDR_TARA_WXR_1",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 44,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_PDS_XPDR_STBY_TA_TARA",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            },
+            {
+              "Variable": "L:AB_WX_Sys",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "XPDR_STBY_WXR_OFF",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 45,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTSTEP",
+              "Value": "1",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ALT_MODE_SEL_1000",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 46,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "L:AB_AP_ALTSTEP",
+              "Value": "0",
+              "VariableIsCustom": true,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ALT_MODE_SEL_100",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    },
+    {
+      "ButtonNumber": 47,
+      "PressEvent": [
+        {
+          "Variables": [
+            {
+              "Variable": "K:AUTO_THROTTLE_ARM",
+              "Value": "",
+              "VariableIsCustom": false,
+              "VariableBoundaries": {
+                "MinValue": "",
+                "MaxValue": "",
+                "Clamp": false
+              }
+            }
+          ],
+          "Variable": "",
+          "Value": "",
+          "Name": "ATHR_DISCONNECT",
+          "Condition": "",
+          "ConditionValue": "",
+          "ConditionLogic": "",
+          "Conditions": [],
+          "Repeat": 0
+        }
+      ],
+      "ReleaseEvent": []
+    }
+  ],
+  "LEDs": [
+    {
+      "ByteIndex": 0,
+      "BitIndex": 0,
+      "ConditionLogic": "AND",
+      "Conditions": [
+        {
+          "Condition": "L:AB_BUS_DC_ESS_Avail",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 0,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:FMA_Latmode_act",
+          "ConditionValue": "=3",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:FMA_Latmode_act",
+          "ConditionValue": "=4",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_AP_LOC2",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_AP_LOC",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 4,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=3.5",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=5.5",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=2.5",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=5.0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=3",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=2",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=6",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:FMA_Vertmode_act",
+          "ConditionValue": "=5.25",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:FMA_THRmode",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_AP_AP1",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_AP_AP2",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "A:BRAKE PARKING POSITION, Bool",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": false
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 0,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_DOWN_LIGHT_L",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_UNLOCK_LIGHT_L",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_DOWN_LIGHT_C",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_UNLOCK_LIGHT_C",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 4,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_DOWN_LIGHT_R",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_GEAR_UNLOCK_LIGHT_R",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_Master_Warning_Light",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 2,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_FIRE_ENG1",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_FIRE_ENG2",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_FIRE_APU",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 1,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_L1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_L2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_R1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_R2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_RSTBY_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_LSTBY_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_TTANK_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_OVH_ANTIICE_WING_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_OVH_ANTIICE_ENGL_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_OVH_ANTIICE_ENGR_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 3,
+      "ConditionLogic": "",
+      "Conditions": []
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 4,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_OVH_APU_MASTER_LIGHT_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_FIRE_APU",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_OVH_PNEUBLEEDAPU_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 5,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_MPL_Master_Caution_Light",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 6,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_VC_OVH_AIR_E1_BLEED_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_AIR_E2_BLEED_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_OVH_PNEUBLEEDAPU_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_AIR_PACK1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_AIR_PACK2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 3,
+      "BitIndex": 7,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ENG2_G_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ENG2_Y_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ELEC_Y_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ENG1_B_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ELEC_B_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ENG1_G_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_HYD_ELEC_G_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 2,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_BAT1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_BAT2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_GEN1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_GEN2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_APUGEN_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_IDG1_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_IDG2_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_VC_OVH_ELEC_ACESS_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 3,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_DOOR_PAX_LEFT_FWD1",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_PAX_LEFT_AFT",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_PAX_RIGHT_FWD1",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_PAX_RIGHT_FWD2",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_PAX_RIGHT_AFT",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_CARGO_FWD",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_CARGO_AFT",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_PAX_LEFT_FWD2",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:AB_DOOR_CARGO_BULK",
+          "ConditionValue": ">0",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    },
+    {
+      "ByteIndex": 1,
+      "BitIndex": 1,
+      "ConditionLogic": "",
+      "Conditions": []
+    },
+    {
+      "ByteIndex": 4,
+      "BitIndex": 0,
+      "ConditionLogic": "OR",
+      "Conditions": [
+        {
+          "Condition": "L:AB_VC_OVH_FUEL_OTK_XFR_FAULT",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        },
+        {
+          "Condition": "L:LightTest",
+          "ConditionValue": "=1",
+          "ConditionIsCustom": true
+        }
+      ]
+    }
+  ],
+  "ConfiguratorSettings": {
+    "device": "Bravo Throttle Quadrant"
+  }
+}

@@ -1,4 +1,4 @@
-[MAIN]  LINDA Version 3.2.6.1111 initialising (@2110301642) ...
+[MAIN]  LINDA Version 3.2.6.1111 initialising (@2111222257) ...
 [MAIN]  LINDA can start ...
 [MAIN]  Creating Forms ...
 [MAIN]  Opening Splash form
@@ -160,8 +160,6 @@
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\FLYTAMPA\COPENHAGEN\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\FLYTAMPA\COPENHAGEN_LC\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\JUSTSIM-ELLX V2.1 P3DV5\DATA\add-on.xml
-[MAIN]  [ADDON] Processing XML Add-ons = C:\PREPAR3D V5\AEROSOFT A320-A321 PRO V5\add-on.xml
-[MAIN]  [ADDON] Aircraft Dir found (1) = C:\PREPAR3D V5\AEROSOFT A320-A321 PRO V5\.\simobjects\airplanes\
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\TBPB BARBADOS P3DV4\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\TBPB BARBADOS P3DV4\ANIMATIONS\DOCUMENTS_PREPAR3D V4 ADD-ONS\IMAGINESIM TBPB AIRPORT PAWNS\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = E:\AIRPORTS\KATL ATLANTA P3DV4\add-on.xml
@@ -205,6 +203,10 @@
 [MAIN]  [ADDON] Roaming lockheed martin\prepar3d v5
 [MAIN]  [ADDON] Addon Path (2) = C:\ProgramData\lockheed martin\prepar3d v5\add-ons.cfg
 [MAIN]  [ADDON] Valid Path Found (2) = C:\ProgramData\lockheed martin\prepar3d v5\add-ons.cfg
+[MAIN]  [ADDON] Processing XML Add-ons = C:\Prepar3D v5\Aerosoft A318-A319 Pro V5\add-on.xml
+[MAIN]  [ADDON] Aircraft Dir found (2) = C:\Prepar3D v5\Aerosoft A318-A319 Pro V5\.\simobjects\airplanes\
+[MAIN]  [ADDON] Processing XML Add-ons = C:\Prepar3D v5\Aerosoft A330 Pro V5\add-on.xml
+[MAIN]  [ADDON] Aircraft Dir found (2) = C:\Prepar3D v5\Aerosoft A330 Pro V5\.\simobjects\airplanes\
 [MAIN]  [ADDON] Processing XML Add-ons = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FsDreamTeam Exclude\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = C:\Prepar3D v5\Honeycomb\bin\PMDG Translator\add-on.xml
 [MAIN]  [ADDON] Processing XML Add-ons = C:\Prepar3D v5\Honeycomb\add-on.xml
@@ -247,7 +249,7 @@
 [MAIN]  LINDA application all set to run
 [MAIN]  Splash Screen = true
 [MAIN]  HID Dynamic = true
-[MAIN]  ConfigSysLoad() completed [DEFACFT=  PMDG 747]
+[MAIN]  ConfigSysLoad() completed [DEFACFT=  PMDG 737 NGXu]
 [MAIN]  ConfigSysLoad() completed [DEFDEV=255]
 [MAIN]  ConfigSysLoad() completed [FSXSYNC=1]
 [MAIN]  ConfigSysLoad() completed [GLOBAL=0]
@@ -264,8 +266,8 @@
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  HIDSwitchDevice 3
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
+[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
+[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
 [MAIN]  HIDSwitchDevice 1
 [MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
@@ -273,119 +275,59 @@
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  HIDSwitchDevice 1
-[MAIN]  HIDSwitchDevice 3
-[MAIN]  HIDSwitchDevice 1
 [MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Editor data saved (formdeactivate)
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  HIDSwitchDevice 1
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  HIDSwitchDevice 1
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Editor data saved (formdeactivate)
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  HIDSwitchDevice 1
-[MAIN]  Editor data saved (formdeactivate)
-[MAIN]  Editor data saved (formdeactivate)
-[MAIN]  Editor data saved (formdeactivate)
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Editor data saved (formdeactivate)
+[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
+[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
+[MAIN]  Deleting file 0 config-hid-2109130043.lua
+[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
+[MAIN]  Deleting file 0 config-mcp-2109251923.lua
+[MAIN]  Deleting file 1 config-mcp-2109281504.lua
+[MAIN]  Deleting file 2 config-mcp-2110021416.lua
+[MAIN]  Deleting file 3 config-mcp-2110081821.lua
+[MAIN]  Deleting file 4 config-mcp-2110081822.lua
+[MAIN]  Deleting file 5 config-mcp-2110081829.lua
+[MAIN]  Deleting file 6 config-mcp-2110081845.lua
+[MAIN]  Deleting file 7 config-mcp-2110081852.lua
+[MAIN]  Deleting file 8 config-mcp-2110081854.lua
+[MAIN]  Deleting file 9 config-mcp-2110081856.lua
+[MAIN]  Deleting file 10 config-mcp-2110081901.lua
+[MAIN]  Deleting file 11 config-mcp-2110081953.lua
+[MAIN]  Deleting file 12 config-mcp-2110082215.lua
+[MAIN]  Deleting file 13 config-mcp-2110102229.lua
+[MAIN]  Deleting file 14 config-mcp-2110102302.lua
+[MAIN]  Deleting file 15 config-mcp-2110191801.lua
+[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
+[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 737 NGXu\backup\
 [MAIN]  HIDSwitchDevice 3
 [MAIN]  HIDSwitchDevice 1
 [MAIN]  HIDSwitchDevice 3
 [MAIN]  HIDSwitchDevice 1
 [MAIN]  HIDSwitchDevice 3
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  HIDSwitchDevice 1
-[MAIN]  HIDSwitchDevice 3
 [MAIN]  HIDSwitchDevice 1
 [MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
 [MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\system\backup
-[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
-[MAIN]  Clean Backups path C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\PMDG 747\backup\
+[MAIN]  HIDSwitchDevice 1
+[MAIN]  TidyBackups - C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\FSX Default\ = C:\Users\Ravi\Documents\Prepar3D v5 Add-ons\FSUIPC6\linda-cfg\aircrafts\FSX Default\backup\
+[MAIN]  LINDA Shutting Down
+[MAIN]  Fonts removed
+[MAIN]  Closing Viewer form
+[MAIN]  Closing Input form
+[MAIN]  Closing FSX Controls form
+[MAIN]  Closing Console form
+[MAIN]  Console position data saved (formclose)
+[MAIN]  Closing Macros form
+[MAIN]  Closing New Module form
+[MAIN]  Closing Editor form
+[MAIN]  LINDA GUI Shutdown actions completed
+[MAIN]  Terminating Application
+[MAIN]  LINDA Terminated 
+[MAIN]  HIDDeviceUnplug detected - 294B1901 [E6012E0E13183B0]
+[MAIN]  HIDDeviceUnplug detected - 1234BEAD
+[MAIN]  HIDDeviceUnplug detected - 294B1900 [E6012E0F1C153B0]

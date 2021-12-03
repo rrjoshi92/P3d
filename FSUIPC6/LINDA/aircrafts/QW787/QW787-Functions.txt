@@ -1,0 +1,956 @@
+================================================================================
+LINDA Functions - QW787
+================================================================================
+Created by LINDA 3.1.2 on 09 Mar 2020 @ 1547
+================================================================================
+
+SYSTEM FUNCTIONS
+================
+
+InitVars
+Timer
+InitDsp
+QW Key FD(val)
+
+DISPLAY FUNCTIONS
+=================
+
+QW DspSPD
+QW DspHDG
+QW DspALT
+QW DspVS
+
+AP KNOBS
+========
+
+
+AP SPEED
+
+QW AP Spd inc
+QW AP Spd incfast
+QW AP Spd dec
+QW AP Spd decfast
+
+AP HEADING
+
+QW AP Hdg inc
+QW AP Hdg incfast
+QW AP Hdg dec
+QW AP Hdg decfast
+
+AP ALTITUDE
+
+QW AP Alt inc
+QW AP Alt incfast
+QW AP Alt dec
+QW AP Alt decfast
+
+AP VS WHEEL
+
+QW AP VS down
+QW AP VS up
+
+MCP PANEL LEFT TO RIGHT
+=======================
+
+
+AP MASTER SWITCHES
+
+QW AP MasterLeft on
+QW AP MasterLeft off
+QW AP MasterLeft toggle
+
+MCP FD LEFT
+
+QW MCP L FD on
+QW MCP L FD off
+QW MCP L FD toggle
+
+A/T ARM
+
+QW AT L Arm on
+QW AT L Arm off
+QW AT L Arm toggle
+QW AT R Arm on
+QW AT R Arm off
+QW AT R Arm toggle
+QW AT Both Arm on
+QW AT Both Arm off
+QW AT Both Arm toggle
+
+TOGA
+
+QW MCP TOGA press
+
+AP CLB/CON
+
+QW MCP CLB CON press
+
+AP A/T
+
+QW MCP AT press
+
+AP IASMACH
+
+QW MCP IAS MACH press
+
+AP VSFPA
+
+QW MCP VS FPA press
+QW MCP VS FPA select
+
+AP SPD XFR
+
+
+AP NAV MODES LNAV/VNAV/FLCH
+
+QW MCP LNAV press
+QW MCP VNAV press
+QW MCP FLCH press
+
+AP MASTER DISCONNECT
+
+QW MCP AP Disengage on
+QW MCP AP Disengage off
+QW MCP AP Disengage toggle
+
+AP HEADING/TRACK
+
+QW MCP HDG TRK hdg
+QW MCP HDG TRK trk
+QW MCP HDG TRK toggle
+
+AP HDG XFR
+
+
+AP BANK ANGLE
+
+QW MCP BNK LIMIT inc
+QW MCP BNK LIMIT dec
+QW MCP BNK LIMIT cycle
+QW MCP BANK LIMIT show
+
+AP HDG SEL / HOLD
+
+QW MCP HDG SEL press
+QW MCP HDG HOLD press
+
+AP VS/FPA
+
+QW MCP VS FPA press
+
+AP ALT HOLD
+
+QW MCP ALT INTV press
+QW MCP ALT HOLD press
+
+AP ALT INCREMENT AUTO1000
+
+QW MCP ALT AUTO auto
+QW MCP ALT AUTO 1000
+QW MCP ALT AUTO toggle
+
+AP ALT HOLD
+
+QW MCP ALT SEL press
+QW MCP ALT HOLD press
+
+AP LOC/FAC + APP
+
+QW MCP LOC press
+QW MCP APP press
+
+AP MASTER RIGHT
+
+QW AP MasterRight on
+QW AP MasterRight off
+QW AP MasterRight toggle
+
+MCP FD RIGHT
+
+QW MCP R FD on
+QW MCP R FD off
+QW MCP R FD toggle
+
+MCP BARO/ND PANEL
+=================
+
+QW MCP BARO show
+QW MCP BARO inc
+QW MCP BARO incfast
+QW MCP BARO dec
+QW MCP BARO decfast
+
+MINS KNOB
+
+QW MCP MINS inc
+QW MCP MINS dec
+
+MINS RADIO/BARO
+
+QW MCP L RadBaro baro
+QW MCP L RadBaro radio
+QW MCP L RadBaro toggle
+
+MINS RST
+
+QW MCP L RST press
+
+BAROSET
+
+QW MCP L BaroSet In
+QW MCP L BaroSet HPa
+QW MCP L BaroSet toggle
+
+BAROSET STANDARD
+
+QW MCP L BaroStd press
+
+FPV
+
+QW MCP L FPV press
+
+MTRS
+
+QW MCP L MTRS press
+
+ND RANGE
+
+QW MCP L ND Rng inc
+QW MCP L ND Rng dec
+
+ND MENU
+
+QW MCP L NDMAP inc
+QW MCP L NDMAP dec
+
+ND PLAN MENU
+
+QW MCP L NDMAP press
+
+ND MENU RESET
+
+QW MCP L NDMAP reset
+
+ND RANGE
+
+QW MCP L ND Rng inc
+QW MCP L ND Rng dec
+QW MCP L ND Rng show
+
+ND RANGE CTR
+
+QW MCP L NDRngCtr press
+
+ND WXR
+
+QW MCP L WXR press
+
+ND TFC
+
+QW MCP L TFC press
+
+ND TERR
+
+QW MCP L TERR press
+
+MCP WARNING PANEL L
+===================
+
+QW MCP L WARNING press
+QW MCP L ACPT press
+QW MCP L CANC press
+QW MCP L RJCT press
+
+MCP ND OPTIONS L
+================
+
+QW MCP L SYS press
+QW MCP L CDU press
+QW MCP L INFO press
+QW MCP L CHKL press
+QW MCP L COMM press
+QW MCP L ND press
+QW MCP L EICAS press
+QW MCP L ENG press
+QW MCP L CANRCL press
+
+OVERHEAD 1 HUD & WIPERS
+=======================
+
+QW HUD DECLUT
+
+OVERHEAD HUD LEFT
+
+QW HUD Left on
+QW HUD Left off
+QW HUD Left toggle
+
+OVERHEAD HUD RIGHT
+
+QW HUD Right on
+QW HUD Right off
+QW HUD Right toggle
+
+OVERHEAD WIPERS L
+
+
+OVERHEAD INTERNAL LIGHTS
+========================
+
+QW OH EMER LTS SWITCH off
+QW OH EMER LTS SWITCH Armed
+QW OH EMER LTS SWITCH on
+QW OH EMER LTS SWITCH toggle
+QW OH EMER LTS SWITCH cyclepfc
+
+OVERHEAD PANEL LIGHT
+
+QW OH TEXT on
+QW OH TEXT off
+QW OH TEXT toggle
+
+OVERHEAD DOME LIGHT
+
+QW OH DOME on
+QW OH DOME off
+QW OH DOME toggle
+
+STORM LIGHT
+
+QW OH STORM on
+QW OH STORM off
+QW OH STORM toggle
+
+OVERHEAD MASTER BRIGHTNESS
+
+QW OH MSTR BRT dec
+QW OH MSTR BRT inc
+QW OH MSTR BRT min
+QW OH MSTR BRT max
+
+MASTER BRIGHTNESS TEST LIGHT
+
+QW OH MSTR BRT TEST on
+QW OH MSTR BRT TEST off
+QW OH MSTR BRT TEST toggle
+
+OVERHEAD EXTERNAL LIGHTS
+========================
+
+
+LANDING LEFT LIGHT
+
+QW OH LDG LEFT on
+QW OH LDG LEFT off
+QW OH LDG LEFT toggle
+
+LANDING NOSE LIGHT
+
+QW OH LDG NOSE on
+QW OH LDG NOSE off
+QW OH LDG NOSE toggle
+
+LANDING RIGHT LIGHT
+
+QW OH LDG RIGHT on
+QW OH LDG RIGHT off
+QW OH LDG RIGHT toggle
+
+LANDING LIGHT ALL
+
+QW OH LDG ALL on
+QW OH LDG ALL off
+QW OH LDG ALL toggle
+
+BEACON LIGHT
+
+QW OH LT BEACON on
+QW OH LT BEACON off
+QW OH LT BEACON toggle
+
+NAV LIGHT
+
+QW OH LT NAV on
+QW OH LT NAV off
+QW OH LT NAV toggle
+
+LOGO LIGHT
+
+QW OH LT LOGO on
+QW OH LT LOGO off
+QW OH LT LOGO toggle
+
+WING LIGHT
+
+QW OH LT WING on
+QW OH LT WING off
+QW OH LT WING toggle
+
+RUNWAY L LIGHT
+
+QW OH LT L RWYTF on
+QW OH LT L RWYTF off
+QW OH LT L RWYTF toggle
+
+RUNWAY R LIGHT
+
+QW OH LT R RWYTF on
+QW OH LT R RWYTF off
+QW OH LT R RWYTF toggle
+
+RUNWAY LIGHT BOTH
+
+QW OH LT Both RWYTF on
+QW OH LT Both RWYTF off
+QW OH LT Both RWYTF toggle
+
+TAXI LIGHT
+
+QW OH LT TAXI on
+QW OH LT TAXI off
+QW OH LT TAXI toggle
+
+STROBE LIGHT
+
+QW OH LT STROBE on
+QW OH LT STROBE off
+QW OH LT STROBE toggle
+
+OVERHEAD 1 ELECTICAL
+====================
+
+
+BATTERY
+
+QW OH ELE BATT on
+QW OH ELE BATT off
+QW OH ELE BATT toggle
+
+APU START
+
+QW OH ELE APU off
+QW OH ELE APU on
+QW OH ELE APU start
+QW OH ELE APU toggle
+QW OH ELE APU cycle
+
+IFE/PASS SEATS
+
+QW OH PASS SEATS on
+QW OH PASS SEATS off
+QW OH PASS SEATS toggle
+
+CABIN/UTILITY
+
+QW OH CAB UTIL on
+QW OH CAB UTIL off
+QW OH CAB UTIL toggle
+
+APU GENERATORS
+
+QW OH APU GEN BOTH on
+QW OH APU GEN BOTH off
+QW OH APU GEN BOTH toggle
+
+FORWARD EXTERNAL POWER
+
+QW OH FWDEXTPWR BOTH on
+QW OH FWDEXTPWR BOTH off
+QW OH FWDEXTPWR BOTH toggle
+
+AFT EXTERNAL POWER
+
+QW OH AFTEXTPWR on
+QW OH AFTEXTPWR off
+QW OH AFTEXTPWR toggle
+
+GEN CONTROL L1
+
+QW OH GENCTL L1 on
+QW OH GENCTL L1 off
+QW OH GENCTL L1 toggle
+
+GEN CONTROL L2
+
+QW OH GENCTL L2 on
+QW OH GENCTL L2 off
+QW OH GENCTL L2 toggle
+
+GEN CONTROL R1
+
+QW OH GENCTL R1 on
+QW OH GENCTL R1 off
+QW OH GENCTL R1 toggle
+
+GEN CONTROL R2
+
+QW OH GENCTL R2 on
+QW OH GENCTL R2 off
+QW OH GENCTL R2 toggle
+
+OVERHEAD 1 PRIMARY FLT COMPUTERS
+================================
+
+QW OH PFC G Switch Auto
+QW OH PFC G Switch Disc
+QW OH PFC G Switch toggle
+
+OVERHEAD 1 IRS
+==============
+
+
+IRS LEFT
+
+QW OH IRS LEFT Switch on
+QW OH IRS LEFT Switch off
+QW OH IRS LEFT Switch toggle
+
+IRS RIGHT
+
+QW OH IRS RIGHT Switch on
+QW OH IRS RIGHT Switch off
+QW OH IRS RIGHT Switch toggle
+
+OVERHEAD 1 FLIGHT CONTROL SURFACES
+==================================
+
+
+OVERHEAD 2 PASS SIGNS
+=====================
+
+QW OH SEATB SIGN SWITCH off
+QW OH SEATB SIGN SWITCH auto
+QW OH SEATB SIGN SWITCH on
+QW OH SEATB SIGN SWITCH cycle
+
+OVERHEAD 2 HYDRAULICS
+=====================
+
+
+RAM AIR TURBINE (RAT)
+
+QW OH HYD RAT unlock
+
+PRIMARY HYD L ENG
+
+QW OH HYD L ENG on
+QW OH HYD L ENG off
+QW OH HYD L ENG toggle
+
+PRIMARY HYD R ENG
+
+QW OH HYD R ENG on
+QW OH HYD R ENG off
+QW OH HYD R ENG toggle
+
+ELEC HYD C1
+
+QW OH ELEC C1 off
+QW OH ELEC C1 auto
+QW OH ELEC C1 on
+QW OH ELEC C1 cycle
+
+ELEC HYD C2
+
+QW OH ELEC C2 off
+QW OH ELEC C2 auto
+QW OH ELEC C2 on
+QW OH ELEC C2 cycle
+
+ELEC L HYD
+
+QW OH ELEC L off
+QW OH ELEC L auto
+QW OH ELEC L on
+QW OH ELEC L cycle
+
+ELEC R HYD
+
+QW OH ELEC R off
+QW OH ELEC R auto
+QW OH ELEC R on
+QW OH ELEC R cycle
+
+OVERHEAD 2 WINDOW HEAT
+======================
+
+
+PRMY L FWD
+
+QW OH PRMY L FWD on
+QW OH PRMY L FWD off
+QW OH PRMY L FWD toggle
+
+PRMY R FWD
+
+QW OH PRMY R FWD on
+QW OH PRMY R FWD off
+QW OH PRMY R FWD toggle
+
+PRMY L SIDE
+
+QW OH PRMY L SIDE on
+QW OH PRMY L SIDE off
+QW OH PRMY L SIDE toggle
+
+PRMY R SIDE
+
+QW OH PRMY R SIDE on
+QW OH PRMY R SIDE off
+QW OH PRMY R SIDE toggle
+
+BACKUP L FWD
+
+QW OH WH LFWD on
+QW OH WH LFWD off
+QW OH WH LFWD toggle
+
+BACKUP R FWD
+
+QW OH WH RFWD on
+QW OH WH RFWD off
+QW OH WH RFWD toggle
+
+OVERHEAD 2 MISCELLANEOUS
+========================
+
+
+OVERHEAD 3 ANTIICE
+==================
+
+
+WING ANTIICE
+
+QW OH WING ANTICE SWITCH off
+QW OH WING ANTICE SWITCH auto
+QW OH WING ANTICE SWITCH on
+QW OH WING ANTICE SWITCH cycle
+
+ENG 1 ANTIICE
+
+QW OH AI L ENG Switch off
+QW OH AI ENG L Switch auto
+QW OH AI L ENG Switch on
+QW OH AI L ENG Switch cycle
+
+ENG 2 ANTIICE
+
+QW OH AI R ENG Switch off
+QW OH AI R ENG Switch auto
+QW OH AI R ENG Switch on
+QW OH AI R ENG Switch cycle
+
+OVERHEAD 3 FUEL
+===============
+
+
+FUEL PUMP LEFT FORWARD
+
+QW OH FUEL PUMP L FWD on
+QW OH FUEL PUMP L FWD off
+QW OH FUEL PUMP L FWD toggle
+
+FUEL PUMP LEFT AFT
+
+QW OH FUEL PUMP L AFT on
+QW OH FUEL PUMP L AFT off
+QW OH FUEL PUMP L AFT toggle
+
+FUEL PUMP RIGHT FORWARD
+
+QW OH FUEL PUMP R FWD on
+QW OH FUEL PUMP R FWD off
+QW OH FUEL PUMP R FWD toggle
+
+FUEL PUMP RIGHT AFT
+
+QW OH FUEL PUMP R AFT on
+QW OH FUEL PUMP R AFT off
+QW OH FUEL PUMP R AFT toggle
+
+FUEL PUMP LEFT CENTRE
+
+QW OH FUEL PUMP L CTR on
+QW OH FUEL PUMP L CTR off
+QW OH FUEL PUMP L CTR toggle
+
+FUEL PUMP RIGHT CENTRE
+
+QW OH FUEL PUMP R CTR on
+QW OH FUEL PUMP R CTR off
+QW OH FUEL PUMP R CTR toggle
+
+FUEL PUMPS CENTRE BOTH
+
+QW OH FUEL PUMP ALL CTR on
+QW OH FUEL PUMP ALL CTR off
+QW OH FUEL PUMP ALL CTR toggle
+
+FUEL PUMPS ALL
+
+QW OH FUEL PUMP ALL on
+QW OH FUEL PUMP ALL off
+QW OH FUEL PUMP ALL toggle
+
+FUEL BALANCE
+
+QW OH FUELBALANCE on
+QW OH FUELBALANCE off
+QW OH FUELBALANCE toggle
+
+FUEL CROSSFEED
+
+QW OH FUEL CROSSFEED on
+QW OH FUEL CROSSFEED off
+QW OH FUEL CROSSFEED toggle
+
+OVERHEAD 3 FUEL JETTISON
+========================
+
+
+FUEL JETTISON NOZZLE L
+
+QW OH FUEL JET NZL BOTH on
+QW OH FUEL JET NZL BOTH off
+QW OH FUEL JET NZL BOTH toggle
+
+FUEL PUMP LEFT FORWARD
+
+QW OH FUEL ARM on
+QW OH FUEL ARM off
+QW OH FUEL ARM toggle
+
+FUEL JETTISON MODE
+
+QW OH FUEL JET MODE on
+QW OH FUEL JET MODE off
+QW OH FUEL JET MODE toggle
+
+FUEL TO REMAIN
+
+QW AP FUEL REMAIN dec
+QW AP FUEL REMAIN inc
+
+OVERHEAD 3 ENGINE
+=================
+
+
+ENGINE L START
+
+QW OH ENG L START norm
+QW OH ENG L START start
+QW OH ENG L START toggle
+
+ENGINE R START
+
+QW OH ENG R START norm
+QW OH ENG R START start
+QW OH ENG R START toggle
+
+EEC MODE L
+
+QW OH EEC L norm
+QW OH EEC L altn
+QW OH EEC L toggle
+
+EEC MODE R
+
+QW OH EEC R norm
+QW OH EEC R altn
+QW OH EEC R toggle
+
+OVERHEAD 3 CARGO FIRE
+=====================
+
+
+OVERHEAD 3 MISCELLANEOUS
+========================
+
+
+OVERHEAD 4 PRESSURIZATION
+=========================
+
+
+OVERHEAD 4 AIR CONDITIONING
+===========================
+
+
+EQUIP COOLING FWD
+
+QW OH EQPCOOL FWD auto
+QW OH EQPCOOL FWD ovrd
+QW OH EQPCOOL FWD toggle
+
+EQUIP COOLING AFT
+
+QW OH EQPCOOL AFT auto
+QW OH EQPCOOL AFT ovrd
+QW OH EQPCOOL AFT toggle
+
+RECIRC FANS UPPER
+
+QW OH RECIRC UPP on
+QW OH RECIRC UPP off
+QW OH RECIRC UPP toggle
+
+RECIRC FANS LOWER
+
+QW OH RECIRC LOW on
+QW OH RECIRC LOW off
+QW OH RECIRC LOW toggle
+
+FLT DECK TEMP
+
+QW OH FLTDK Temp dec
+QW OH FLTDK Temp inc
+
+AIR COND RESET
+
+QW OH AC RESET
+
+CABIN TEMP
+
+QW OH CABIN Temp dec
+QW OH CABIN Temp inc
+
+AC L PACK
+
+QW OH AC LPACK auto
+QW OH AC LPACK off
+QW OH AC LPACK toggle
+
+AC R PACK
+
+QW OH AC RPACK auto
+QW OH AC RPACK off
+QW OH AC RPACK toggle
+
+TRIM AIR L
+
+QW OH TRIMAIR L on
+QW OH TRIMAIR L off
+QW OH TRIMAIR L toggle
+
+TRIM AIR R
+
+QW OH TRIMAIR R on
+QW OH TRIMAIR R off
+QW OH TRIMAIR R toggle
+
+VENTILATION
+
+QW OH VENT norm
+QW OH VENT altn
+QW OH VENT toggle
+
+OVERHEAD 4 CARGO TEMP
+=====================
+
+
+PEDESTAL
+========
+
+
+FUEL CONTROL L
+
+QW Fuel Control L on
+QW Fuel Control L off
+QW Fuel Control L toggle
+
+FUEL CONTROL R
+
+QW Fuel Control R on
+QW Fuel Control R off
+QW Fuel Control R toggle
+
+AIRCRAFT CONTROLS
+=================
+
+
+AUTOBRAKE
+
+auto brake switch rto
+auto brake switch off
+auto brake switch disarm
+auto brake switch 1
+auto brake switch 2
+auto brake switch 3
+auto brake switch 4
+auto brake switch Max Auto
+
+LANDING GEAR
+
+QW Gear down
+QW Gear up
+
+FLAPS
+
+QW Flaps down
+QW Flaps up
+QW Flaps inc
+QW Flaps dec
+
+ALTERNATE FLAPS
+
+QW PED ALTFLAPS on
+QW PED ALTFLAPS off
+QW PED ALTFLAPS toggle
+QW PED ALTFLAPS retract
+QW PED ALTFLAPS centre
+QW PED ALTFLAPS extend
+
+PARKING BRAKE
+
+QW Parking Brake on
+QW Parking Brake off
+QW Parking Brake toggle
+
+ALTERNATE PITCH TRIM  NO AVAILABLE
+
+
+STABILIZER CUTOFF
+
+QW PED STAB L2 norm
+QW PED STAB L2 cutoff
+QW PED STAB R2 norm
+QW PED STAB L2 toggle
+QW PED STAB R2 cutoff
+QW PED STAB R2 toggle
+QW PED STAB Both cutoff
+QW PED STAB Both norm
+QW PED STAB Both toggle
+
+AFT PEDESTAL
+============
+
+
+TRANSPONDER
+
+QW AFT XPDR show
+QW AFT XPDR inc
+QW AFT XPDR dec
+QW AFT XPDR move(tgt)
+QW AFT XPDR cycle
+QW AFT XPDR stby
+QW AFT XPDR alt
+QW AFT XPDR xpdr
+QW AFT XPDR ta
+QW AFT XPDR tara
+
+G/S INHIBIT
+
+QW AFT GS inhibit toggle
+
+AURAL CANCEL
+
+QW AFT AURAL Cancel
+
+SYSTEM  DO NOT ASSIGN
+=====================
+
+QW Switch Small
+QW Switch Large
+QW Switch Rotary
+
+===========================================================================

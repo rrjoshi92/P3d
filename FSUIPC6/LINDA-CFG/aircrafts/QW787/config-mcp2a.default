@@ -1,0 +1,546 @@
+-- config-mcp2a.lua @ 2002271212 (LINDA 3.1.2.858) --
+
+-- ############################################### --
+-- ## EFIS block mode1
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS1 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["InHg."]   = QW_MCP_L_BaroSet_In  ,
+["hPa ."]   = QW_MCP_L_BaroSet_HPa  ,
+["FD  ."]   = QW_MCP_L_FD_toggle  ,
+["ILS ."]   = empty  ,
+["CSTR."]   = QW_MCP_L_CDU_press  ,
+["WPT ."]   = QW_MCP_L_INFO_press  ,
+["VORD."]   = empty  ,
+["NDB ."]   = empty  ,
+["ARPT."]   = QW_MCP_L_CHKL_press  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = EFIS_ADF1  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = EFIS_VOR1  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = EFIS_ADF2  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = EFIS_VOR2  ,
+}
+
+-- AEFIS BARO knob
+BARO1 = {
+["A SHOW"]  = QW_MCP_BARO_show  ,
+["A  +"]    = QW_MCP_BARO_inc  ,
+["A ++"]    = QW_MCP_BARO_incfast  ,
+["A  -"]    = QW_MCP_BARO_dec  ,
+["A --"]    = QW_MCP_BARO_decfast  ,
+["PRESS"]   = QW_MCP_L_BaroStd_press  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM1 = {
+["A SHOW"]  = QW_MCP_L_ND_Map_show  ,
+["A  +"]    = QW_MCP_L_NDMAP_inc  ,
+["A ++"]    = QW_MCP_L_NDMAP_inc  ,
+["A  -"]    = QW_MCP_L_NDMAP_dec  ,
+["A --"]    = QW_MCP_L_NDMAP_dec  ,
+["PRESS"]   = QW_MCP_L_NDMAP_press  ,
+["B SHOW"]  = Do_nothing  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR1 = {
+["A SHOW"]  = QW_MCP_L_ND_Rng_show  ,
+["A  +"]    = QW_MCP_L_ND_Rng_inc  ,
+["A ++"]    = QW_MCP_L_ND_Rng_inc  ,
+["A  -"]    = QW_MCP_L_ND_Rng_dec  ,
+["A --"]    = QW_MCP_L_ND_Rng_dec  ,
+["PRESS"]   = QW_MCP_L_RngCtr_press  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## EFIS block mode2
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS2 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["InHg."]   = QW_MCP_L_RadBaro_radio  ,
+["hPa ."]   = QW_MCP_L_RadBaro_baro  ,
+["FD  ."]   = empty  ,
+["ILS ."]   = empty  ,
+["CSTR."]   = QW_MCP_L_CDU_press  ,
+["WPT ."]   = QW_MCP_L_INFO_press  ,
+["VORD."]   = empty  ,
+["NDB ."]   = empty  ,
+["ARPT."]   = QW_MCP_L_CHKL_press  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = empty  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = empty  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = empty  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = empty  ,
+}
+
+-- AEFIS BARO knob
+BARO2 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = QW_MCP_MINS_inc  ,
+["A ++"]    = QW_MCP_MINS_inc  ,
+["A  -"]    = QW_MCP_MINS_dec  ,
+["A --"]    = QW_MCP_MINS_dec  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM2 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = empty  ,
+["A ++"]    = empty  ,
+["A  -"]    = empty  ,
+["A --"]    = empty  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR2 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = EFB_ZOOM_out  ,
+["A ++"]    = EFB_ZOOM_out  ,
+["A  -"]    = EFB_ZOOM_in  ,
+["A --"]    = EFB_ZOOM_in  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## EFIS block mode3
+-- ############################################### --
+
+-- AEFIS block buttons and switches
+EFIS3 = {
+["ENABLED"] = false  ,
+["IDENT"]   = "empty"  ,
+["InHg."]   = empty  ,
+["hPa ."]   = empty  ,
+["FD  ."]   = empty  ,
+["ILS ."]   = empty  ,
+["CSTR."]   = empty  ,
+["WPT ."]   = empty  ,
+["VORD."]   = empty  ,
+["NDB ."]   = empty  ,
+["ARPT."]   = empty  ,
+["ADF1:"]   = empty  ,
+["ADF1."]   = RXP_WX500_SUBMODE_DN  ,
+["VOR1:"]   = empty  ,
+["VOR1."]   = RXP_WX500_SUBMODE_UP  ,
+["ADF2:"]   = empty  ,
+["ADF2."]   = RXP_WX500_RANGE_DN  ,
+["VOR2:"]   = empty  ,
+["VOR2."]   = RXP_WX500_RANGE_UP  ,
+}
+
+-- AEFIS BARO knob
+BARO3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_GAIN_INC  ,
+["A ++"]    = RXP_WX500_GAIN_INC  ,
+["A  -"]    = RXP_WX500_GAIN_DEC  ,
+["A --"]    = RXP_WX500_GAIN_DEC  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDM knob
+NDM3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_MAIN_MODE_NEXT  ,
+["A ++"]    = RXP_WX500_MAIN_MODE_NEXT  ,
+["A  -"]    = RXP_WX500_MAIN_MODE_PREV  ,
+["A --"]    = RXP_WX500_MAIN_MODE_PREV  ,
+["PRESS"]   = empty  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- AEFIS NDR knob
+NDR3 = {
+["A SHOW"]  = empty  ,
+["A  +"]    = RXP_WX500_TILT_INC  ,
+["A ++"]    = RXP_WX500_TILT_INC  ,
+["A  -"]    = RXP_WX500_TILT_DEC  ,
+["A --"]    = RXP_WX500_TILT_DEC  ,
+["PRESS"]   = RXP_WX500_TILT_ZERO  ,
+["B SHOW"]  = empty  ,
+["B  +"]    = empty  ,
+["B ++"]    = empty  ,
+["B  -"]    = empty  ,
+["B --"]    = empty  ,
+}
+
+-- ############################################### --
+-- ## FCU block mode1
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP1 = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "empty"  ,
+["MACH."]   	= empty  ,
+["LOC ."]   	= QW_MCP_LOC_press  ,
+["TRK ."]   	= empty  ,
+["AP1 ."]   	= QW_AP_MasterLeft_toggle  ,
+["AP2 ."]   	= QW_AP_MasterRight_toggle  ,
+["ATHR."]   	= empty  ,
+["EXPD."]   	= empty  ,
+["MTR ."]   	= QW_MCP_L_NDMAP_reset  ,
+["APPR."]   	= empty  ,
+}
+
+-- AFCU SPD knob
+SPD1 = {
+["A SHOW"]  	= SPD_show  ,
+["A  +"]    	= QW_AP_Spd_inc  ,
+["A ++"]    	= QW_AP_Spd_incfast  ,
+["A  -"]    	= QW_AP_Spd_dec  ,
+["A --"]    	= QW_AP_Spd_decfast  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG1 = {
+["A SHOW"]  	= HDG_show  ,
+["A  +"]    	= QW_AP_Hdg_inc  ,
+["A ++"]    	= QW_AP_Hdg_incfast  ,
+["A  -"]    	= QW_AP_Hdg_dec  ,
+["A --"]    	= QW_AP_Hdg_decfast  ,
+["PRESS"]   	= QW_MCP_HDG_SEL_press  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT1 = {
+["A SHOW"]  	= ALT_show  ,
+["A  +"]    	= QW_AP_Alt_inc  ,
+["A ++"]    	= QW_AP_Alt_inc  ,
+["A  -"]    	= QW_AP_Alt_dec  ,
+["A --"]    	= QW_AP_Alt_dec  ,
+["PRESS"]   	= QW_MCP_ALT_SEL_press  ,
+["PULL"]    	= QW_MCP_ALT_AUTO_toggle  ,
+}
+
+-- AFCU VVS knob
+VVS1 = {
+["A SHOW"]  	= VVS_show  ,
+["A  +"]    	= QW_AP_VS_up  ,
+["A ++"]    	= QW_AP_VS_up  ,
+["A  -"]    	= QW_AP_VS_down  ,
+["A --"]    	= QW_AP_VS_down  ,
+["PRESS"]   	= Autopilot_VSSEL_mode  ,
+["PULL"]    	= empty  ,
+}
+
+
+-- ############################################### --
+-- ## FCU block mode2
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP2 = {
+["ENABLED"] 	= true  ,
+["IDENT"]   	= "empty"  ,
+["MACH."]   	= empty  ,
+["LOC ."]   	= empty  ,
+["TRK ."]   	= empty  ,
+["AP1 ."]   	= empty  ,
+["AP2 ."]   	= empty  ,
+["ATHR."]   	= empty  ,
+["EXPD."]   	= empty  ,
+["MTR ."]   	= QW_MCP_L_CANRCL_press  ,
+["APPR."]   	= empty  ,
+}
+
+-- AFCU SPD knob
+SPD2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU VVS knob
+VVS2 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+
+-- ############################################### --
+-- ## FCU block mode3
+-- ############################################### --
+
+-- AFCU block buttons and switches
+MCP3 = {
+["ENABLED"] 	= false  ,
+["IDENT"]   	= "empty"  ,
+["MACH."]   	= empty  ,
+["LOC ."]   	= empty  ,
+["TRK ."]   	= empty  ,
+["AP1 ."]   	= empty  ,
+["AP2 ."]   	= empty  ,
+["ATHR."]   	= empty  ,
+["EXPD."]   	= empty  ,
+["MTR ."]   	= RXP_WX500_TRACK_R  ,
+["APPR."]   	= empty  ,
+}
+
+-- AFCU SPD knob
+SPD3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU HDG knob
+HDG3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU ALT knob
+ALT3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+-- AFCU VVS knob
+VVS3 = {
+["A SHOW"]  	= empty  ,
+["A  +"]    	= empty  ,
+["A ++"]    	= empty  ,
+["A  -"]    	= empty  ,
+["A --"]    	= empty  ,
+["PRESS"]   	= empty  ,
+["PULL"]    	= empty  ,
+}
+
+
+-- ############################################### --
+-- ## USER block mode1
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER1 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["BTN1."]   = EFIS_MODE_toggle  ,
+["BTN2."]   = MCP_MODE_toggle  ,
+["BTN3."]   = USER_MODE_toggle  ,
+["BTN4."]   = empty  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = empty  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = QW_OH_LDG_ALL_toggle  ,
+["USR2."]   = QW_OH_LT_BEACON_toggle  ,
+["USR3."]   = QW_OH_LT_NAV_toggle  ,
+["USR4."]   = QW_OH_LT_Both_RWYTF_toggle  ,
+["USR5."]   = QW_OH_LT_STROBE_toggle  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_MCP_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = Lights_PANEL_toggle  ,
+}
+
+-- ############################################### --
+-- ## USER block mode2
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER2 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["BTN1."]   = EFIS_MODE_toggle  ,
+["BTN2."]   = MCP_MODE_toggle  ,
+["BTN3."]   = USER_MODE_toggle  ,
+["BTN4."]   = empty  ,
+["BTN5."]   = empty  ,
+["BTN6."]   = empty  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = QW_OH_ELE_BATT_toggle  ,
+["USR2."]   = QW_OH_ELE_APU_cycle  ,
+["USR3."]   = QW_OH_ENG_L_START_toggle  ,
+["USR4."]   = QW_OH_ENG_R_START_toggle  ,
+["USR5."]   = empty  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_MCP_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = empty  ,
+}
+
+-- ############################################### --
+-- ## USER block mode3
+-- ############################################### --
+
+-- AUSER block buttons and switches
+USER3 = {
+["ENABLED"] = true  ,
+["IDENT"]   = "empty"  ,
+["BTN1."]   = EFIS_MODE_toggle  ,
+["BTN2."]   = MCP_MODE_toggle  ,
+["BTN3."]   = USER_MODE_toggle  ,
+["BTN4."]   = QW_OH_LDG_ALL_on  ,
+["BTN5."]   = QW_OH_LDG_ALL_off  ,
+["BTN6."]   = QW_OH_LDG_ALL_toggle  ,
+["BTN7."]   = empty  ,
+["BTN8."]   = empty  ,
+["USR1."]   = QW_OH_TEXT_toggle  ,
+["USR2."]   = QW_OH_DOME_toggle  ,
+["USR3."]   = QW_OH_MSTR_BRT_dec  ,
+["USR4."]   = QW_OH_MSTR_BRT_inc  ,
+["USR5."]   = QW_OH_MSTR_BRT_TEST_toggle  ,
+["USR6."]   = VRI_EFIS_MODE_toggle  ,
+["USR7."]   = VRI_MCP_MODE_toggle  ,
+["USR8."]   = VRI_USER_MODE_toggle  ,
+["LAMP."]   = empty  ,
+}
+
+-- ############################################### --
+-- ## RADIOS block mode1
+-- ############################################### --
+
+-- RADIOS block buttons and switches
+RADIOS = {
+["COM ."]	= Default_COM_select  ,
+["NAV ."]	= Default_NAV_select  ,
+["ADF ."]	= Default_ADF_select  ,
+["DME ."]	= Default_DME_select  ,
+["TRAN."]	= Default_XPND_select  ,
+["TFR ."]	= Default_RADIOS_swap  ,
+["STBY."]	= Default_RADIOS_mode  ,
+
+["COM1 Select"] = empty  ,
+["COM2 Select"] = empty  ,
+["COM1 Swap"]   = empty  ,
+["COM2 Swap"]   = empty  ,
+["COMs Mode"]   = Radios_COM_AUDIO_toggle  ,
+
+["NAV1 Select"] = empty  ,
+["NAV2 Select"] = empty  ,
+["NAV1 Swap"]   = empty  ,
+["NAV2 Swap"]   = empty  ,
+["NAVs Mode"]   = Radios_NAV_AUDIO_toggle  ,
+
+["ADF1 Select"] = empty  ,
+["ADF2 Select"] = empty  ,
+["ADFs Mode"]   = Radios_ADF_AUDIO_toggle  ,
+
+["DME1 Select"] = empty  ,
+["DME2 Select"] = empty  ,
+["DMEs Mode"]   = Radios_DME_AUDIO_toggle  ,
+
+["XPND Select"] = empty  ,
+["XPND Swap"]   = empty  ,
+["XPND Mode"]   = Transponder_MODE_toggle  ,
+}
+
+DME1 = {
+["A  +"]   	= empty  ,
+["A ++"]   	= empty  ,
+["A  -"]   	= empty  ,
+["A --"]   	= empty  ,
+["PRESS"]  	= empty  ,
+}
+
+FRE1 = {
+["A  +"]   	= Default_RADIOS_plus  ,
+["A ++"]   	= Default_RADIOS_plusfast  ,
+["A  -"]   	= Default_RADIOS_minus  ,
+["A --"]   	= Default_RADIOS_minusfast  ,
+["PRESS"]  	= Default_RADIOS_press  ,
+}
+

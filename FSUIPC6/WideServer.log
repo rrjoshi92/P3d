@@ -1,13 +1,6 @@
 ********* WideServer.DLL Log [version 7.076] *********
 Blocksize guide = 8192 (double allowed)
-Date (dmy): 30/10/21, Time 15:41:38.782: Server name is DESKTOP-VV3U3BT
-    15297 Initialising TCP/IP server
-    15297 Initialising UDP/IP server
+Date (dmy): 22/11/21, Time 22:35:53.963: Server name is DESKTOP-VV3U3BT
+    15328 Initialising TCP/IP server
+    15328 Initialising UDP/IP server
     16000 Broadcasting service every 1000 mSecs
- 17280703 Closing down now ...
-Memory managed:  Offset records: 8578 alloc, 8576 free
-Read buffer usage:  0 alloc, 0 free, max in session: 0
-Write buffer usage: 0 alloc, 0 free, max in session: 0
-Throughput maximum achieved:  0 frames/sec, 0 bytes/sec
-Throughput average achieved for complete session:  0 frames/sec, 0 bytes/sec
-********* Log file closed *********

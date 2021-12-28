@@ -354,10 +354,6 @@
             <Down>AIRSPEED_BUG_SELECT</Down>
         </Entry>
         <Entry>
-            <Key>SHIFT+G</Key>
-            <Down>TOGGLE_TAILWHEEL_LOCK</Down>
-        </Entry>
-        <Entry>
             <Key>SHIFT+X</Key>
             <Down>ANTIDETONATION_TANK_VALVE_TOGGLE</Down>
         </Entry>
@@ -654,6 +650,7 @@
         <Entry>
             <Index>6</Index>
             <Down>ZOOM_OUT</Down>
+            <DownVal>1</DownVal>
         </Entry>
         <Entry>
             <Index>7</Index>
@@ -1226,6 +1223,10 @@
         <Entry>
             <Key>1</Key>
             <Down>SELECT_1</Down>
+        </Entry>
+        <Entry>
+            <Key>SHIFT+G</Key>
+            <Down>REFRESH_SCENERY</Down>
         </Entry>
         <Entry>
             <Key>2</Key>
@@ -2397,6 +2398,189 @@
     </SimControls.Map>
     <SimControls.Map>
         <Name>Flight Rudder Pedals CINEMATOGRAPHER {CF28C340-7D21-11EB-8001-444553540000}</Name>
+        <Axis>
+            <AxName>XAxis</AxName>
+            <Index>0</Index>
+            <AxEvent>EYEPOINT_MOVE_LATERAL</AxEvent>
+            <AxScale>64</AxScale>
+            <AxNull>64</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>YAxis</AxName>
+            <Index>1</Index>
+            <AxEvent>EYEPOINT_MOVE_LONGITUDINAL</AxEvent>
+            <AxScale>-64</AxScale>
+            <AxNull>64</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>RzAxis</AxName>
+            <Index>5</Index>
+            <AxEvent>EYEPOINT_MOVE_VERTICAL</AxEvent>
+            <AxScale>64</AxScale>
+            <AxNull>64</AxNull>
+        </Axis>
+        <POV>
+            <Index>0</Index>
+            <Down>PAN_VIEW</Down>
+            <DownRpt>1</DownRpt>
+        </POV>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Drag Pan</Name>
+        <Axis>
+            <AxName>XAxis</AxName>
+            <Index>0</Index>
+            <AxEvent>AXIS_AILERONS_SET</AxEvent>
+            <AxScale>64</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>YAxis</AxName>
+            <Index>1</Index>
+            <AxEvent>AXIS_ELEVATOR_SET</AxEvent>
+            <AxScale>64</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>RzAxis</AxName>
+            <Index>5</Index>
+            <AxEvent>AXIS_RUDDER_SET</AxEvent>
+            <AxScale>64</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>Slider</AxName>
+            <Index>6</Index>
+            <AxEvent>AXIS_THROTTLE_SET</AxEvent>
+            <AxScale>127</AxScale>
+            <AxNull>1</AxNull>
+        </Axis>
+        <Entry>
+            <Index>0</Index>
+            <Down>BRAKES</Down>
+            <DownRpt>1</DownRpt>
+        </Entry>
+        <Entry>
+            <Index>1</Index>
+            <Down>VIEW_MODE</Down>
+        </Entry>
+        <Entry>
+            <Index>2</Index>
+            <Down>ELEV_TRIM_DN</Down>
+            <DownRpt>1</DownRpt>
+        </Entry>
+        <Entry>
+            <Index>3</Index>
+            <Down>ELEV_TRIM_UP</Down>
+            <DownRpt>1</DownRpt>
+        </Entry>
+        <Entry>
+            <Index>4</Index>
+            <Down>FLAPS_INCR</Down>
+        </Entry>
+        <Entry>
+            <Index>5</Index>
+            <Down>FLAPS_DECR</Down>
+        </Entry>
+        <Entry>
+            <Index>6</Index>
+            <Down>RELEASE_DROPPABLE_OBJECTS</Down>
+        </Entry>
+        <Entry>
+            <Index>7</Index>
+            <Down>GEAR_TOGGLE</Down>
+        </Entry>
+        <Entry>
+            <Index>8</Index>
+            <Down>VIEW_MODE</Down>
+        </Entry>
+        <Entry>
+            <Index>9</Index>
+            <Down>GEAR_TOGGLE</Down>
+        </Entry>
+        <POV>
+            <Index>0</Index>
+            <Down>PAN_VIEW</Down>
+            <DownRpt>1</DownRpt>
+        </POV>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Drag Pan SLEW</Name>
+        <Axis>
+            <AxName>XAxis</AxName>
+            <Index>0</Index>
+            <AxEvent>AXIS_SLEW_SIDEWAYS_SET</AxEvent>
+            <AxScale>100</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>YAxis</AxName>
+            <Index>1</Index>
+            <AxEvent>AXIS_SLEW_AHEAD_SET</AxEvent>
+            <AxScale>100</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Axis>
+            <AxName>RzAxis</AxName>
+            <Index>5</Index>
+            <AxEvent>AXIS_SLEW_HEADING_SET</AxEvent>
+            <AxScale>100</AxScale>
+            <AxNull>36</AxNull>
+        </Axis>
+        <Entry>
+            <Index>0</Index>
+            <Down>SLEW_RESET</Down>
+        </Entry>
+        <Entry>
+            <Index>1</Index>
+            <Down>VIEW_MODE</Down>
+        </Entry>
+        <Entry>
+            <Index>2</Index>
+            <Down>SLEW_ALTIT_PLUS</Down>
+        </Entry>
+        <Entry>
+            <Index>3</Index>
+            <Down>SLEW_ALTIT_MINUS</Down>
+        </Entry>
+        <Entry>
+            <Index>4</Index>
+            <Down>SLEW_PITCH_PLUS</Down>
+        </Entry>
+        <Entry>
+            <Index>5</Index>
+            <Down>SLEW_PITCH_MINUS</Down>
+        </Entry>
+        <Entry>
+            <Index>6</Index>
+            <Down>SLEW_BANK_MINUS</Down>
+        </Entry>
+        <Entry>
+            <Index>7</Index>
+            <Down>SLEW_BANK_PLUS</Down>
+        </Entry>
+        <Entry>
+            <Index>8</Index>
+            <Down>SLEW_FREEZE</Down>
+        </Entry>
+        <Entry>
+            <Index>9</Index>
+            <Down>SLEW_RESET</Down>
+        </Entry>
+        <POV>
+            <Index>0</Index>
+            <Down>PAN_VIEW</Down>
+            <DownRpt>1</DownRpt>
+        </POV>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Drag Pan OBSERVE</Name>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Drag Pan SIMDIRECTOR</Name>
+    </SimControls.Map>
+    <SimControls.Map>
+        <Name>Mouse Drag Pan CINEMATOGRAPHER</Name>
         <Axis>
             <AxName>XAxis</AxName>
             <Index>0</Index>

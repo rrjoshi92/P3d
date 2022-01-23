@@ -764,20 +764,6 @@
             <AxScale>64</AxScale>
             <AxNull>64</AxNull>
         </Axis>
-        <Axis>
-            <AxName>RyAxis</AxName>
-            <Index>4</Index>
-            <AxEvent>AXIS_THROTTLE2_SET</AxEvent>
-            <AxScale>-127</AxScale>
-            <AxNull>1</AxNull>
-        </Axis>
-        <Axis>
-            <AxName>RzAxis</AxName>
-            <Index>5</Index>
-            <AxEvent>AXIS_THROTTLE1_SET</AxEvent>
-            <AxScale>-127</AxScale>
-            <AxNull>1</AxNull>
-        </Axis>
         <POV>
             <Index>0</Index>
             <Down>PAN_VIEW</Down>
